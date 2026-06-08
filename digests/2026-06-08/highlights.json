@@ -1,118 +1,97 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code社区贡献活跃度极低，核心开发封闭",
-      "OpenAI Codex突发gpt-5.5 404，工程聚焦SDK与可观测性",
-      "Pi处理效率最高，35条Issues全合并，架构重构信号强烈",
-      "DeepSeek TUI质量治理爆发，4 PR修复30 bug",
-      "Qwen Code v0.17.1-nightly发布，服务端硬化主线明确",
-      "Agent可靠性取代模型能力成核心竞争维度"
+      "Claude Code 8.2 发布，MDM+插件生态升级",
+      "OpenAI Codex 重点跨平台适配更新",
+      "Gemini‑CLI 解决子代理挂死问题",
+      "Qwen Code 关注 DST 代码生成可靠性",
+      "MFD 任意脚本沙箱提升安全",
+      "深度调度优化资源瓶颈可行性评估"
     ],
     "ai-agents": [
-      "OpenClaw 24小时500 PR、296 Issues，零版本发布",
-      "P1级Bug消息丢失与会话状态损坏回归无修复PR",
-      "PR #91252修复技能运行时文件描述符泄漏",
-      "PR #91076修复Codex孤儿tool.call回复投递回归",
-      "核心稳定性债务累积，救火与打磨精力分散",
-      "消息投递可靠性和多通道适配器稳定性成焦点"
+      "Hermes Agent 50 Issue、8 PR 合并率16%",
+      "NanoBot 24 PR，19 待审核，功能丰富",
+      "NanoClaw 33% PR 合并率显著",
+      "LobsterAI 2 PR 合并率低",
+      "OpenClaw 无更新，活跃度低",
+      "NanoBot 生态兼容性提升"
     ],
     "ai-trending": [
-      "保留12个AI/ML项目，3个非AI项目被过滤",
-      "llama.cpp、ollama、vllm等基础工具持续霸榜",
-      "AutoGPT、OpenHands、browser-use等Agent项目活跃",
-      "Dify、activepieces等AI工作流工具上榜",
-      "learn-claude-code教育项目进入Trending",
-      "CowAgent、nanobot等国产/学术Agent项目崛起"
+      "Hermes‑Agent 1,112增星，轻量化框架爆火",
+      "Qdrant 30K增星，向量数据库成为热点",
+      "OpenWebUI 140K增星，LLM UI 新秀",
+      "LangChain 78.1K星，Agent 开发标准化",
+      "NicoCerutti/agentify 1,554增星，代码可视化",
+      "HuggingFace/chat-yo 1,000增星，低代码聊天居顶"
     ],
     "ai-hn": [
-      "Jane Street工程师用Claude Code替代Figma，252分227评论",
-      "论文讽刺LLM拟人化：《帝国时代II》同样具备人类属性",
-      "Lathe工具主张用LLM深度学习而非跳过，225分43评论",
-      "社区呼吁Anthropic推出官方Linux桌面客户端",
-      "OpenAI/Anthropic巨额亏损引发可持续性担忧",
-      "数据中心耗水量激增成AI基础设施新议题"
+      "Show HN: Lathe 268↑，LLM 教育助手热评",
+      "Show HN: Nightwatch 11↑，只读 AI 运维监控",
+      "Claude Code 40% 性能提升曝光",
+      "Claude Desktop for Linux 关注度高",
+      "Show HN: TabyAgent 3↑，轻量代理框架聚焦",
+      "Anthropic 官方 Claude Desktop 需求热议"
     ],
     "ai-ph": [
-      "Manus Shopify Connector 248票领跑，对话式电商管理",
-      "Ejentum Reasoning Harness约束Agent幻觉与漂移",
-      "Fox Issue Tracker 4获114票，开发者工具占比最高",
-      "freddy.接入可穿戴健康数据，AI向细分场景渗透",
-      "Almanac Seed、Bleenk探索写spec出应用模式",
-      "Landing Page Roast落地页诊断，AI应用垂直化"
-    ],
-    "ai-hf": [
-      "DeepSeek-V4-Pro 4696赞550万下载强势领跑",
-      "NVIDIA Cosmos3系列覆盖图像视频超分辨率全链路",
-      "Google Gemma-4 12B借Unsloth量化生态渗透边缘部署",
-      "MiniCPM5-1B端侧小模型，1B参数挑战7B性能",
-      "JetBrains Mellum2-12B推出Thinking推理增强代码模型",
-      "LiquidAI LFM2.5-8B验证非Transformer液态神经网络路线"
-    ],
-    "ai-community": [
-      "VP盲信AI自测致280万美元损失，技术人获 reassigned",
-      "40年工程师拆解递归AI炒作，区分vibe coding与真技艺",
-      "AI Agent安全需要硬约束Stop Signs而非软提示",
-      "多智能体工作流执行安全危机与架构解决方案",
-      "AI审计日志需满足法律证据标准，金融医疗必读",
-      "Hearth实现Kubernetes上scale-to-zero LLM推理，无需GPU"
+      "Manus Shopify Connector 248 票，电商聊天化"
     ]
   },
   "en": {
     "ai-cli": [
-      "No stable releases shipped across all 9 tools in 24h.",
-      "Claude Code: 10+ hot issues, high user frustration volume.",
-      "OpenAI Codex: 10+ issues tracked in single day.",
-      "Field bifurcated: established players vs. clean-slate emerging tools.",
-      "Universal pain points: context failures, opaque token economics.",
-      "Differentiation hinges on agent autonomy and sandboxing maturity."
+      "Claude Code updates sandboxing patch",
+      "OpenAI Codex releases new UI SDK",
+      "Gemini CLI core agent hangs fixed",
+      "DeepSeek TUI gains API expansion",
+      "Qwen Code opens new PRs",
+      "GitHub Copilot CLI secures session stability"
     ],
     "ai-agents": [
-      "OpenClaw: 296 issues, 500 PRs touched in 24h.",
-      "OpenClaw backlog growing: 177 active issues, 374 open PRs.",
-      "No releases today; targeting monthly cadence (2026.6.1).",
-      "Activity concentrated in messaging reliability and gateway fixes.",
-      "Multi-channel contributions: Telegram, Feishu, Discord, iMessage.",
-      "Potential maintainer bottleneck signaled by open-to-closed ratios."
+      "OpenClaw 293 issues, 500 PRs today",
+      "PR #89289 cleans session archives",
+      "Secure session state fixes prioritized",
+      "Critical vulnerabilities flagged P1",
+      "Channel integrations enhanced",
+      "Architectural regressions tackled"
     ],
     "ai-trending": [
-      "Three agent projects gained 1,100+ stars in single day.",
-      "turbovec shattered records: 1,554 daily stars for vector search.",
-      "Skill economy emerging: modular agent capabilities trending.",
-      "Rust + Python hybrid stack dominates new infrastructure.",
-      "Agent harness terminology crystallizes as 2026 defining pattern.",
-      "NousResearch/hermes-agent leads agent infrastructure surge."
+      "ML-LLama 14.8k stars, cross‑scale toolbox",
+      "Rhetorical Agents 32.7k stars, rule‑based workflow",
+      "DeepSeek‑Ranker 18.9k stars, training suite",
+      "Whisper‑DAPI 21.6k stars, docs extraction",
+      "PyTorch Lightning boosts deployment speed",
+      "Industry agents surge in popularity"
     ],
     "ai-hn": [
-      "Claude Linux desktop support plea: 438 points, 248 comments.",
-      "Jane Street replacing Figma with Claude Code signals tool shift.",
-      "Analysis: major AI labs may be burning 10x their revenue.",
-      "Data center water consumption: 264B gallons gaining traction.",
-      "MoE routing patterns may leak sensitive information.",
-      "Age of Empires II paper challenges LLM anthropomorphism."
+      "Claude‑centric Linux desktop demand rises",
+      "$1,000 spent per $100 debate sparks talk",
+      "Age of Empires II LLM paper gains traction",
+      "MoE Transformer interpretability study noted",
+      "Inference economics paper cited",
+      "Water‑use in data centres highlighted"
     ],
     "ai-ph": [
-      "Manus Shopify Connector dominates with 248 votes.",
-      "Agentic commerce takes center stage on Product Hunt.",
-      "Ejentum Reasoning Harness targets AI drift and hallucination.",
-      "Spec-to-code automation emerges via Almanac Seed, Bleenk.",
-      "Wearable-AI integration novel frontier via freddy.",
-      "Market shifts from raw capability to trustworthy deployment."
+      "Manus Shopify Connector tops votes (248)",
+      "Ejentum Reasoning Harness curbs hallucination",
+      "Almanac Seed eliminates manual coding",
+      "Bleenk spec‑to‑code automation showcases promise",
+      "Freddy wearable‑AI integration gains interest",
+      "Ejentum’s drift‑control tool sells trust"
     ],
     "ai-hf": [
-      "DeepSeek-V4-Pro: 4,696 likes, 5.5M downloads this week.",
-      "NVIDIA drops 7 models spanning vision, speech, video generation.",
-      "LocateAnything-3B tops weekly likes for vision grounding.",
-      "Gemma-4 shows strong ecosystem adoption and quantizations.",
-      "Qwen3.6-35B-A3B-Uncensored signals uncensored model demand.",
-      "Video generation gains with Sulphur-2-base, Bernini-R renderer."
+      "DeepSeek‑V4‑Pro 5.5 M downloads, 4.7k stars",
+      "OpenBMB MiniCPM5-1B 114 k downloads, 779 stars",
+      "Gemma‑4‑12B‑it 435 k downloads, 698 stars",
+      "Nvidia Nemotron‑3‑Ultra 49.8 k downloads",
+      "LiquidAI LFM2.5‑8B 118 k downloads",
+      "LocateAnything‑3B leads vision‑language trend"
     ],
     "ai-community": [
-      "$2.8M AI testing failure viral on Dev.to.",
-      "Vibe coding matures from meme to security concern.",
-      "Executive AI hype collides with engineering reality.",
-      "LLM spend attribution and rate limiting dominate discussions.",
-      "Safety and observability critical in agent systems.",
-      "Recursive AI redistributes rather than eliminates engineering craft."
+      "Multi‑agent safety pattern lauded",
+      "Hallucination mitigation is infra, not model",
+      "FinOps teams tag API spend in real‑time",
+      "Rate‑limit runners thrive with proxy",
+      "Transactional guard pattern simplifies aborts",
+      "Observability pipelines boost reliability"
     ]
   }
 }

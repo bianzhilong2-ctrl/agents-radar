@@ -1,6 +1,14 @@
 import { callLlm } from "./report.ts";
 
-const SOURCE_ORDER = ["ai-trending", "ai-agents", "ai-hf", "ai-hn", "ai-ph", "ai-web", "ai-community"] as const;
+const SOURCE_ORDER = [
+  "ai-trending",
+  "ai-agents",
+  "ai-hf",
+  "ai-hn",
+  "ai-ph",
+  "ai-web",
+  "ai-community",
+] as const;
 
 export function collectXCandidateSources(reports: Record<string, string>): Record<string, string> {
   const selected: Record<string, string> = {};
@@ -54,7 +62,10 @@ export function buildXCandidatesPrompt(reports: Record<string, string>, dateStr:
 日报内容如下：${sourceBlocks}`;
 }
 
-export async function generateXCandidates(reports: Record<string, string>, dateStr: string): Promise<string | null> {
+export async function generateXCandidates(
+  reports: Record<string, string>,
+  dateStr: string,
+): Promise<string | null> {
   const sources = collectXCandidateSources(reports);
   if (Object.keys(sources).length === 0) return null;
   return callLlm(buildXCandidatesPrompt(sources, dateStr), 4096);

@@ -7,6 +7,7 @@
  */
 
 import { OpenAICompatibleProvider } from "./openai-compatible.ts";
+import { optionalEnv } from "./env.ts";
 
 const GITHUB_COPILOT_BASE_URL = "https://models.github.ai/inference";
 
@@ -15,9 +16,9 @@ export class GitHubCopilotProvider extends OpenAICompatibleProvider {
 
   constructor(opts?: { apiKey?: string; model?: string }) {
     super({
-      apiKey: opts?.apiKey ?? process.env["GITHUB_TOKEN"],
+      apiKey: opts?.apiKey ?? optionalEnv("GITHUB_TOKEN"),
       baseURL: GITHUB_COPILOT_BASE_URL,
-      model: opts?.model ?? process.env["GITHUB_COPILOT_MODEL"] ?? "gpt-4o",
+      model: opts?.model ?? optionalEnv("GITHUB_COPILOT_MODEL") ?? "gpt-4o",
     });
   }
 }

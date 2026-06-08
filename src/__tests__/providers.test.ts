@@ -140,6 +140,14 @@ describe("AnthropicProvider", () => {
   });
 
   it(
+    "uses default model when ANTHROPIC_MODEL is blank",
+    withEnv({ ANTHROPIC_MODEL: "" }, () => {
+      const p = new AnthropicProvider();
+      expect(p.name).toBe("anthropic");
+    }),
+  );
+
+  it(
     "uses ANTHROPIC_MODEL env var",
     withEnv({ ANTHROPIC_MODEL: "claude-opus-99" }, () => {
       const p = new AnthropicProvider();
@@ -201,6 +209,24 @@ describe("OpenAIProvider", () => {
     const p = new OpenAIProvider({ apiKey: "k" });
     expect(p.name).toBe("openai");
   });
+
+  it(
+    "uses gpt-4o when OPENAI_MODEL is blank",
+    withEnv({ OPENAI_MODEL: "" }, async () => {
+      const mockCreate = await getOpenAIMockCreate();
+      mockCreate.mockResolvedValueOnce({
+        choices: [{ message: { content: "Hello from OpenAI" } }],
+      });
+
+      const p = new OpenAIProvider({ apiKey: "k" });
+      await p.call("test prompt", 2048);
+      expect(mockCreate).toHaveBeenCalledWith({
+        model: "gpt-4o",
+        max_completion_tokens: 2048,
+        messages: [{ role: "user", content: "test prompt" }],
+      });
+    }),
+  );
 
   it("call returns text from OpenAI SDK", async () => {
     const mockCreate = await getOpenAIMockCreate();
@@ -265,6 +291,24 @@ describe("GitHubCopilotProvider", () => {
     }),
   );
 
+  it(
+    "uses default model when GITHUB_COPILOT_MODEL is blank",
+    withEnv({ GITHUB_COPILOT_MODEL: "" }, async () => {
+      const mockCreate = await getOpenAIMockCreate();
+      mockCreate.mockResolvedValueOnce({
+        choices: [{ message: { content: "Hello from Copilot" } }],
+      });
+
+      const p = new GitHubCopilotProvider({ apiKey: "ghp_test" });
+      await p.call("prompt", 512);
+      expect(mockCreate).toHaveBeenCalledWith({
+        model: "gpt-4o",
+        max_completion_tokens: 512,
+        messages: [{ role: "user", content: "prompt" }],
+      });
+    }),
+  );
+
   it("throws on empty response", async () => {
     const mockCreate = await getOpenAIMockCreate();
     mockCreate.mockResolvedValueOnce({ choices: [] });
@@ -299,6 +343,24 @@ describe("OpenRouterProvider", () => {
     withEnv({ OPENROUTER_MODEL: "meta-llama/llama-3-70b" }, () => {
       const p = new OpenRouterProvider({ apiKey: "k" });
       expect(p.name).toBe("openrouter");
+    }),
+  );
+
+  it(
+    "uses default model when OPENROUTER_MODEL is blank",
+    withEnv({ OPENROUTER_MODEL: "" }, async () => {
+      const mockCreate = await getOpenAIMockCreate();
+      mockCreate.mockResolvedValueOnce({
+        choices: [{ message: { content: "Hello from OpenRouter" } }],
+      });
+
+      const p = new OpenRouterProvider({ apiKey: "or_test" });
+      await p.call("prompt", 256);
+      expect(mockCreate).toHaveBeenCalledWith({
+        model: "anthropic/claude-sonnet-4",
+        max_completion_tokens: 256,
+        messages: [{ role: "user", content: "prompt" }],
+      });
     }),
   );
 

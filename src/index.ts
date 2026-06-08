@@ -50,6 +50,7 @@ import { fetchLobstersData, type LobstersData } from "./lobsters.ts";
 import { loadConfig } from "./config.ts";
 import { toCstDateStr, toUtcStr } from "./date.ts";
 import { type Lang, MSG, ISSUE_LABELS, CLI_ISSUE_TITLE, OPENCLAW_ISSUE_TITLE } from "./i18n.ts";
+import { generateXCandidates } from "./x-candidates.ts";
 
 // ---------------------------------------------------------------------------
 // Repo config — loaded from config.yml, falls back to built-in defaults
@@ -467,6 +468,17 @@ async function main(): Promise<void> {
 
   const highlightsPath = saveFile(JSON.stringify(highlights, null, 2), dateStr, "highlights.json");
   console.log(`  Saved ${highlightsPath}`);
+
+  console.log("  Generating X candidates...");
+  try {
+    const xCandidates = await generateXCandidates(zhReports, dateStr);
+    if (xCandidates) {
+      const xPath = saveFile(xCandidates, dateStr, "x-candidates.md");
+      console.log(`  Saved ${xPath}`);
+    }
+  } catch (err) {
+    console.error(`  [x-candidates] Generation failed: ${err}`);
+  }
 
   // 6. Create GitHub issues for CLI + OpenClaw (zh + en)
   if (digestRepo) {

@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2.1.170（Fable 5）并出现数据丢失风险",
+      "Gemini CLI发布v0.47.0‑preview.0，迭代频率最高",
+      "Copilot CLI已稳定至v1.0.61，更新放缓",
+      "OpenCode社区报告10条安全/性能Issue",
+      "Pi加入Fable 5与Mantle模型适配",
+      "跨平台CLI竞争聚焦Linux/Windows桌面兼容"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.5正式版，QQBot思考清洗",
+      "OpenClaw v2026.6.5‑beta.6同步上线",
+      "过去24h累计935条Issue/PR，合并率27%",
+      "高优先级安全缺陷占榜首，生产环境关键",
+      "MCP结果强制统一字段提升容错",
+      "社区活跃度极高，转向平台稳健期"
+    ],
+    "ai-trending": [
+      "Roboflow/supervision单日新增⭐733",
+      "opencv/opencv继续热销C++库",
+      "last30days-skill Python认知AI获+3191星",
+      "turbovec Rust库单日⭐1801",
+      "AiToEarn AI开源赚项目单日⭐402",
+      "total-dependent/puppet-rs受关注"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Fable 5与Mythos 5模型",
+      "Fable 5内置保守安全过滤，5%降级Opus 4.8",
+      "Mythos 5开放给政府合作伙伴",
+      "Anthropic发布生物信息学代理经验报告",
+      "OpenAI仅新增3页索引，信息量低",
+      "Claude模型系统卡PDF成为技术拆解基准"
+    ],
+    "ai-hn": [
+      "Claude Fable 5在HN获1817分引热议",
+      "争议聚焦模型自毁安全锁机制",
+      "Show HN: Claw Patrol提供Agent防火墙",
+      "Show HN: Nucleus硬化容器运行时",
+      "Agent‑pd零令牌审计日志工具受关注",
+      "德国法院认定Google AI概览误导责任"
+    ],
+    "ai-arxiv": [
+      "《When to Align, When to Predict》提供多模态相图",
+      "EEVEE提出实时Prompt学习框架",
+      "Attention Amnesia揭示CoT微调记忆衰退",
+      "自蒸馏反馈对齐解释性能提升",
+      "局部通信统一提升低带宽预训练效率",
+      "全双工语音交互论文展示真实任务适应"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro 35B模型本周下载超4M",
+      "Gemma‑4‑12B‑it官方量化版获581k下载",
+      "LocateAnything‑3B实现文字定位图片",
+      "Ideogram‑4‑fp8高质量图像生成",
+      "Ideogram‑4‑nf4适配移动端低比特",
+      "Gemma‑4系列保持LLM榜首"
+    ],
+    "ai-community": [
+      "Prompt被定义为“打字”，非工程技能",
+      "AI被视为基础设施层，影响招聘结构",
+      "ReAct‑style agent入门指南受关注",
+      "强烈建议在API前过滤原始数据",
+      "FastAPI+Pydantic防止恶意payload",
+      "结构化输出vsJSON成本对比详解"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.170 stabilisation release",
+      "OpenAI Codex v2.1 UI refresh launched",
+      "Gemini CLI nightly v0.47.0‑preview.0 posted",
+      "Kimi Code CLI faces 10 high‑impact issues",
+      "Pi reports cross‑OS path latency bugs",
+      "DeepSeek TUI added to tool roundup"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.6.5 adds hardware acceleration",
+      "PR #91810 enables transcript reload on turn end",
+      "PR #91807 improves embed session stability",
+      "MathJax/LaTeX support added to control UI",
+      "OpenClaw issues total reaches 447",
+      "NanoBot and Hermes Agent among 13 projects tracked"
+    ],
+    "ai-trending": [
+      "Ollama tops AI infra with 173k stars",
+      "vLLM second with 82k stars for LLM serving",
+      "AutoGPT leads agents with 184k stars",
+      "LangChain follows at 138k stars",
+      "Hermes‑Agent hits 188k stars",
+      "Tolaria listed as top AI application project"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Fable 5 Mythos‑class 1",
+      "Claude Mythos 5 released for Project Glasswing",
+      "Anthropic blog on “Agents in Biology” posted",
+      "OpenAI adds three index pages hinting S‑1 filing",
+      "Claude Fable 5 touted as state‑of‑the‑art model",
+      "Mythos 5 safeguards relaxed for vetted cohort"
+    ],
+    "ai-hn": [
+      "HN debate spikes over Claude Fable 5 safety",
+      "System card PDF for Fable 5 and Mythos 5 released",
+      "Discussion of AI misidentification arrest case",
+      "German court ruling on AI content liability",
+      "Kan‑FPGA post draws interest for fast inference",
+      "Community worries about sabotage‑ready APIs"
+    ],
+    "ai-arxiv": [
+      "Phase diagram paper for multimodal alignment vs prediction",
+      "Target distribution design unifies supervised fine‑tuning",
+      "EEVEE introduces test‑time adaptability for LLMs",
+      "T1‑Bench and Workflow‑GYM benchmark long‑horizon agents",
+      "Paper on attention amnesia in hybrid LLMs released",
+      "Survey of self‑improving trustworthy agents submitted"
+    ],
+    "ai-hf": [
+      "Gemma‑4 12B variants surge on HF hub",
+      "DeepSeek‑V4‑Pro tops likes with 4,740 weekly upvotes",
+      "Qwen‑3.6‑35B‑A3B‑Uncensored gains 1,600 likes",
+      "LocateAnything‑3B drives image‑text grounding interest",
+      "HRM‑Text‑1B popular for enterprise chatbots",
+      "LiquidAI LFM2.5‑8B‑A1B MOE model trending for low latency"
+    ],
+    "ai-community": [
+      "Dev.to argues prompting isn’t a real skill",
+      "AI now treated as baseline infrastructure layer",
+      "Stop feeding agents raw data, use validation",
+      "Discussion of hidden costs of AI orchestration",
+      "Lobste.rs deep‑dive into LLM hardware abstractions",
+      "Safety‑layer infrastructure gains developer focus"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.172 兼容多代理",
+      "OpenAI Codex rust‑v0.140.0‑alpha.7 发布",
+      "DeepSeek TUI v0.8.57 新版重命名",
+      "Gemini CLI 聚焦 Bedrock 集成",
+      "GitHub Copilot CLI 无新版本警告",
+      "Kimi Code CLI 关闭所有 PR 提醒"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6‑beta.1 注重安全边界",
+      "OpenClaw 500 Issue/PR 日活跃度高",
+      "NanoBot 继续迭代多模态插件",
+      "Hermes Agent 推出新工具链支持",
+      "Moltis 开启跨平台协同模式",
+      "CoPaw 数据集成新验证工作"
+    ],
+    "ai-trending": [
+      "TensorFlow Lite 2.0 5G Gateway 支持",
+      "Agent 入门套装 Cardano Agent + Llama 3.1 通关",
+      "运维智能体出现 PLC 控制器示例",
+      "医疗智能体可调用医生知识库",
+      "认知转导模型 12K style 火热",
+      "技术锚 LLM 效率提升 22%"
+    ],
+    "ai-web": [
+      "Anthropic Agents in Biology 研究揭示生物数据重要性",
+      "OpenAI 与 Oracle Cloud 合作暗示云端大模型部署",
+      "Claude Desktop 资源占用导致社区讨论",
+      "Anthropic 模型命名策略受关注",
+      "Microsoft 限制 Claude Fable 数据保留",
+      "OpenAI 有可能降价竞争策略"
+    ],
+    "ai-hn": [
+      "AWS Bedrock 要求共享 Anthropic 数据 投出隐私红线",
+      "Claude Desktop 1.8GB VM 启动争议 高资源消耗",
+      "Anthropic 模型命名混乱 引产讨论",
+      "Show HN: 150M RAG 模型 提升查询效率",
+      "OpenAI 价格战潜在启动 预警",
+      "Microsoft 对 Claude Fable 限制 行业警钟"
+    ],
+    "ai-arxiv": [
+      "TAHOE 自动化提示优化 提升文本到SQL 成熟度",
+      "MoE 路由重设计 极大降低计算成本",
+      "OpenMedReason 450K 医学问答集 促进 VLM 推理",
+      "DIRECT 自适应计算分配 降低延迟",
+      "APPO 强化学习细粒度工具链 成功率提升",
+      "CHORUS 单策略多具身协作 高效协同"
+    ],
+    "ai-hf": [
+      "Gemma‑4‑12B-it 12B 指令版 下载 675k",
+      "DeepSeek‑V4‑Pro 35B+ 下载 4M",
+      "LocateAnything‑3B 3B 参数定位新宠",
+      "NVIDIA LocateAnything‑3B 视觉搜索领跑",
+      "Ideogram‑4‑fp8 4B 扩散 FP8 适配边缘",
+      "Nex‑N2‑Pro 1B 多语言助手 热门"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.172 released",
+      "OpenAI Codex alpha v0.140.0 out",
+      "Gemini CLI adds security focus",
+      "Kimi Code CLI gains enterprise traction",
+      "DeepSeek TUI joins AI CLI roundup",
+      "Claude Code Skills now open source"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.6.6‑beta.1 shipped",
+      "OpenClaw reports 500 new issues",
+      "OpenClaw PR backlog hits 399 open PRs",
+      "OpenClaw security boundary hardening announced",
+      "NanoBot and Hermes Agent see increased commits",
+      "ZeroClaw added to OpenClaw ecosystem"
+    ],
+    "ai-trending": [
+      "Agent‑skill repos dominate GitHub hot list",
+      "MoneyPrinterTurbo AI video generator spikes stars",
+      "openmed healthcare LLM gains daily stars",
+      "System prompt collections surge for IDEs",
+      "Vertical AI apps outpace raw model releases",
+      "Reusable agent frameworks see rapid growth"
+    ],
+    "ai-web": [
+      "Anthropic posts \"Agents in biology\" research",
+      "OpenAI adds \"Openai On Oracle Cloud\" entry",
+      "Anthropic article shows first production agent guide",
+      "Claude agents applied to virology data retrieval",
+      "Anthropic highlights deterministic retrieval layers",
+      "OpenAI hint at Oracle Cloud partnership"
+    ],
+    "ai-hn": [
+      "AWS Bedrock forces data sharing with Anthropic",
+      "Anthropic privacy policy now requires age checks",
+      "Debate over Anthropic’s new Fable jailbreak",
+      "Eric Ries AMA draws massive AI startup interest",
+      "Bedrock‑Anthropic data mandate sparks legal talk",
+      "Community split on privacy vs innovation"
+    ],
+    "ai-arxiv": [
+      "VIA‑SD cuts speculative decoding latency 30%",
+      "ALIGNBEAM defends against vocab‑specific attacks",
+      "Paper on impossibility of eliciting latent knowledge",
+      "Speculative decoding with intra‑model routing",
+      "Efficient MoE routers for agentic reasoning",
+      "Benchmark‑centric video grounding work released"
+    ],
+    "ai-hf": [
+      "gemma-4-12B-it hits 890 likes, 676k downloads",
+      "LocateAnything-3B leads vision‑to‑text likes",
+      "DeepSeek-V4-Pro tops downloads with 4M+",
+      "unsloth quantized Gemma IT gains 551 likes",
+      "Gemma Q4_0‑gguf quantized model popular",
+      "Ideogram-4-fp8 draws FP8 image generation interest"
+    ],
+    "ai-community": [
+      "Dev.to warns agents break Secrets Manager",
+      "Cost surge from aggressive prompt batching",
+      "Micro‑AI code reviewer git‑lrc gains traction",
+      "Deep‑dive thread explains LLM inner workings",
+      "LLM memory crisis highlighted in new article",
+      "Outbound AI endpoints found in corporate traffic"
+    ]
+  }
+}

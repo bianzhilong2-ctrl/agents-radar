@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.174 推出多窗口沙箱支持",
+      "GitHub Copilot CLI 讨论 10 条 Issue 新功能",
+      "OpenCode v1.17.4 库更新 45 ★",
+      "Qwen Code v0.18.0‑preview.2 关注 45 ★",
+      "Pi 10 Issue 关注 30 ★",
+      "DeepSeek TUI v0.8.58 持续活跃 21 评论"
+    ],
+    "ai-agents": [
+      "OpenClaw PR #86655 引入 Claude‑bridge 拓展",
+      "PR #92300 优化 OpenAI Response 快照",
+      "PR #92086 安全矩阵 Runtime‑Fact 模型新增",
+      "PR #92305 针对定时任务 Bug 修复",
+      "500+ Issues 表明社区高负荷开发",
+      "无新版本发布但 PR 密集"
+    ],
+    "ai-web": [
+      "Anthropic 与 DXC 伙伴关系 目标数万 FDE",
+      "Claude Corps 1.5 亿美元扶持 1,000 名新手",
+      "OpenAI 收购 Ona 暗示业务扩张",
+      "Claude Fable 5 争议 影响社区热议",
+      "Anthropic 对 Guardrail 透明度讨论",
+      "2026‑06‑11 新媒体更新 3 篇"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.174 released today",
+      "OpenAI Codex sees 10 hot issue spikes",
+      "Gemini CLI joins top 9 LLM CLIs",
+      "DeepSeek TUI added to list",
+      "Claude Code Skill repo expands",
+      "9 PRs merged in last 24h"
+    ],
+    "ai-agents": [
+      "OpenClaw 500+ issues active today",
+      "116 PRs merged in last 24h",
+      "Security patch PR #92300 closed",
+      "Cron job fix PR #92318 merged",
+      "Android app progress ongoing",
+      "Embedded runner now logs prep stage"
+    ],
+    "ai-trending": [
+      "Skydy/Fast Search gaining privacy mode buzz",
+      "Weaviate vector DB rising in enterprise use",
+      "FLibHub centralizes open LLM resources",
+      "Got app showcases modular agent framework",
+      "Datalab/Laptop AI attracts rapid download",
+      "Envoy A's new feature draws attention"
+    ],
+    "ai-web": [
+      "Anthropic partners with DXC for Claude integration",
+      "DXC OASIS powers 95%+ code generation",
+      "Claude Corps fellowship launch $150M",
+      "OpenAI acquires Ona data‑compliance firm",
+      "Claude Fable guardrail controversy sparks debate",
+      "OpenAI pricing strategy debated online"
+    ],
+    "ai-hn": [
+      "Anthropic apologizes for invisible Fable guardrails",
+      "Fable 5 coding benchmark released",
+      "Fable shown to be relentlessly proactive",
+      "Claude Code now runnable offline",
+      "Rate limit fixes trigger silent agent failures",
+      "Auto-verifying AI‑SRE fixes with Mirrord"
+    ],
+    "ai-arxiv": [
+      "New RAG‑RL pipeline boosts reasoning accuracy",
+      "EurekAgent outperforms handcrafted workflows",
+      "SpaceClaw vision‑language agent tackles real tasks",
+      "MaxProof closes math benchmark gap",
+      "Uncertainty‑Aware RAG improves long‑doc QA",
+      "S‑GBT introduces certified robustness metric"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro tops downloads with 4B model",
+      "Gemma‑4‑12B‑it variant leads language trend",
+      "UnsloTh Gemma quantized GGUF for edge",
+      "Nex‑N2‑Pro adds Qwen‑3.5‑MOE speedup",
+      "Cohere North‑Mini‑Code gains 1.8k downloads",
+      "Navigational 4B models see surge in usage"
+    ],
+    "ai-community": [
+      "Google ADK Security defends agents from prompt injection",
+      "Rate limit fixes cause silent agent failures",
+      "AI‑SRE fixes auto‑verified via Mirrord",
+      "HazelJS offers LLM‑first TS template",
+      "RAG‑based testing gains traction",
+      "AI security layers become standard dev practice"
+    ]
+  }
+}

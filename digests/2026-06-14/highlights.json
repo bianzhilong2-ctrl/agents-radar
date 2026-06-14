@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 添加 ODT 技能，提升稳定性",
+      "OpenAI Codex 新功能支持多语言",
+      "Kimi Code CLI 发布 1.0 版本，速度提升",
+      "Gemini CLI 兼容最新 Gemini-4 模型",
+      "GitHub Copilot CLI 自动化测试扩展",
+      "DeepSeek TUI 打造终端 AI 体验"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code faces memory/MCP bugs",
+      "Gemini CLI sees VS Code crash reports",
+      "Copilot CLI releases v1.0.62",
+      "OpenCode adds 2 new releases v1.17.5/1.17.6",
+      "Pi release v0.79.3 tackles context overflow",
+      "DeepSeek TUI still lacks cost tracking"
+    ],
+    "ai-agents": [
+      "OpenClaw releases v2026.6.8‑beta.1",
+      "OpenClaw releases v2026.6.7‑beta.1",
+      "199 PRs merged/closed in last day",
+      "NanoBot and Hermes Agent in top 13 list",
+      "ZeroClaw and IronClaw gain traction",
+      "Community hot topics flood OpenClaw"
+    ],
+    "ai-trending": [
+      "addyosmani/agent-skills powers AI coding agents",
+      "obra/superpowers frames agentic skills methodology",
+      "kenn-io/agentsview adds local session intel",
+      "LMCache speeds LLM inference with KV cache",
+      "andrewyng/aisuite unifies multiple AI providers",
+      "NVIDIA/SkillSpector scans AI agent skill vulnerabilities"
+    ],
+    "ai-web": [
+      "Anthropic launches hybrid Claude Fable 5",
+      "US government suspends Fable 5 and Mythos 5",
+      "Claude Fable 5 adds cyber‑security safeguards",
+      "TCS partners with Anthropic for regulated AI",
+      "Public survey flags AI health & child safety concerns",
+      "No new OpenAI posts; focus on safety and integration"
+    ],
+    "ai-hn": [
+      "GLM 5.2 sparks benchmark race on HN",
+      "Claude Fable 5 vs GPT‑5.5 sparks planning debate",
+      "Meta’s new AI unit fuels culture‑war thread",
+      "US export‑control actions dominate headlines",
+      "LLM consciousness essay fuels philosophical debate",
+      "Community debates China‑first LLM policy"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro (35B) tops trending list",
+      "Google DiffusionGemma 26B dominates multimodal diffusion",
+      "LocateAnything‑3B gains vision‑language traction",
+      "Gemma‑4‑12B‑it praised for balanced performance",
+      "North‑Mini‑Code‑1.0 popular for low‑resource dev‑ops",
+      "SuperGemma4‑26B GGUF spreads to edge devices"
+    ],
+    "ai-community": [
+      "Dev.to warns of agent forgetting for safety",
+      "MCP server testing with real models highlighted",
+      "Skill linter audit finds 84% compliance in 52k‑star repo",
+      "Five agent failure modes missed in staging",
+      "Cost‑guard utilities surge after Guardian AI‑governance news",
+      "Privacy‑first AI deployment discussed on Lobste.rs"
+    ]
+  }
+}

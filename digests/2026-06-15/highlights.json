@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-cli": [
+      "GitHub Copilot CLI 仍无正式 Release，功能迭代转向产品化",
+      "Claude Code 10 高危 Bug 挑战子代理递归",
+      "Gemini CLI 10 Agent 挂起 与 Auto‑Memory 关键讨论",
+      "OpenCode 发布 v1.17.7 唯一 Release 结合功能与 Bug 修复",
+      "Pi 10 关键 issue 包含 Bash 检测 与 MCP 挂起",
+      "Kimi Code 仅 3 Issue 关注配额与 Prompt 编辑可靠性"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8-beta.1 发布 Telegram 结构化 Rich Text",
+      "OpenClaw 500 Issue/PR 处理速率与 19% 关闭率",
+      "Issue #80380 热烈讨论升级 Gemini 3.1 速率与成本",
+      "Issue #84516 长回答被截断 影响用户体验",
+      "Issue #85103 退耗错误 引发计费透明度争议",
+      "OpenClaw 25% 功能接入新版本 支持轻量化模型"
+    ],
+    "ai-trending": [
+      "AutoGPT 星数升 777 今日明星",
+      "LangChain 221 新星 关注对话记忆模块化",
+      "Ollama 1,232 星增 0.5 秒加载里程碑",
+      "vLLM 301 星增 推理 1000+ token/s 超越 Triton",
+      "Firecrawl 871 星增 区块链事件过滤 API",
+      "PinaC 新锐 CV 预制场景 可视化训练"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code CLI v2026.6.1 released",
+      "Gemini CLI adds slash commands",
+      "Copilot CLI offers cost visibility",
+      "Qwen Code supports multi‑model parity",
+      "DeepSeek TUI introduces queue feature",
+      "OpenCode now provides sub‑agent framework"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.6.8‑beta.1 launched",
+      "Minimax agent sync added to OpenClaw",
+      "Codex wrappers stabilized for agents",
+      "OpenClaw 2025.5 now out‑of‑process",
+      "NullClaw introduces privacy mode",
+      "ZeroClaw adds zero‑trust provisioning"
+    ],
+    "ai-trending": [
+      "NVIDIA SkillSpector +964 stars today",
+      "Kronos +244 stars trend",
+      "LEANN saves 97% storage space",
+      "zvec C++ in‑process VDB gains traction",
+      "DeepSeek‑V4‑Pro stars surge",
+      "Kimi‑K2.6 added to Ollama"
+    ],
+    "ai-web": [
+      "OpenAI launches Partner Network",
+      "Anthropic no new articles today",
+      "OpenAI adds collaboration page",
+      "Partner Network lists 100+ integrators",
+      "New SDK docs navigation released",
+      "No Claude updates reported today"
+    ],
+    "ai-hn": [
+      "Claude as Chemist tops HN",
+      "Anthropic policy memo ignites debate",
+      "Brazilian LLM debunked by community",
+      "Codex used to simulate black holes",
+      "Prompt injection discussed widely",
+      "Chaosnet post resurfaces on HN"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro hits 4,834 likes",
+      "DiffusionGemma‑26B leads multimodal chart",
+      "LocateAnything‑3B tops vision models",
+      "GGUF models see rapid rise",
+      "Gemma‑4‑12B‑it popular with developers",
+      "DeepSeek‑V4‑Pro follows 3.0.0 release"
+    ],
+    "ai-community": [
+      "Dev.to: self‑hosted Sourcegraph stack works",
+      "Mac Mini runs local LLMs, cuts costs",
+      "AI design coach tutorial released",
+      "Claude Code vs Codex side‑by‑side demo",
+      "Agent‑memory discussions trend",
+      "RAG tutorials highly requested"
+    ]
+  }
+}

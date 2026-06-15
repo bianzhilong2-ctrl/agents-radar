@@ -23,6 +23,14 @@
       "vLLM 301 星增 推理 1000+ token/s 超越 Triton",
       "Firecrawl 871 星增 区块链事件过滤 API",
       "PinaC 新锐 CV 预制场景 可视化训练"
+    ],
+    "ai-weekly": [
+      "Anthropic发布Fable5/Mythos5",
+      "Anthropic暂停Fable/Mythos，非美公民禁用",
+      "OpenClaw v2026.6.5β1 加QBot过滤",
+      "Gemini CLI 0.47.0 版 Wayland兼容",
+      "Copilot CLI 1.0.61 多账号切换",
+      "Kimi Code CLI 0.18.0 版 租户Token限速"
     ]
   },
   "en": {
@@ -81,6 +89,14 @@
       "Claude Code vs Codex side‑by‑side demo",
       "Agent‑memory discussions trend",
       "RAG tutorials highly requested"
+    ],
+    "ai-weekly": [
+      "Anthropic launches Claude Fable 5 and Mythos 5",
+      "Mythos‑class 1 models debut with safety filter",
+      "US govt blocks foreign‑national access to Fable 5",
+      "OpenClaw v2026.6.5 adds WebWright browser automation",
+      "OpenClaw hardens security, removes QQBot block",
+      "Anthropic partners with DXC for regulated sectors"
     ]
   }
 }

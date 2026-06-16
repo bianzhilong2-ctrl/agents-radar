@@ -1,0 +1,38 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.178上线，堆栈权限控制升级",
+      "OpenAI Codex Rust 0.140版发布，提升处理效率",
+      "Gemini CLI核心子代理机制实验版亮相",
+      "Pi v0.79.4发布，主题自动检测优化",
+      "Qwen Code夜间版发布，安全接口完整",
+      "DeepSeek TUI未发布，但云服务支持扩展"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.178 released",
+      "OpenAI Codex multiple rust alphas",
+      "Gemini CLI added new hooks",
+      "GitHub Copilot CLI sees UI upgrade",
+      "Pi adds mono support for TUI",
+      "DeepSeek TUI now cross‑platform"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8-beta.2 adds rich Telegram",
+      "OpenClaw 1,000 updates in 24h",
+      "OpenClaw fixes Feishu message dupes",
+      "NanoBot gains new sensor plugin",
+      "Hermes Agent improves API rate limits",
+      "ZeroClaw introduces zero‑latency mode"
+    ],
+    "ai-trending": [
+      "Anthropic publishes Claude Sonnet 4.5 emotion paper",
+      "Claude Sonnet 4.5 chemistry NMR study",
+      "Anthropic’s safety‑first strategy dominates HN",
+      "White‑House orders Fable/Mythos offline",
+      "Stratechery’s Anthropic safety superpower analysis",
+      "Trace‑analysis blog reveals Fable 5 training"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude‑Code v2.1.179 released",
+      "DeepSeek TUI v0.8.61 static Rust binaries",
+      "Gemini CLI pre‑release v2.1.2 launched",
+      "OpenAI Codex no new release, α‑4 pending",
+      "GitHub Copilot CLI v1.0.64‑0 released",
+      "Qwen Code preview v0.18.1‑preview.0 released"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8 adds Telegram/WhatsApp",
+      "500 Issues + 500 PRs today signals high churn",
+      "Bug #93821 fixes JSON.parse on mcporter",
+      "Telegram rendering now supports tables & collapsible blocks",
+      "No DB migration needed for release",
+      "High comments on #91016 risk cost spike"
+    ],
+    "ai-trending": [
+      "Transformers 161,647 stars – industry standard",
+      "vllm 83,104 stars – low‑memory LLM inference",
+      "LangChain 139,504 stars – agent & toolchain framework",
+      "Open‑WebUI 141,889 stars – self‑hosted LLM UI",
+      "Firecrawl 133,679 stars – AI web‑scraping API",
+      "Ollama 174,339 stars – local one‑click model hosting"
+    ],
+    "ai-web": [
+      "Anthropic publishes Agentic coding 400k session study",
+      "TCS partners with Anthropic, deploys Claude to 50k employees",
+      "OpenAI adds Deployment Simulation safety page",
+      "Claude Code 25% value boost vs human alone",
+      "Debug time cut 50% with Claude Code",
+      "Claude shifts from tool to end‑to‑end code agent"
+    ],
+    "ai-hn": [
+      "Claude errors spark 182/153 upvote discussion",
+      "DeepSeek V4 Pro 5% Claude cost ignites cost debate",
+      "OpenAI losses 8× in 2025, $34B spend fuels IPO chatter",
+      "Show HN: GitHub Actions in TypeScript gains attention",
+      "Show HN: Memento self‑hosted agentic search wins 7 votes",
+      "OpenAI spending $34B fuels revenue vs loss debate"
+    ],
+    "ai-arxiv": [
+      "Variable‑Width Transformers cut parameters, keep performance",
+      "Fixed‑Point Reasoners bring stable, adaptive deep loops",
+      "Self‑distillation boosts diffusion LLM efficiency",
+      "VERITAS verifies & steers robots in real‑time",
+      "Looped World Models solve long‑term inference drift",
+      "EvolveNav learns self‑reflection for zero‑shot navigation"
+    ],
+    "ai-community": [
+      "Dev.to: AI provider single point of failure warns 3/2",
+      "Lobste.rs: Siri privacy + private inference risky 37/14",
+      "Dev.to: Stop feeding AI specs, let it ask you 3/0",
+      "CrankGPT: local AI Powered by Humans",
+      "Bug cost $1800 API calls 7/2",
+      "Translate OCaml runtime to Rust 30/3"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.179 released today",
+      "Copilot CLI v1.0.64-0 out now",
+      "Qwen Code v0.18.1-preview.0 launched",
+      "DeepSeek TUI v0.8.61 released today",
+      "Shift to agent‑orchestration stacks",
+      "Cross‑tool hot issues at 10 each"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8 with richer channels",
+      "Configurable streaming watchdog timeout",
+      "≈500 issue and PR updates today",
+      "Steady merge rate ~100 PRs/day",
+      "P‑level bugs still dominate talks",
+      "Ecosystem health stable despite queue"
+    ],
+    "ai-trending": [
+      "vllm‑project vllm tops trending with 83k⭐",
+      "Ollama hits 174k⭐ for local LLMs",
+      "Alibaba zvec gains +156 stars today",
+      "AutoGPT remains top agent framework",
+      "Multi‑agent frameworks surge globally",
+      "Local‑first AI infra drives growth"
+    ],
+    "ai-web": [
+      "Anthropic study: 400k Claude Code sessions",
+      "Claude rolls out with TCS: 50k employees",
+      "OpenAI posts empty Deployment Simulation page",
+      "Debugging time cut ~50% for Claude",
+      "Claude‑assisted task value up 25%",
+      "Anthropic‑Claude partnership expands globally"
+    ],
+    "ai-hn": [
+      "Claude outages spark heated HN debate",
+      "OpenAI financial leak dominates headlines",
+      "Gov pressure on Anthropic’s ‘Fable’ ban",
+      "GLM‑5.2 open‑weight release gains buzz",
+      "DeepSeek V4 Pro claims 5% Claude cost",
+      "Wolfram Mathematica 15 draws attention"
+    ],
+    "ai-arxiv": [
+      "Variable‑Width Transformers cut params 20%",
+      "Zone of PPO: prompt‑based teacher distillation",
+      "Self‑distillation for dLLMs on‑policy breakthrough",
+      "VERITAS enables robot learning without pre‑train",
+      "WEQA personal health assistant reasoning",
+      "EvolveNav zero‑shot navigation advances"
+    ],
+    "ai-community": [
+      "AI content detectors still noisy, flags errors",
+      "BrowserAct vs Playwright: anti‑bot test tips",
+      "AI flags article low‑quality; audit reveals bias",
+      "Agentic/loop engineering gains traction",
+      "Privacy‑first local LLM deployments rise",
+      "Ethics‑economics debate on AI costs intensifies"
+    ]
+  }
+}

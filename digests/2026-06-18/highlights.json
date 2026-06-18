@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI v0.48.0‑preview发布，支持多会话状态",
+      "Claude Code v3.1兼容新工具白名单",
+      "Kimi Code v0.18.3‑nightly加入MCP安全协议",
+      "Qwen Code v0.18.3‑nightly上线流式渲染优化",
+      "OpenAI Codex Rust α版开启本地部署",
+      "OpenAI Codex OAuth认证频繁失效需修复"
+    ],
+    "ai-agents": [
+      "PR #94375解决子代理消息重复广播",
+      "PR #94351修复Web UI资源在代理环境下加载失败",
+      "Issue #25592聚焦文本泄露防护规则",
+      "Issue #88838探讨状态迁移的分阶段策略",
+      "Issue #9443讨论Android ABI支持与CI调整",
+      "OpenClaw每日500条Issue与PR显示活跃度飙升"
+    ],
+    "ai-trending": [
+      "DeusData/codebase‑memory‑mcp星数+371，强调内存性能",
+      "n0‑computer/iroh+421星，模块化流通式打扫新概念",
+      "Panniantong/Agent‑Reach+1161星，多智能体服务级联热点",
+      "2026‑06‑18 Trending未见新版本发布",
+      "仓库活跃度高于行业平均",
+      "开放源码项目持续被关注"
+    ],
+    "ai-web": [
+      "Anthropic在首尔设立新办事处，展开本土合作",
+      "Anthropic发布Claude Mythos Preview安全模型",
+      "Project Glasswing同步安全防护与模型迭代",
+      "OpenAI新增Life Sci Bench索引页面",
+      "Anthropic安全研究持续推新报告",
+      "首尔办公室强调AI在亚洲生态的深耕"
+    ],
+    "ai-hn": [
+      "OpenAI亏损规模爆料成热议热点",
+      "Anthropic被指涉美政府针对，遇监管质疑",
+      "讨论Claude vs Grok在实时代理任务上的表现",
+      "展示AI CAD开源工具Adam的快速建模能力",
+      "讨论Mira本地LLM代码审查工具隐私意义",
+      "Rocketgraph日志压缩技术受到关注"
+    ],
+    "ai-arxiv": [
+      "IndicContextEval提出多语言AudioLLM上下文基准",
+      "Complementary Attention Head Pruning实现40%参数削减",
+      "Sumi：10B规模统一扩散语言模型突破",
+      "OpenAnt LLM‑驱动漏洞检测新框架",
+      "人机共进化理论论文阐释社群智能进化",
+      "大语言模型评估框架提供12大通信协议标准"
+    ],
+    "ai-community": [
+      "Pablonax使用premortems提升Claude代码审查",
+      "Rapls指出AI代理会话漂移需监测",
+      "Ben Witt以模块化指令削减token消耗",
+      "Ale007xd实现LLM多模型回退FSM模式",
+      "AlokNecessary搭建持续评估流水线",
+      "Albertomontagnese量化Claude 3.5 Sonnet成本‑性能比"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.181 adds config syntax opt‑in",
+      "OpenAI Codex ships three rapid‑fire α releases",
+      "Gemini CLI previews v0.48.0 with JSON fixes",
+      "Kimi Code logs 2 enhancement requests, no PRs",
+      "Pi‑Mono reports 10 top‑comment issues this day",
+      "DeepSeek TUI sees 10 high‑comment bugs, no new release"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24h",
+      "No new OpenClaw releases, focus on stabilization",
+      "18 OpenClaw issues closed, 69 PRs merged today",
+      "PR #94327 adds subagent text delivery fallback",
+      "PR #94075 fixes CJK table misalignment in CLI",
+      "PR #94071 stops forwarding embedding dimensions"
+    ],
+    "ai-web": [
+      "Anthropic opens Seoul office, targets Korean market",
+      "Claude Code deployed at NAVER and Nexon in Korea",
+      "Frontier Red Team releases ExploitBench benchmark suite",
+      "Anthropic unveils Claude Mythos Preview and Project Glasswing",
+      "OpenAI adds two index‑only items for Life Sci Bench",
+      "Only OpenAI content today: two identical index entries"
+    ],
+    "ai-hn": [
+      "HN debates OpenAI’s multi‑billion dollar losses",
+      "OpenRouter blog pits Claude against Grok in benchmarks",
+      "Anthropic research claims agentic coding regains expert quality",
+      "Community debates flat‑rate LLM API pricing models",
+      "Talk of U.S. government push to block jailbreaks",
+      "Open‑source CAD/visual agents gain steady interest"
+    ],
+    "ai-arxiv": [
+      "IndicContextEval benchmarks audio‑LLM context use in 8 languages",
+      "Complementary head pruning cuts >45% FLOPs, <0.3% loss",
+      "ARIADNE proposes adaptive adapter selection for efficiency",
+      "Giskard introduces Byzantine‑robust decentralized learning",
+      "New taxonomy defines LLM agent communication protocols",
+      "Leadership‑control theory for multi‑agent AI teams"
+    ],
+    "ai-community": [
+      "Premortems with Claude and Codex surface hidden prompt risks",
+      "Context‑window drift identified as cause of agent slowdown",
+      "Modular instruction architecture saves thousands of tokens",
+      "FSM pattern provides graceful provider fallback in pipelines",
+      "Cost‑control debates focus on flat‑rate vs per‑token billing",
+      "Ethics article warns limits of vision‑language models and privacy"
+    ]
+  }
+}

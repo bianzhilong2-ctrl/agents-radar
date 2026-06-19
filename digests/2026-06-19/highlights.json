@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.183 强化安全",
+      "Gemini CLI 多安全补丁持续推送",
+      "GitHub Copilot CLI 关注企业模型接入",
+      "Pi v0.79.7 自动主题功能",
+      "OpenAI Codex 预览‑0.142.x‑alpha 远程加密",
+      "Cloned代码库安全、API 限流均受重视"
+    ],
+    "ai-agents": [
+      "CoPaw、LobsterAI、ZeroClaw 迭代激烈",
+      "NanoClaw 21 PR 显著活跃",
+      "IronClaw 43 PR 提升性能",
+      "CoPaw 50 Issues 需求高",
+      "ZeroClaw 50 PR 与 50 Issues 同步",
+      "活跃项目多围绕工具调用安全"
+    ],
+    "ai-web": [
+      "Anthropic 首尔办公部务",
+      "Opus 4.7 20× 加速 Robot 任务",
+      "Claude 在 BioMysteryBench 60%+ 匹配",
+      "OpenAI 新索引页面动态",
+      "Claude‑Sci 版或即将发布",
+      "Anthropic 与韩方安全合作"
+    ],
+    "ai-hn": [
+      "GLM‑5.2 5 TB 大模型曝光",
+      "Show HN: 模型共建热点",
+      "Mistral.rs 代理工具热议",
+      "Crawlie SEO 工具初登场",
+      "Red-Team 评测话题火爆",
+      "多模型成本讨论升温"
+    ],
+    "ai-arxiv": [
+      "DiffusionGemma 透明性评估新框架",
+      "MoE 校准在 OOD 环境有效",
+      "LedgerAgent 结构化工具调用",
+      "NRT‑Bench 多轮红队基准",
+      "GLM‑5.2 多模态 MoE 关注度高",
+      "NRT‑Bench 量化评测新标准"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro 40B 对话冠军",
+      "Qwen3.6‑35B‑A3B‑Uncensored 受热",
+      "LocateAnything‑3B 图像检索爆红",
+      "Gemma‑4‑12B‑it 12B 通用模型",
+      "DeepSeek‑V4‑Pro 下载量 3 M",
+      "NVIDIA 3B 定位模型 2 000+ 点赞"
+    ],
+    "ai-community": [
+      "AI 代理治理热点讨论",
+      "RAG 全栈架构拆解实用",
+      "安全与可审计 AI 代码话题",
+      "轻量化模型与隐私双看点",
+      "Dev.to 21条精选值得读",
+      "Lobste.rs 61分 gzip 模型探讨"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.183 adds safety‑locks for Git ops",
+      "OpenAI Codex releases rust‑v0.141.0 stable version",
+      "Gemini CLI preview 0.48.0 launches without tag",
+      "Pi CLI updates to v0.79.7 with async autocomplete",
+      "Qwen Code sees 10+ new mixed‑priority issues",
+      "GitHub Copilot CLI only 3 key issues this day"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem now covers 13 projects",
+      "NanoBot logs 5 new issues, 2 high‑priority",
+      "Hermes Agent attracts dozens of daily contributors",
+      "ZeroClaw gains momentum with large semi‑commercial user base",
+      "Plug‑and‑play agent orchestration becomes core trend",
+      "Projects shift to maintenance‑to‑growth phase"
+    ],
+    "ai-trending": [
+      "TimesFM foundation model gains +844 stars today",
+      "Agent‑as‑a‑service stacks >1 M stars combined",
+      "zvec lightweight vector store spikes in popularity",
+      "LanceDB embedded retrieval library draws attention",
+      "Superpowers AI stack climbs trending list",
+      "Kilo agent platform sees rapid star growth"
+    ],
+    "ai-web": [
+      "Anthropic releases Claude bioinformatics benchmark",
+      "Claude Opus 4.7 speeds robot tasks 20× over humans",
+      "Anthropic opens new headquarters in Seoul",
+      "MOU signed with Korea's Ministry of Science & ICT",
+      "Claude safety integration emphasized in new articles",
+      "Five new Anthropic/ OpenAI articles published today"
+    ],
+    "ai-hn": [
+      "GLM‑5.2 open model sparks hardware‑cost debate",
+      "Weibo VibeThinker‑3B reignites benchmark wars",
+      "Anthropic Mythos export‑control controversy heats up",
+      "Policy posts trigger talk on model bans",
+      "New Weights visualizer tool gains traction",
+      "Community debates open‑weight model accessibility"
+    ],
+    "ai-arxiv": [
+      "LedgerAgent proposes structured tool‑calling architecture",
+      "FlowEdit adds lifelong adaptation to frozen TTS models",
+      "Calibration‑aware MoE training under distribution shift",
+      "DiffusionGemma transparency analysis released",
+      "LiveCodeBench‑Multi benchmark introduced",
+      "NRT‑Bench new evaluation suite for reasoning tasks"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro 61B hits 2.9 M downloads",
+      "Gemma‑4‑12B‑it remains most downloaded GPT‑style model",
+      "unsloth GGUF Gemma‑4 runs GPU‑free on edge devices",
+      "Qwen3.6‑35B uncensored variant reaches 3.4 M downloads",
+      "GLM‑5.2 lightweight GGUF variants trend upward",
+      "Community quantized models boost lightweight inference"
+    ],
+    "ai-community": [
+      "Build agentic PR reviewer with Antigravity SDK",
+      "9‑step plan to stop zero‑click CI/CD worms",
+      "Black‑box recorder adds logging to RAG pipelines",
+      "Reliability problem forces redesign of AI agents",
+      "Debate: AI tools may erode core engineering skills",
+      "Cost‑privacy trade‑offs of private inference discussed"
+    ]
+  }
+}

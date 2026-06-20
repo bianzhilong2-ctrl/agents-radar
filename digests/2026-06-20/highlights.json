@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Skills 热点 514 文档排版优化",
+      "Skill 621 代码质量分析需求稳增长",
+      "Claude Code 社区 PR #210 已合并",
+      "Pi 仓库缺写权限需自行 Fork",
+      "OpenCode 与 OpenAI Codex 同步更新",
+      "DeepSeek TUI 新增交互式界面"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.9‑beta.1",
+      "Telegram 支持 HTML/Sticker 与进度渲染",
+      "会话持久化与内存泄漏成热点",
+      "1000 条 Issue/PR 今日活跃",
+      "P0‑P1 严重 Bug 尚未合并修复",
+      "delivery.channel 迁移需执行 doctor --fix"
+    ],
+    "ai-trending": [
+      "headroom 今日 +4005 ⭐ 压缩上下文",
+      "codebase-memory-mcp +1058 ⭐ 代码图谱",
+      "agent-native / flue / superpowers 竞争",
+      "TimesFM 时序模型发布",
+      "OpenMontage 多 Agent 视频制作",
+      "RAGFlow 转向 Graph RAG 与免索引"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Agentic coding 报告",
+      "基于 40 万 Claude Code 会话分析",
+      "调试占比下降 50% 价值提升 25%",
+      "专业度提升 AI 工作量增大",
+      "Claude Code 成企业代码助手核心",
+      "OpenAI 今日无新增官网内容"
+    ],
+    "ai-hn": [
+      "GPT‑5.5 幻觉率 3 倍于 GLM‑5.2",
+      "Anthropic 新员 John Jumper 加入",
+      "Amazon 放弃 Sam Altman 电影合作",
+      "Aikido AI 代码审计工具受热议",
+      "讨论 Agent 漂移检测慢衰问题",
+      "MiniMax M3 vs GLM‑5.2 编码基准"
+    ],
+    "ai-arxiv": [
+      "DiffusionGemma 解释性研究",
+      "UNIEGO 统一视角视频理解",
+      "长系列分布偏移建模提升鲁棒",
+      "多任务混合校准提升数据效率",
+      "区块链存储推理过程实现审计",
+      "多模态量化评估体系发布"
+    ],
+    "ai-hf": [
+      "gemma-4-12B-coder 获高点赞",
+      "zai-org/GLM-5.2 成热门对话模型",
+      "MiniMax-M3 受关注的新模型",
+      "Kimi-K2.7-Code 专注代码生成",
+      "VibeThinker-3B 支持中文方言",
+      "微调项目日均 >1500 显示热度"
+    ],
+    "ai-community": [
+      "AI 价格大跌 本地化部署热潮",
+      "Graphiti 与 Elasticsearch 探索长记忆",
+      "LLM Gateways 路由与语义缓存方案",
+      "Python MCP Server 实战指南",
+      "AI 摘要需提供证据链",
+      "Agent 漂移检测警示长期退化"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code tops issue volume, focuses on token accounting",
+      "GitHub Copilot CLI releases v1.0.64-1",
+      "OpenCode struggles with memory management",
+      "Kimi Code CLI improves network reliability",
+      "DeepSeek TUI adds UI/UX refinements",
+      "Qwen Code faces multi‑agent orchestration issues"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem tracks 500 issues and PRs",
+      "NanoBot adds OpenAI image edit support",
+      "NanoBot suppresses noisy cron notifications",
+      "NanoBot releases 33 PRs, 11 issue updates today",
+      "Hermes Agent noted in peer project list",
+      "ZeroClaw joins growing Claw family"
+    ],
+    "ai-trending": [
+      "DeusData/codebase-memory-mcp adds sub‑ms code graph",
+      "headroom cuts LLM tokens by 60‑95% with proxy",
+      "Lightricks/LTX-2 offers audio‑video generation tools",
+      "ollama CLI remains go‑to local LLM server",
+      "vllm becomes default backend for many agents",
+      "Agent‑centric tooling surge dominates trends"
+    ],
+    "ai-web": [
+      "Claude AI usage rises in professional settings",
+      "Agentic coding boosts session success rates",
+      "Crypto‑focused AI processes gain traction",
+      "Debugging drops, end‑to‑end AI agreements rise",
+      "Claude study shows AI matches engineers at tasks",
+      "Research links human expertise to AI efficiency"
+    ],
+    "ai-hn": [
+      "Amazon cancels Sam Altman biopic amid OpenAI tie‑up",
+      "John Jumper moves to Anthropic, sparks safety talk",
+      "GLM‑5.2 claims 3× lower hallucinations vs GPT‑5.5",
+      "MiniMax M3 vs GLM‑5.2 benchmark highlights coding tools",
+      "Community worries over model capability consolidation",
+      "Discussion about hallucination metrics gains traction"
+    ],
+    "ai-arxiv": [
+      "Agentic reliability dominates new submissions",
+      "Mechanistic interpretability rises for LLMs and diffusion",
+      "Lifelong adaptation papers: FlowEdit, Marginal Advantage",
+      "Multicalibration and privacy theory gain focus",
+      "Multimodal benchmarks expand to SAR and egocentric video",
+      "Contamination‑aware multilingual code generation benchmarks"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro tops download charts",
+      "Gemma‑4‑12B‑it leads any‑to‑any leaderboard",
+      "Quantized GGUF models surge across the hub",
+      "GLM‑5.2‑FP8 gains popularity for efficient inference",
+      "Qwen3.6‑35B‑Aggressive draws >3.7M downloads",
+      "Low‑bit checkpoints enable local multimodal apps"
+    ],
+    "ai-community": [
+      "Dev.to: AI eases coding but not engineering complexity",
+      "LLM gateways with routing, fallbacks, semantic caching",
+      "Skill‑based prompts power an Anki tutor demo",
+      "AI agents automate release notes, but error‑prone",
+      "Agent drift and hallucination checks dominate talks",
+      "Offline‑first AI push for self‑hosted inference"
+    ]
+  }
+}

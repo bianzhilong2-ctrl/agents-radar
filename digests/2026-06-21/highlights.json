@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.185 推出插件序列功能",
+      "OpenAI Codex 近期无新版本，但 Issue 数量高",
+      "GitHub Copilot CLI 专注 IDE 体验",
+      "DeepSeek‑TUI 维持稳定迭代",
+      "新跨会话 Agent 合作框架升温",
+      "可视化仪表盘成为新热点"
+    ],
+    "ai-agents": [
+      "OpenClaw v1.3.2 维护稳定",
+      "NanoBot、Hermes Agent 活跃 PR 高",
+      "NullClaw、IronClaw 讨论安全新议题",
+      "Dark Mode 请求成为 Q3 目标",
+      "企业级多场景支持被关注",
+      "最新版本跨平台兼容修复完成"
+    ],
+    "ai-trending": [
+      "codebase‑memory‑mcp 1271 stars, Token压缩突破",
+      "headroom 60-95% Token 消耗下降",
+      "OpenMontage 成为首个公开视频 Agent 系统",
+      "deer-flow 72k stars，支持长时程任务",
+      "dify 145k stars，工业级 Agent 平台",
+      "MiniMax‑M3 15B Vision‑Language 关注度高"
+    ],
+    "ai-hn": [
+      "SMPTE 免费标准文档被广泛点赞",
+      "Claude 安全政策引发社区争议",
+      "Show HN: 训练渗透测试模型火爆",
+      "Persona.js 前端 Agent UI 关注安全性",
+      "Adobe 新增 AI 助手在 Premiere 添加突破",
+      "Project Fetch Phase Two 获得技术讨论热潮"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro 4,986 赞，175B 参数热度最高",
+      "Gemma‑4‑12B‑Coder‑Fable5‑Composer2.5‑v1‑GGUF 量化优化",
+      "Zai‑Org/GLM‑5.2 5.2B 多语言模型引人注目",
+      "MiniMax‑AI/MiniMax‑M3 15B 视觉语言模型大热",
+      "LocateAnything‑3B 目标定位精度提升",
+      "Gemma‑4‑12B‑it 进一步细化多模态推理"
+    ],
+    "ai-community": [
+      "Agent 内存安全性为热门话题",
+      "MCP 服务器压缩方案获得关注",
+      "向量数据库隐私风险被警示",
+      "LiteLLM 成为 Bedrock AgentCore 官方提供",
+      "KV Cache & PagedAttention 关键技术被解读",
+      "多语言插件提升 AI 开发跨平台可用性"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits v2.1.185 today",
+      "OpenCode releases v1.17.9",
+      "Pi updates to v0.79.9",
+      "All CLIs add plugin ecosystems",
+      "Shift to multi‑agent pipelines",
+      "High PR merge velocity across tools"
+    ],
+    "ai-agents": [
+      "Hermes Agent 50 issues, 50 PRs (score 9.2)",
+      "CoPaw logs 7 issues, 8 PRs (score 8.9)",
+      "ZeroClaw 50 issues, no releases (score 9.0)",
+      "NanoBot shows zero activity, health 8.5",
+      "Moltis adds 2 PRs, health 8.0",
+      "ZeptoClaw static, low health 4.5"
+    ],
+    "ai-trending": [
+      "Milvus dominates vector‑DB scene",
+      "Llama Agent Suite ties models to ML ops",
+      "DocumentAI boosts RAG conversational flow",
+      "Zombie and React Agent enable real‑time decisions",
+      "vLLM pre‑built agents cut compute cost",
+      "Trend: operational efficiency and integration"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro 4B tops likes (4,986)",
+      "Qwen3.6‑35B Aggressive 3.8M downloads",
+      "Gemma‑4‑12B‑it multimodal star (1,107)",
+      "nvidia/LocateAnything‑3B vision model trending",
+      "GGUF‑quantized models surge for on‑device",
+      "Shift to lightweight, open‑weight LLMs"
+    ],
+    "ai-community": [
+      "LLM Gateways: routing, fallbacks, caching",
+      "Persist AI memory as product state, not prompts",
+      "Vector DB privacy critique goes viral",
+      "Operational glue posts dominate dev talk",
+      "Privacy‑first AI architectures gain traction",
+      "Humorous hot takes on AI stupidity rise"
+    ]
+  }
+}

@@ -47,6 +47,14 @@
       "AI 否认成为工程风险警示",
       "从单纯 prompting 到多代理演进路径",
       "Anthropic 研究强调 ops 在代理构建中的关键"
+    ],
+    "ai-weekly": [
+      "Claude Code 2.1.184 发布，引入多模态上下文压缩与成本透明化。",
+      "OpenClaw v2026.6.9-beta.1 新增 Telegram 富文本与 Sticker 支持，Issue/PR突破1000。",
+      "Gemini CLI 0.48-pre 版加入跨会话 Agent 绑定与会话可视化。",
+      "OpenAI Codex Rust SDK α版提供 sandbox 与插件向量化缓存，支持 Ollama。",
+      "Kimi Code CLI 1.43.0 优化 Windows‑GitBash 解压，HTTP/WS RPC 更轻量。",
+      "OpenClaw最新修复会话状态可靠化、子代理交付验证与 MCP AESL 授权。"
     ]
   },
   "en": {
@@ -105,6 +113,14 @@
       "Turing's Mirror game explores AI narrative limits",
       "Human judgment identified as new bottleneck",
       "Rust rewrite of SQLite (Turso) reshapes hardware focus"
+    ],
+    "ai-weekly": [
+      "OpenAI & Samsung launch Codex in Galaxy Pro",
+      "Claude Code 2.1.189 adds sandbox mode",
+      "Gemini‑CLI v0.49‑preview auto‑memory feature",
+      "OpenClaw 2026.6.10‑beta.1 fixes session state",
+      "Anthropic’s 400k‑session study shows 25% lift",
+      "GitHub Copilot CLI 1.0.70 adds context‑aware API"
     ]
   }
 }

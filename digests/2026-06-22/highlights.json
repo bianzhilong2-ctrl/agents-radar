@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 本日 Issue 18 新增",
+      "OpenAI Codex PR 10 新增",
+      "Gemini CLI Issue 10 增加",
+      "GitHub Copilot CLI Issue 7 仍低",
+      "Kimi Code CLI 仅 2 新 Issue",
+      "OpenCode Issue 15 激增"
+    ],
+    "ai-agents": [
+      "OpenClaw Beta 1 发行(v2026.6.10‑beta.1)",
+      "500 条 Issue 中 476 条活跃",
+      "474 条待合并 PR 仍堆积",
+      "重点修复 agent turn 与 session state",
+      "JSONL 写锁超时仍待解决",
+      "Cron isolated 会话仍报错"
+    ],
+    "ai-web": [
+      "OpenAI 发布与 Samsung 合作公告",
+      "标题暗示 ChatGPT‑Codex 部署",
+      "Anthropic 今日无新增内容",
+      "仅抓取标题无正文细节",
+      "OpenAI 仅提供元数据",
+      "未对标题进行推测性解释"
+    ],
+    "ai-hn": [
+      "Claude 身份验证引发隐私争议",
+      "Claude 多版本错误率上报",
+      "Recall 本地记忆项目获热议",
+      "Fine‑tune Qwen 3:0.6B 分类案例",
+      "AI 芯片追踪法案获行业支持",
+      "美国监管与北欧儿童AI禁令引关注"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro 30B 下载 2.6M",
+      "Qwen3.6‑35B‑A3B 量化下载 5.1M",
+      "GLM‑5.2 及 FP8 量化下载 27k",
+      "Gemma‑4‑12B coder GGUF 下载 358k",
+      "Gemma‑4‑12B agentic GGUF 下载 21k",
+      "LocateAnything‑3B 视觉‑文本下载 241k"
+    ],
+    "ai-community": [
+      "Agent‑centric 开发成讨论热点",
+      "Prompt‑to‑Production 实践热传",
+      "Kitana 用字典遍历替代 token 预测",
+      "AI 否认成为工程风险警示",
+      "从单纯 prompting 到多代理演进路径",
+      "Anthropic 研究强调 ops 在代理构建中的关键"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "DeepSeek TUI v0.8.63 released today",
+      "Claude Code tops issues with 50 open",
+      "Qwen Code shows zero issues and PRs",
+      "Multiple CLI tools see rapid community growth",
+      "Shared push for stability and reliability",
+      "OpenAI Codex and Gemini CLI still inactive"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.10‑beta.1 public beta",
+      "500 issues and 500 PRs in last 24h",
+      "Reliability boost for agent turns released",
+      "OpenClaw session state fixes highlighted",
+      "Many sub‑projects like NanoBot and Hermes Agent",
+      "Active stabilization before stable launch"
+    ],
+    "ai-trending": [
+      "headroom spikes +2624 stars today",
+      "palmier‑pro Swift repo gains +1834 stars",
+      "AutoGPT reaches 185 k stars total",
+      "Ollama hits 174 k stars on GitHub",
+      "Transformers holds 161 k stars",
+      "vllm climbs to 83 k stars"
+    ],
+    "ai-web": [
+      "OpenAI posts Samsung ChatGPT Codex deployment",
+      "No new Anthropic content published today",
+      "OpenAI article lacks detailed text",
+      "Enterprise‑scale LLM deployment announced",
+      "Claude remains silent on official blog",
+      "Cross‑vendor cloud AI collaborations noted"
+    ],
+    "ai-hn": [
+      "Claude identity‑verification rollout sparks debate",
+      "Recall project adds local memory to Claude Code",
+      "Claude Opus 4.8 error incident reported",
+      "HN thread on NSSA breach draws attention",
+      "Privacy concerns over Claude verification rise",
+      "Community split on security vs openness"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro leads with 5 k likes",
+      "Qwen3.6‑35B‑A3B hits 200 k downloads",
+      "Gemma‑4‑12B‑it surpasses 1.8 M downloads",
+      "GLM‑5.2 gains popularity for multilingual chat",
+      "North‑Mini‑Code praised for 1.4 B efficiency",
+      "Quantization wave lifts Gemma‑4 and GLM‑5.2"
+    ],
+    "ai-community": [
+      "Debate on limits of LLM‑driven autonomy",
+      "Vibe‑coding emerges as new workflow concept",
+      "Kitana proposes dictionary‑traversal model",
+      "Turing's Mirror game explores AI narrative limits",
+      "Human judgment identified as new bottleneck",
+      "Rust rewrite of SQLite (Turso) reshapes hardware focus"
+    ]
+  }
+}

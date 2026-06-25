@@ -1,0 +1,135 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.191推出 /rewind 功能",
+      "OpenAI Codex rust‑v0.142.1加入 Windows 代理",
+      "Gemini CLI 修复安全漏洞 #27966",
+      "多智能体编排成生态标配",
+      "模型费控争议激增，用户需求上升",
+      "IDE/终端键盘导航与 Tab 工作区优化",
+      ""
+    ],
+    "ai-agents": [
+      "Hermes Agent 与 CoPaw 高速迭代",
+      "IronClaw 引入沙箱安全体系",
+      "多数项目进入稳定维护期",
+      "统一工具‑schema 成趋势",
+      "令牌效率成为新竞争点",
+      "社区聚焦跨平台兼容与文档完善"
+    ],
+    "ai-trending": [
+      "OpenMontage AI 视频生成系统",
+      "daily_stock_analysis LLM 股票分析",
+      "hiring-agent AI 简历评估助理",
+      "ai-website-cloner-template 网站克隆",
+      "revfactory/harness 元技能编排平台",
+      "orca ADE 多模态代理开发框架"
+    ],
+    "ai-web": [
+      "Anthropic 部署核安全分类器于 Claude",
+      "81 000 用户经济调研报告发布",
+      "OpenAI 暗示 Broadcom Jalapeno 加速芯片",
+      "核安全分类器 96% 准确率",
+      "AI 经济指数显示高收入提升最大",
+      "行业首批实装核扩散风险监控"
+    ],
+    "ai-hn": [
+      "OpenAI 与 Broadcom 合作自研推理芯片热点",
+      "Anthropic 与阿里模型窃取争议激辩",
+      "NSA 限制 Anthropic 访问引监管担忧",
+      "Google 研发人员大规模迁徙 Anthropic",
+      "Reid Hoffman 抨击 xAI 与 SpaceX 关系",
+      "AI 芯片成本与性能成为社区焦点"
+    ],
+    "ai-arxiv": [
+      "RAS：拒绝对齐安全度量新指标",
+      "SARA：多语言 MoE 语义锚定路由",
+      "BitNet Text Embeddings 1‑bit 轻量化模型",
+      "Semantic Consistency PPO 改进长期奖励",
+      "Tool‑Using Agents Benchmark 测评工具不可靠性",
+      "MiniOpt 推理‑优化框架解决通用优化"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Pro 5 049 赞 2 M 下载",
+      "GLM‑5.2 MoE‑DSA 双语对话模型",
+      "Gemma‑4‑12B‑it 多模态文本图像互转",
+      "FastContext‑1.0‑4B‑SFT 长文档检索增强",
+      "Qwen‑AgentWorld‑35B‑A3B 专注仿真代理",
+      "LocateAnything‑3B 视觉定位模型已商用"
+    ],
+    "ai-community": [
+      "Agentic AI 与 MCP 成统一部署标准",
+      "成本与可靠性成为开发者热议点",
+      "安全审计与自动化红队测试升温",
+      "Claude Tag 缺失信任层需审计",
+      "HolmesGPT 自动验证 SRE 修复流水线",
+      "Sipp 本地‑first 运行时支撑混合 AI 应用"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code reaches v2.1.191 stable release",
+      "OpenAI Codex ships rust‑v0.142.1 update",
+      "Gemini CLI nightly v0.49.0 adds multi‑cloud support",
+      "GitHub Copilot CLI now at v1.0.65",
+      "MCP integration becomes core across tools",
+      "Scaling issues: TUI stability and session management"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.11‑beta.1 adds Slack relay mode",
+      "OpenClaw v2026.6.10 introduces automatic fast mode",
+      "419 new issues and 500 PRs in last 24 h",
+      "Enhanced channel control with Mattermost /oc_queue",
+      "Improved model routing reliability in v2026.6.10",
+      "Focus on sandboxing and cross‑platform support"
+    ],
+    "ai-trending": [
+      "daily_stock_analysis spikes as AI finance tool",
+      "OpenMontage unveils first open‑source video agents",
+      "hermes‑agent gains 1.2 k stars in one day",
+      "orca framework noted for flexible AI pipelines",
+      "deer‑flow highlighted for multimodal agent execution",
+      "browser‑use draws interest for web‑enabled agents"
+    ],
+    "ai-web": [
+      "Anthropic releases 96 % accurate nuclear‑security classifier",
+      "Anthropic publishes 81 k‑sample economic survey of Claude users",
+      "OpenAI announces Broadcom \"Jalapeno\" inference chip",
+      "Anthropic roadmap adds nuclear safeguards and AI economics",
+      "Claude classifier deployed in real‑world traffic",
+      "DOE/NNSA partnership underpins new safety model"
+    ],
+    "ai-hn": [
+      "OpenAI‑Broadcom chip partnership dominates headlines",
+      "Anthropic claims Alibaba illicitly extracted Claude weights",
+      "Claude Opus 4.8 experiences brief elevated error rate",
+      "New arXiv paper on LLM safety neuron layers sparks debate",
+      "Community split on model‑leak IP protections",
+      "Grassroots projects Lelu and Agnes AI gain modest attention"
+    ],
+    "ai-arxiv": [
+      "SAR‑aligned multitask agents improve long‑horizon planning",
+      "Audit‑ready vision‑language model for medical imaging released",
+      "TL++ introduces topology‑aware federated learning",
+      "Gaussian mean‑field VI overestimates predictive variance",
+      "Semantic Consistency Policy Optimization for LLM agents",
+      "OPERA uses perplexity RL to curb style bias in reasoning"
+    ],
+    "ai-hf": [
+      "DeepSeek V4‑Pro tops charts: 5,049 likes, 2 M+ downloads",
+      "GLM‑5.2 MoE model draws 2,360 likes, strong GPU performance",
+      "Gemma‑4‑12B‑IT praised for text‑image instruction benchmarks",
+      "NVIDIA LocateAnything‑3B fuels vision‑language surge",
+      "GGUF quantization format sees rapid adoption across models",
+      "MiniMax‑M3 joins top trending vision‑language releases"
+    ],
+    "ai-community": [
+      "Trust‑worthy, production‑ready AI tooling in focus",
+      "MCP security and audit layers become hot topics",
+      "Local‑first runtimes like Sipp hybrid gain traction",
+      "Llama‑CPP WebGPU backend highlighted for edge inference",
+      "pgvector vector stores dominate RAG discussions",
+      "Measuring hidden failure modes in agent memory systems"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.193 正式发布",
+      "Gemini CLI 推出 v0.51.0 版本",
+      "OpenCode v1.17.11 修复 Windows 回归",
+      "Pi 与 OpenCode 同步优化启动速度",
+      "跨平台终端适配已加入 Claude Code tmux 支持",
+      "插件生态成为竞争关键点"
+    ],
+    "ai-agents": [
+      "OpenClaw 迁移至新仓库 PrestaShop",
+      "#96902 修复会话 JSONL 重命名破坏",
+      "新增消息重试保证机制提升可靠性",
+      "工具卡片解析兼容新版 Playwright",
+      "媒体提供商强制 TLS 认证",
+      "安全边界与会话状态持续关注"
+    ],
+    "ai-trending": [
+      "OpenMontage 成为视频生成首榜项目",
+      "gstack 整合 Claude Code 多角色工具链",
+      "MinerU 让文档快速变 LLM 可用",
+      "aws/agent-toolkit-for-aws 获 47 星增长",
+      "Claude Code 工具链热度领先",
+      "AI 价值投资框架 ai-berkshire 受关注"
+    ],
+    "ai-web": [
+      "OpenAI 发布《How Agents Are Transforming Work》",
+      "Anthropic 近期未新增官方内容",
+      "Claude 3‑Turbo 近期评测强调 30%‑40% 提升",
+      "Claude 可插拔工具框架公开细节",
+      "Anthropic 对齐蓝图聚焦安全指标",
+      "OpenAI 仅元数据可见，正文待披露"
+    ],
+    "ai-hn": [
+      "OpenAI 被美政府要求延迟 GPT‑5.6 发布",
+      "国产大模型逼近 Anthropic 与 OpenAI",
+      "Ornith‑1.0 探索自我构建 Agentic 编码",
+      "Show HN: OpenKnowledge 挑战 Notion/Obsidian",
+      "DeepSeek Flash 颠覆 Agent 经济模型",
+      "社区对监管持负面情绪"
+    ],
+    "ai-arxiv": [
+      "Seq‑Prob 与答案正确性关系新分析",
+      "简历筛选 Prompt Injection 安全警示",
+      "LLM 作为知识库的可解释性评估",
+      "意图感知训练提升安全分类表现",
+      "Binary Question 评估框架 BINEVAL",
+      "多模型组合收益上限理论阈值"
+    ],
+    "ai-hf": [
+      "zai‑org/GLM‑5.2 领跑 8.5B MoE 对话模型",
+      "DeepSeek‑V4‑Pro 45B 参数企业级热度",
+      "Gemma‑4‑12B‑it 12B 通用指令模型",
+      "LocateAnything‑3B 视觉定位模型下载破 0.4M",
+      "MiniMax‑M3 多模态文档检索受关注",
+      "GGUF 量化模型下载量突破 0.5M"
+    ],
+    "ai-community": [
+      "多 Agent 编排实战指南获热议",
+      "LLM 邮件分类安全策略引发讨论",
+      "Tool Permission Matrix 可视化管理工具",
+      "Docker 部署 Llama 本地化降低成本",
+      "AI 生成 SQL 可审计回滚方案发布",
+      "AI Gateway 与 API Gateway 功能划分明确"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.193 released with auto-mode routing",
+      "OpenAI Codex v0.142.2 released, adds rate‑limit clarity",
+      "Claude Code focuses on mobile UX improvements",
+      "GitHub Copilot CLI sees steady PR activity",
+      "Kimi Code CLI adds new MCP integration",
+      "DeepSeek TUI gains Rust‑based stability updates"
+    ],
+    "ai-agents": [
+      "OpenClaw logs 500 new issues and 500 PRs today",
+      "Fix: XAI video OOM bounds (#96903) merged",
+      "Fallback to tsx for TypeScript builds (#91262)",
+      "Bounded JSON reads across 4 APIs (#96618)",
+      "Windows startup launcher hidden (#91249)",
+      "Prevent transcript renaming on daily reset (#96902)"
+    ],
+    "ai-trending": [
+      "Agentic tooling spikes: video, finance, web automation",
+      "gstack launches 23 Claude‑Code CEO‑style agents",
+      "zilliz Claude‑context adds code‑search MCP",
+      "AWS agent toolkit for building agents on AWS",
+      "google‑labs‑code/design.md defines visual AI spec",
+      "RAG memory platforms Cognee, Mem0, RAGFlow rise"
+    ],
+    "ai-web": [
+      "OpenAI adds page 'How Agents Are Transforming Work'",
+      "Anthropic releases no new content today",
+      "OpenAI highlights agents as growth pillar",
+      "Anthropic pause suggests upcoming announcement",
+      "OpenAI metadata‑only article crawled 25 Jun",
+      "Contrast: OpenAI active, Anthropic silent on agents"
+    ],
+    "ai-hn": [
+      "OpenAI to stagger GPT‑5.6 rollout after gov request",
+      "DeepSeek Flash inverts agent product economics",
+      "Chinese AI models narrowing gap with Anthropic",
+      "Debate: ads in ChatGPT spark user backlash",
+      "Open‑source AI productivity tools gain HN up‑votes",
+      "Regulatory scramble fuels community concern"
+    ],
+    "ai-hf": [
+      "GLM‑5.2 becomes top multilingual chat model",
+      "DeepSeek‑V4‑Pro 30B model surges in downloads",
+      "Gemma‑4‑12B‑it fuels community forks",
+      "FastContext‑1.0‑4B‑SFT tuned for quick inference",
+      "Qwen‑3.6 vision‑language models attract traffic",
+      "Quantized GGUF releases boost edge deployment"
+    ],
+    "ai-community": [
+      "Orchestrating AI agents without the mess (Dev.to)",
+      "Tool permission matrix builder helps audit scopes",
+      "GPT‑4o loses to cheaper model in inbox duel",
+      "AI‑generated SQL becomes untrustworthy, warns devs",
+      "Docker‑ised LLaMA enables local AI on edge",
+      "Cost vs accuracy trade‑offs dominate dev discussions"
+    ]
+  }
+}

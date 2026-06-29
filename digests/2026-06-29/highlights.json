@@ -1,0 +1,117 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 专注于 Windows 稳定性和认证",
+      "OpenAI Codex 强化 SQLite I/O 和多平台界面增强",
+      "Gemini CLI 专注于智能体性能与记忆安全",
+      "GitHub Copilot CLI 功能增强企业身份认证",
+      "OpenCode 和 DeepSeek TUI 强调跨平台兼容",
+      "重要工具聚焦成本透明性和安全合规性"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.6.11-beta.2 发布，增强 AI 批处理与语法支持",
+      "OpenClaw 500 PR，主力快修和功能扩展",
+      "热点讨论聚焦提供商与边缘渠道支持",
+      "已解决 500 多个 bug，增强语法运算支持",
+      "热门插件需求：跨语言多语言交互",
+      "Cluster 和 Telegram 支持方式扩展性提高"
+    ],
+    "ai-trending": [
+      "DeusData/codebase-memory-mcp 支持 158 种语言",
+      "xbtlin/ai-berkshire 整合名人投资方法",
+      "Robbyant/lingbot-map 支持 3D 场景重建",
+      "jingyaogong/minimind 从零训练 64M 参数模型",
+      "ScrapeGraphAI 降低数据采集门槛",
+      "OpenAI 更新网络爬虫框架支持"
+    ],
+    "ai-web": [
+      "Anthropic 和 DXC、TCS 合作推进企业终端渗透",
+      "Claude 模型安全能力升级，探索漏洞发现",
+      "Claude 实验对生物医学领域的应用",
+      "OpenAI GPT-5 和 6 代模型预览",
+      "Claude Tag 为团队合作提供便利",
+      "Claude Corps 计划启动"
+    ],
+    "ai-hn": [
+      "GLM 5.2 在安全基准上超越 Claude",
+      "高性能模型 Qwen3.6-35B 各平台间的竞争",
+      "Google 限制 Meta 使用 Gemini 模型",
+      "CVE-2026-2796 对模型的影响与如何应对",
+      "CoPaw 在无监督对话中的表现"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B-Uncensored 流行排行榜首",
+      "GGUF 量化格式增加 29 超热模型",
+      "zai-org/GLM-5.2 领先 37.4w 次下载",
+      "WeiboAI/VibeThinker-3B侧重数学与推理能力",
+      "NVIDIA 引入 FP4 低精度加速推理",
+      "Qwen3.6-35B-A3B Uncensored-HauhauCS 备受欢迎"
+    ],
+    "ai-community": [
+      "AI 代理可靠性的批判性思考",
+      "AI 对科研和生产的影响分析",
+      "AI 冬季回顾：行业趋势与展望",
+      "提升 LLM 交互效率的建议",
+      "AI 安全和伦理讨论加深",
+      "向量数据库对比与选型指南"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude‑Code shows 10 hot tickets today",
+      "OpenAI Codex faces rate‑limit surge",
+      "Gemini CLI nightly v0.51.0‑nightly released",
+      "GitHub Copilot CLI 5 active tickets",
+      "Kimi Code CLI only 2 tickets logged",
+      "OpenCode snippet cut off, no new release"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.11‑beta.2 released today",
+      "SQLite migration improves session durability",
+      "Slack relay mode added to OpenClaw",
+      "Mattermost /oc_queue support now native",
+      "425 open issues signal heavy load",
+      "Top issue hits 110 comments"
+    ],
+    "ai-trending": [
+      "Vector‑DB projects see massive star spikes",
+      "Domain‑specific agents like ai‑berkshire rise",
+      "codebase‑memory‑mcp cuts token use 99%",
+      "cupy gains 174 stars in 24h",
+      "Ollama remains de‑facto local LLM server",
+      "vllm backs most cloud LLM APIs"
+    ],
+    "ai-web": [
+      "Anthropic releases Economic Index report",
+      "Claude chemist research adds NMR analysis",
+      "AI agents in biology need deterministic retrieval",
+      "OpenAI hinting at GPT‑5 partnerships",
+      "DXC integrates Claude for regulated industries",
+      "Anthropic safety stance highlighted"
+    ],
+    "ai-hn": [
+      "GLM 5.2 beats Claude in security benchmarks",
+      "Claude Code gives MRI second‑opinion case",
+      "Google blocks Meta access to Gemini",
+      "Austria plans Anthropic hosting",
+      "Community dissecting GLM‑5.2 data set",
+      "Debate on AI‑doctor liability spikes"
+    ],
+    "ai-hf": [
+      "baidu/Unlimited-OCR tops likes with 1,244",
+      "zai‑org/GLM‑5.2 gains 2,823 likes",
+      "Qwythos‑9B‑Claude‑Mythos 806 likes trending",
+      "Krea‑2‑Turbo draws 355 likes for text‑to‑image",
+      "Krea‑2‑Raw gets 232 likes, 22k downloads",
+      "GLM‑5.2 downloads exceed 118k"
+    ],
+    "ai-community": [
+      "Dev.to debates AI code security and burnout",
+      "Vector DB decision matrix pits Pinecone vs Milvus",
+      "Open‑source benchmarks demand reproducibility",
+      "Lobsters reflects on AI winters and mathematicians",
+      "Local voice assistants on Apple silicon surge",
+      "AI‑augmented pipelines dominate dev discussions"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布正式版v2.1.196",
+      "OpenAI Codex测试版rust‑v0.143.0‑alpha.31推出",
+      "Gemini‑CLI夜间版v0.51.0‑nightly发布",
+      "GitHub Copilot CLI更新至v1.0.66‑2",
+      "Kimi Code活跃度明显下降，仅1条Issue",
+      "Pi项目持续高活跃，今日10条Issue"
+    ],
+    "ai-agents": [
+      "OpenClaw生态新增13个子项目",
+      "Hermes Agent今日新增50个Issue导致警示",
+      "LobsterAI于6月29日发布最新版本",
+      "CoPaw已完成26次PR合并进入质量硬化阶段",
+      "IronClaw仍有14个紧急Bug待解决",
+      "NanoClaw项目健康度评分为✅"
+    ],
+    "ai-trending": [
+      "agency‑agents单日增星+1425",
+      "vllm保持高星增长领跑推理引擎",
+      "Milvus等向量检索项目活跃度不减",
+      "Ollama本地模型加载器累计175k星",
+      "Transformers继续领跑多模态库",
+      "PyTorch星数仍居首位但增长放缓"
+    ],
+    "ai-hn": [
+      "Micro‑Agent展示模型内部协作新范式",
+      "Open Memory Protocol提出跨模型记忆共享",
+      "ScreenMind实现移动端本地视觉模型推理",
+      "离线全栈AI套件off‑grid‑ai获关注",
+      "Reference MCP提供Agent会话检索功能",
+      "韩国产业巨资计划引发热议"
+    ],
+    "ai-arxiv": [
+      "Adaptive Block Diffusion优化扩散LLM训练推理",
+      "学习率非线性缩放公式提升大模型训练效率",
+      "Depth Exploration实现层次自适应退出提升解码吞吐",
+      "PolicyGuard子代理实时校验LLM政策遵循",
+      "Hierarchical Experimentalist Agents提出层级实验框架",
+      "Selective Memory Retention加强代理长期记忆"
+    ],
+    "ai-hf": [
+      "GLM‑5.2模型获2,945点赞快速上榜",
+      "GLM‑5.2‑GGUF量化版关注嵌入式部署",
+      "Qwen‑AgentWorld‑35B‑A3B多模态代理模型发布",
+      "Unlimited‑OCR实现无长度限制的高精度识别",
+      "LocateAnything‑3B跨模态定位模型下载量居第二",
+      "Ornith‑1.0‑35B‑GGUF提供MIT许可的高性能模型"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.196 adds org‑default model support",
+      "OpenAI Codex rust‑v0.143.0‑alpha.31 released",
+      "Gemini CLI nightly 0.51.0‑20260630 out",
+      "GitHub Copilot CLI v1.0.66‑2 with skill coexistence",
+      "Qwen Code nightly 0.19.3‑20260630 launched",
+      "DeepSeek TUI faces cache and UI freeze issues"
+    ]
+  }
+}

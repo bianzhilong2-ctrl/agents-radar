@@ -1,0 +1,121 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.199 新版",
+      "Gemini CLI v0.51.0-nightly 更新",
+      "Qwen Code 推出 v0.19.5 版本",
+      "Claude Code、Gemini CLI、OpenCode 活跃 PR 超 10 条",
+      "多工具请求自定义模型端点 BYOK 支持",
+      "跨平台 Windows 渲染和输入法 Bug 修复频繁"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1‑beta.1 支持 GPT‑5.6",
+      "OpenClaw 修复会话冲突提升稳定性",
+      "500 条 PR 今日激增显示高活跃度",
+      "关键 PR 解决 Session 重入保护",
+      "社区聚焦文本泄漏与 Codex 卡顿问题",
+      "新增外部 harness 接入功能"
+    ],
+    "ai-trending": [
+      "ML-For-Beginners 提升 96% 开发效率",
+      "Ultralytics 2 小时性能突破",
+      "AgentsKit 改善代理决策可靠性",
+      "Msitarzewski/agency-agent 减少多设备延迟",
+      "Qelm 实时 RAG 引擎效率翻倍",
+      "EchoBot 实现高级记忆向量压缩"
+    ],
+    "ai-web": [
+      "Anthropic 推出 Claude Sonnet 5 性价比提升",
+      "Sonnet 5 接近 Opus 4.8 代理能力",
+      "Anthropic 发布 Fable 5 网络安全框架",
+      "Fable 5 初稿阐释 jailbreak 防护",
+      "Sonnet 5 成为 Free/Pro 默认模型",
+      "OpenAI 今日无新内容"
+    ],
+    "ai-hn": [
+      "Claude‑real‑video 演示 LLM 看视频技术",
+      "No LLM Code in Dependencies 探讨依赖安全政策",
+      "Manufact 推出低延迟 MCP Cloud 服务",
+      "Show HN: 浏览器生成矢量 PDF 工具",
+      "LMDB 1.0 稳定版适合模型缓存",
+      "Flashtype 为 Claude/Codex 提供 Markdown 差分编辑"
+    ],
+    "ai-arxiv": [
+      "AutoLPBench 自动生成 RLP 评测题库",
+      "B‑SLORA 引入贝叶斯稀疏适配量化不确定性",
+      "Purified OPSD 精炼上游对齐方法保留思维逻辑",
+      "Privacy‑Preserving Computing 提供安全联邦学习框架",
+      "Medical Reasoning Benchmark 建立临床推理评估标准",
+      "Condorcet 多智能体机制用于政策模拟"
+    ],
+    "ai-hf": [
+      "（暂无具体活跃模型信息）"
+    ],
+    "ai-community": [
+      "本地化 AI 成为社区热门讨论",
+      "AI 生成测试代码利弊全景分析",
+      "Google VP 宣称放弃编码引发职场思考",
+      "SaaS MVP 在 AI 时代的快速迭代指南",
+      "EU‑Hosted 推理提供商对比报告发布",
+      "安全警报：AI 代理可能生成自适应蠕虫"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.199 adds /skill chaining",
+      "OpenCode targets native IDE feel",
+      "Pi and Gemini CLI stress extensibility",
+      "Safety, observability top community concerns",
+      "UI polish (sticky footers, folder picker) now competitive",
+      "Provider‑agnostic tools emphasize session durability"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1‑beta.1 adds GPT‑5.6 support",
+      "196 issue updates and 500 PR updates today",
+      "67 PRs merged, 73 issues closed in 24h",
+      "New attach external harness command released",
+      "P1 regressions signal release‑cycle stress",
+      "Stable health despite high security‑bug volume"
+    ],
+    "ai-trending": [
+      "Vector‑DB topic explodes; Milvus, Qdrant surge",
+      "Agent‑as‑productivity projects gain 6k stars",
+      "vLLM adds 100+ stars, inference race heats up",
+      "Langflow visual flow‑builder gets +117 stars",
+      "Hybrid skill harnesses form nascent marketplace",
+      "PageIndex emerges as vector‑less RAG alternative"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Sonnet 5, most agentic yet",
+      "Sonnet 5 narrows gap with Opus 4.8 on benchmarks",
+      "Claude Sonnet 5 becomes default Free/Pro model",
+      "Fable 5 security safeguards disclosed",
+      "Draft jailbreak‑severity framework released",
+      "Anthropic adds two new articles, OpenAI none today"
+    ],
+    "ai-hn": [
+      "5% US government stake in OpenAI sparks debate",
+      "Pushback: “No LLM Code in Dependencies” thread gains traction",
+      "Claude‑real‑video shows LLMs watching video",
+      "Show HN zkGolf introduces zero‑knowledge circuit benchmark",
+      "Show HN Enola offers deterministic architecture graph",
+      "Community split: regulation worries vs tooling hype"
+    ],
+    "ai-hf": [
+      "Ornith‑35B‑GGUF trending for desktop inference",
+      "Qwen‑3.5/3.6 family dominates multimodal releases",
+      "Unlimited‑OCR pushes OCR frontier on HF hub",
+      "Gemma‑4‑12B‑agentic‑fable5 fork gains attention",
+      "NVFP4 pipelines surge, focus on production‑ready compression",
+      "GGUF quantized 30B+ models now runnable on consumer hardware"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair sparks agent interoperability talks",
+      "Dev.to debates EU‑hosted inference providers",
+      "Lobste.rs highlights OxCaml novel language feature",
+      "IEEE Spectrum covers AI in mathematics and RF design",
+      "Rising concern over AI‑enabled adaptive computer worms",
+      "Shift from demos to production hardening: validation, cost routing"
+    ]
+  }
+}

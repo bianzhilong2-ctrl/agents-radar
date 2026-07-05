@@ -1,0 +1,44 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code #38335 会话额度异常引热议（793评论）",
+      "OpenAI Codex 发布 v6.7 新功能版",
+      "Gemini CLI Nightly v0.51.0‑nightly 当日上线",
+      "GitHub Copilot CLI v1.0.69‑1 今日发布",
+      "Qwen Code Nightly v0.19.6‑nightly 当日推送",
+      "跨平台模型回退与插件热重载成共性痛点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code sees 10 new issues (no release)",
+      "OpenAI Codex released rust‑v0.143.0‑alpha.36",
+      "Gemini CLI nightly v0.51.0‑nightly.20260705 returned",
+      "GitHub Copilot CLI v1.0.69‑1 just out",
+      "Kimi Code CLI almost stuck (1 issue)",
+      "OpenCode PRs spike to 10 in 24h"
+    ],
+    "ai-agents": [
+      "No OpenClaw releases today",
+      "NanoBot drives rapid runtime stability",
+      "Hermes Agent boosts multi‑provider support",
+      "ZeroClaw focuses on memory/RAG plugins",
+      "Python 3.14 compatibility adopted",
+      "Security hardening via sandboxing in Claw‑family"
+    ],
+    "ai-trending": [
+      "seed of **AI** in 400+ repos",
+      "OpenAI Codex‑Plugin‑CC bulk‑stars 718",
+      "JavaScript Caveman skill cuts tokens",
+      "Alibaba Page‑Agent powers in‑page AI",
+      "Stripe MCP DevTools for coding agents",
+      "Zackriya‑Solutions/Meetily AI Meeting"
+    ],
+    "ai-hn": [
+      "Claude Code leak risks highlighted",
+      "GPT‑5.5 Codex token clustering issue",
+      "Rust LLM engine Kortex noted",
+      "AirDrop protocol vulnerability paper"
+    ]
+  }
+}

@@ -6,7 +6,7 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 13 Jul 2026 02:07:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 04:26:28 +0000</lastBuildDate>
     <item>
       <title>AI CLI 工具社区动态日报 2026-07-13</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-07-13/ai-cli</link>
@@ -7100,6 +7100,408 @@ RFI：严重风险
 </ol>
 <hr>
 <p><em>本日报由 <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 工具生态周报 2026-07-13</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-07-13/ai-weekly</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-13/ai-weekly</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description>AI 工具生态周报 2026-W29 覆盖日期: 2026-07-05 ~ 2026-07-13 | 生成时间: 2026-07-13 04:24 UTC AI 工具生态周报（2026‑07‑03 ~ 2026‑07‑09）技术分析师 · 2026-07‑13 1️⃣ 本周要闻 日期 事件／版本 关键内容 7‑03 Claude 3.7 Sonnet “Extended Thinking Mode” 通过可调节的思考预算，模型可在单一实例内动态切换深度推理，显著提升高难任务准确率。 7‑04 OpenAI Codex v0.145 Alpha 增强多代理协作、Token聚类优化，新增对“思考层级（Thinking Level）”的细粒度控制。 7‑05 Gemini CLI v0.51.0‑nightly 完成子代理状态可视化、错误回滚改进，首次支持完整的工作流评估（Evals）接口。 7‑06 OpenClaw v2026.7.1‑beta.6 引入七家新模型提供商与默认模型切换，强化会话状态持久化与安全沙箱隔离；发布 2026‑07‑06 版本。 7‑07 Anthropic “R...</description>
+      <content:encoded><![CDATA[<h1>AI 工具生态周报 2026-W29</h1>
+<blockquote>
+<p>覆盖日期: 2026-07-05 ~ 2026-07-13 | 生成时间: 2026-07-13 04:24 UTC</p>
+</blockquote>
+<hr>
+<p><strong>AI 工具生态周报（2026‑07‑03 ~ 2026‑07‑09）</strong><br><em>技术分析师 · 2026-07‑13</em></p>
+<hr>
+<h2>1️⃣ 本周要闻</h2>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>事件／版本</th>
+<th>关键内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>7‑03</td>
+<td><strong>Claude 3.7 Sonnet “Extended Thinking Mode”</strong></td>
+<td>通过可调节的思考预算，模型可在单一实例内动态切换深度推理，显著提升高难任务准确率。</td>
+</tr>
+<tr>
+<td>7‑04</td>
+<td><strong>OpenAI Codex v0.145 Alpha</strong></td>
+<td>增强多代理协作、Token聚类优化，新增对“思考层级（Thinking Level）”的细粒度控制。</td>
+</tr>
+<tr>
+<td>7‑05</td>
+<td><strong>Gemini CLI v0.51.0‑nightly</strong></td>
+<td>完成子代理状态可视化、错误回滚改进，首次支持完整的工作流评估（Evals）接口。</td>
+</tr>
+<tr>
+<td>7‑06</td>
+<td><strong>OpenClaw v2026.7.1‑beta.6</strong></td>
+<td>引入七家新模型提供商与默认模型切换，强化会话状态持久化与安全沙箱隔离；发布 2026‑07‑06 版本。</td>
+</tr>
+<tr>
+<td>7‑07</td>
+<td><strong>Anthropic “Responsible Scaling Policy”</strong></td>
+<td>发布 ASL‑1/ASL‑2 分层安全架构，定义模型级风险评估与监控框架。</td>
+</tr>
+<tr>
+<td>7‑08</td>
+<td><strong>GitHub Copilot CLI v1.0.71‑0</strong></td>
+<td>加入 Repo‑Dashboard、Pinned Prompts 以及 MFA‑OAuth 重连机制。</td>
+</tr>
+<tr>
+<td>7‑09</td>
+<td><strong>Hacker News “Grok 4.5 vs GPT‑5.6 PR Security Benchmark”</strong></td>
+<td>公开实测结果表明 Grok 4.5 与 GPT‑5.6 在 PR 安全扫描中超越 Anthropic，讨论安全基准。</td>
+</tr>
+<tr>
+<td>7‑09</td>
+<td><strong>OpenAI “Gmail‑Box” API – “smart‑mail” beta</strong></td>
+<td>让 M365 Copilot 直接访问 Gmail，标志跨平台聊天与办公集成加速。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2️⃣ CLI 工具进展</h2>
+<table>
+<thead>
+<tr>
+<th>工具</th>
+<th>本周热点</th>
+<th>关键更新与痛点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Claude Code</strong></td>
+<td><strong>#38335（额度耗尽）</strong>、<strong>#33123（延迟挂起）</strong></td>
+<td>1️⃣ 对话限额失控导致频繁意外停机；2️⃣ 近期多 PR 解决模型失败时的“默认重试”逻辑。</td>
+</tr>
+<tr>
+<td><strong>OpenAI Codex</strong></td>
+<td><strong>#31245（思考层级警告）</strong></td>
+<td>0️⃣ 开发者侧重切换 <code>thinking ultra</code> 与 <code>max</code> 以避免 Token 过度消耗；1️⃣ 新增多模型路由实验（GPT‑5.6→Claude‑3）。</td>
+</tr>
+<tr>
+<td><strong>Gemini CLI</strong></td>
+<td><strong>#28912（Agent 卡倒）</strong></td>
+<td>1️⃣ 通过 <code>--explain-trace</code> 可视化子代理调度；2️⃣ 高峰期稳定性提升，夜里    <code>v0.51.0</code> 及时修复。</td>
+</tr>
+<tr>
+<td><strong>GitHub Copilot CLI</strong></td>
+<td><strong>#4119（OAuth 失效）</strong></td>
+<td>1️⃣ 新增 <code>--force-refresh</code> 选项触发 Token 刷新；2️⃣ 档案任务在 Windows‑WSL2 上的文件锁问题得到修正。</td>
+</tr>
+<tr>
+<td><strong>OpenCode</strong></td>
+<td><strong>#35492（长会话破坏）</strong></td>
+<td>1️⃣ 强化 401/502 超时处理；2️⃣ 追加“本地缓存清理”工具，减少 700m 递归调用。</td>
+</tr>
+<tr>
+<td><strong>Kimi Code CLI</strong></td>
+<td><strong>#45831（Telemetry 问题）</strong></td>
+<td>1️⃣ 关闭默认 Telemetry，支持 <code>--no-telemetry</code>；2️⃣ 校准 GPU 资源分配策略，防止 OOM。</td>
+</tr>
+<tr>
+<td><strong>Pi</strong></td>
+<td><strong>#41103（模型跟新）</strong></td>
+<td>1️⃣ 更新 Pinecone 基础 LLM 神经网络 <code>Qwen‑5.6</code>；2️⃣ 通过 <code>cache‑budget</code> 机制实现对长会话的 Token 压缩。</td>
+</tr>
+<tr>
+<td><strong>Qwen Code</strong></td>
+<td><strong>#36745（多工作区）</strong></td>
+<td>1️⃣ 引入 <code>workspace-manager</code> 节点，支持并发多项目会话；2️⃣ 修复 “Tool 输出为图片占位符” 的渲染问题。</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>整体趋势</strong>：所有主流 CLI 在本周都聚焦 <strong>会话稳定性 + 计费透明化</strong>。新功能大多针对子代理、思考层级与安全沙箱，说明 AI 开发者正将单模型工具转化为可编排平台。</p>
+</blockquote>
+<hr>
+<h2>3️⃣ AI Agent 生态（OpenClaw &amp; 同赛道）</h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>本周亮点</th>
+<th>影响面</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>OpenClaw</strong></td>
+<td><em>v2026.7.1‑beta.6</em> 发布；新增 7 家模型提供商（Featherless、Claude Sonnet 5、Mythos 5、Meta Muse Spark 1.1、ClawRouter）；默认模型切换到 GPT‑5.6；OAuth 刷新后模型列表即时更新；修复 “会话状态残留” 与 “工具占位符图像” 议题。</td>
+<td>影响 100+ 企业级项目的会话管理与安全隔离。</td>
+</tr>
+<tr>
+<td><strong>Hermes‑Agent</strong></td>
+<td>0️⃣ Release，但 PR#104871 解决 <code>exec approval</code> 严格化；PR#104847 加强 SSRS 运行时导出。</td>
+<td>提升多模态与跨平台合作。</td>
+</tr>
+<tr>
+<td><strong>NanoClaw</strong></td>
+<td>关闭 PR#100050（保留 0‑值字段）、PR#100083（oxlint‑tsolint）</td>
+<td>达成代码质量一致性。</td>
+</tr>
+<tr>
+<td><strong>Moltis</strong></td>
+<td>PR#98123（RPC 速率控制）</td>
+<td>让微服务 Agent 更易扩展。</td>
+</tr>
+<tr>
+<td><strong>CoPaw</strong></td>
+<td>PR#97123（插件安全审计）</td>
+<td>兼容性提升。</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>痛点</strong>：记忆层持久化、图片占位符渲染、碎片化回调导致的消息丢失仍是社区最热议议题。整体发展正在向混合云、分布式演算 &amp; 多语言支持迈进。</p>
+</blockquote>
+<hr>
+<h2>4️⃣ 开源趋势（GitHub Trending + AI 社区）</h2>
+<table>
+<thead>
+<tr>
+<th>方向</th>
+<th>热门项目</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Agent 生态</strong></td>
+<td><code>claude-skills</code>、<code>agent‑skills</code>、<code>herdr</code>、<code>gist‑workflows</code></td>
+<td>关注技能定义、工作区管理与多代理编排。</td>
+</tr>
+<tr>
+<td><strong>本地化/隐私</strong></td>
+<td><code>ollama</code>、<code>vllm</code>、<code>mem0</code>、<code>ragflow</code></td>
+<td>大模型本地化部署与高效向量检索成主流。</td>
+</tr>
+<tr>
+<td><strong>Token 费用 &amp; 代码生成</strong></td>
+<td><code>caveman</code>、<code>headroom</code>、<code>whitespace‑compact</code></td>
+<td>通过压缩文本与精简推理来降低 Token 成本。</td>
+</tr>
+<tr>
+<td><strong>RAG &amp; 记忆化</strong></td>
+<td><code>graphify</code>、<code>cognee</code>、<code>mem0-ai</code></td>
+<td>把向量检索升级为知识图谱 + 上下文记忆层。</td>
+</tr>
+<tr>
+<td><strong>安全测试 &amp; 合规</strong></td>
+<td><code>strix</code>、<code>open‑infrastructure‑red‑team</code></td>
+<td>AI 渗透测试工具快速俘获关注。</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>趋势信号</strong>：Agent 技能化与本地化推理并行发展，安全与合规已成为不可忽视的支撑。</p>
+</blockquote>
+<hr>
+<h2>5️⃣ HN 社区热议</h2>
+<ul>
+<li><strong>主语</strong>：模型安全、计费透明度、企业治理（Anthropic 的 RSP）、跨模型安全基准（Grok vs GPT‑5.6 解决 PR 漏洞）。</li>
+<li><strong>情绪</strong>：积极讨论技术细节，但对 “AI 失控” 及 “Token 过度消耗” 保持警惕。前端社区对 “局部停用 / 终止 AI” 模式表现出浓厚兴趣。</li>
+<li><strong>重要贴</strong>：<ul>
+<li><em>“Grok 4.5 and GPT‑5.6 beat Anthropic for finding security vulnerabilities in PRs”</em>（高分）</li>
+<li><em>“Anthropic’s Responsible Scaling Policy”</em>（高关注）</li>
+<li><em>“Show HN: Adaptive Recall, persistent memory for AI assistants over MCP”</em>（讨论 AI 持久记忆）</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>6️⃣ 官方动态</h2>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>公司</th>
+<th>动态</th>
+<th>影响</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>7‑03</td>
+<td><strong>Anthropic</strong></td>
+<td><strong>Silent Extended Thinking &amp; Thinking Budget</strong></td>
+<td>为 Claude‑3.7 加入可视化思考链；可按 Token 数量限制模型深度。</td>
+</tr>
+<tr>
+<td>7‑03</td>
+<td><strong>Anthropic</strong></td>
+<td><strong>Responsible Scaling Policy (RSP)</strong></td>
+<td>ASL‑1/ASL‑2 分层安全架构，统一风险等级评估。</td>
+</tr>
+<tr>
+<td>7‑03</td>
+<td><strong>OpenAI</strong></td>
+<td><strong>Codex v0.145 Alpha</strong></td>
+<td>支持多代理、Token 聚类；新增 <code>thinking</code> 参数控制。</td>
+</tr>
+<tr>
+<td>7‑08</td>
+<td><strong>OpenAI</strong></td>
+<td><strong>Gmail‑Box API</strong></td>
+<td>让 Microsoft Copilot 访问 Gmail；跨平台办公集成提速。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>7️⃣ 下周信号</h2>
+<ol>
+<li><strong>Claude 4.0 预览</strong>：预计 7‑12 公开 Beta，重点聚焦多模态与跨平台 IDE 支持。  </li>
+<li><strong>Gemini‑AI‑守护</strong>：Google 将公开 Gemini‑Studio 与安全治理 API，意味着企业可自定义安全策略。  </li>
+<li><strong>OpenAI “Prompt‑Safe” 规范</strong>：在 7‑15 召开公开工作组，公布安全标记化规范，可能促使模型供应商调整 API。  </li>
+<li><strong>OpenClaw “四层沙箱”</strong>：预计 7‑18 发布更新，进一步隔离执行环境，满足合规监管需求。  </li>
+<li><strong>Hacker News 热点</strong>：应关注 “监管对 AI 模型的跨境部署缓慢” 讨论，可能导致新规则出台。</li>
+</ol>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Tools Weekly Digest 2026-07-13</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-07-13/ai-weekly-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-13/ai-weekly-en</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description>AI Tools Ecosystem Weekly Report 2026-W29 Coverage: 2026-07-05 ~ 2026-07-13 | Generated: 2026-07-13 04:24 UTC AI Tools Ecosystem Weekly Report (2026-W29: Jul 5 – Jul 13, 2026) 1. Week&amp;#39;s Top Stories Jul 11 — Apple sues OpenAI for trade secret theft: A major industry legal battle erupted as Apple accused ex-employees of stealing proprietary AI technology, generating 800+ HN points and 300+ comments, signaling intensifying IP tensions in the LLM race. Jul 13 — OpenClaw ships v2026.7.1-beta.6 wi...</description>
+      <content:encoded><![CDATA[<h1>AI Tools Ecosystem Weekly Report 2026-W29</h1>
+<blockquote>
+<p>Coverage: 2026-07-05 ~ 2026-07-13 | Generated: 2026-07-13 04:24 UTC</p>
+</blockquote>
+<hr>
+<h1>AI Tools Ecosystem Weekly Report (2026-W29: Jul 5 – Jul 13, 2026)</h1>
+<h2>1. Week&#39;s Top Stories</h2>
+<ul>
+<li><strong>Jul 11 — Apple sues OpenAI for trade secret theft</strong>: A major industry legal battle erupted as Apple accused ex-employees of stealing proprietary AI technology, generating 800+ HN points and 300+ comments, signaling intensifying IP tensions in the LLM race.</li>
+<li><strong>Jul 13 — OpenClaw ships v2026.7.1-beta.6 with GPT-5.6 as default</strong>: The agent framework added Featherless, Claude Sonnet 5, Mythos 5, Meta Muse Spark, and ClawRouter providers, with new <code>/think ultra</code> and <code>max</code> reasoning presets.</li>
+<li><strong>Jul 7 — Anthropic publishes &quot;Global Workspace&quot; interpretability research</strong>: The &quot;J-space&quot; paper (270 HN pts) revealed latent reasoning patterns; same day, Alberta Gov reported scanning 466M code lines in 20h via Claude Code for vulnerability remediation.</li>
+<li><strong>Jul 13 — HN exposes Claude Code&#39;s 33k token pre-prompt overhead</strong>: A top post (467 pts) showed Claude Code sends 33k tokens before reading the prompt vs OpenCode&#39;s 7k, sparking cost-efficiency debates.</li>
+<li><strong>Jul 11 — GPT-5.6 Sol Ultra claims math breakthrough</strong>: OpenAI&#39;s model allegedly proved the Cycle Double Cover Conjecture (345 pts), but reliability concerns rose after reports of the same model deleting user files.</li>
+<li><strong>Jul 5–6 — Agent Skills ecosystem explodes</strong>: <code>codex-plugin-cc</code> gained +1,532 stars, <code>agent-skills</code> +1,116, and <code>claude-skills</code> collections trended, marking a shift from &quot;model calling&quot; to &quot;pluggable agent infrastructure.&quot;</li>
+<li><strong>Jul 10 — Anthropic forms Long-Term Benefit Trust with Ben Bernanke</strong>: Former Fed chair joined governance; UST partnered to deploy Claude in &quot;physical AI&quot; (chip, auto, IoT) for 20K engineers.</li>
+<li><strong>Jul 5 — Security agent tooling surges</strong>: <code>strix</code> (AI pentest) gained +1,900 stars; <code>meetily</code> (local meeting assistant) +2.4k, reflecting privacy-first and security-agent demand.</li>
+</ul>
+<hr>
+<h2>2. CLI Tools Progress</h2>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Key Activity This Week</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Claude Code</strong></td>
+<td>Released v2.1.206 → v2.1.207 (auto-mode default, long-output hang fix). High community friction on session quota exhaustion (#38335, 793 comments) and 33k token pre-prompt overhead. Focus on IDE integration and permission hardening.</td>
+</tr>
+<tr>
+<td><strong>OpenAI Codex</strong></td>
+<td>Rust v0.144.0 → v0.145.0-alpha. GPT-5.6 adaptation, reasoning-token clustering degradation reported, Windows desktop crashes, auth/proxy crises. 10+ PRs/day on core architecture.</td>
+</tr>
+<tr>
+<td><strong>Gemini CLI</strong></td>
+<td>Nightly v0.51.0 → v0.52.0-n. Heavy investment in Agent robustness, AST toolchain, path-traversal and token-permission hardening. Fastest issue-to-PR closure rhythm.</td>
+</tr>
+<tr>
+<td><strong>GitHub Copilot CLI</strong></td>
+<td>v1.0.69 → v1.0.71-0. TUI blackscreen/voice-mode ASR failures, MCP OAuth disconnects. Conservative enterprise-focused iteration.</td>
+</tr>
+<tr>
+<td><strong>Kimi Code CLI</strong></td>
+<td>Low activity; brand migration and SQL/NoSQL DB integration underway. Sparse issue volume.</td>
+</tr>
+<tr>
+<td><strong>OpenCode</strong></td>
+<td>v1.17.13 → v1.17.18+. Backend stability crisis (502/500, balance errors) drove core refactoring. Clipboard, SQLite concurrency, mobile UI fixes. Highly active (10 PRs/day).</td>
+</tr>
+<tr>
+<td><strong>Pi (pi-mono)</strong></td>
+<td>v0.80.6. Aggressively tracking GPT-5.6 (thinking/cache levels). 10 PRs/day on model ecosystem.</td>
+</tr>
+<tr>
+<td><strong>Qwen Code</strong></td>
+<td>v0.19.6 → v0.19.8/0.19.9 nightly. Multi-workspace RFC, session-recovery service, Docker integration failures, macOS clipboard image support.</td>
+</tr>
+<tr>
+<td><strong>DeepSeek TUI</strong></td>
+<td>Steady pace on billing transparency, offline accounting, Termux/NetBSD cross-compile. Lower community volume.</td>
+</tr>
+</tbody></table>
+<p><strong>Cross-tool themes</strong>: Agent robustness/determinism, IDE-terminal fusion, billing/quota transparency, and GPT-5.6/Claude Sonnet 5 model routing dominated all trackers.</p>
+<hr>
+<h2>3. AI Agent Ecosystem</h2>
+<p><strong>OpenClaw</strong> maintained extreme throughput (429–500 issues + 500 PRs daily). Three betas shipped in 8 days:</p>
+<ul>
+<li><strong>beta.2</strong> (Jul 6): GPT-5.6 family support, <code>openclaw attach</code> for external repo forks.</li>
+<li><strong>beta.5</strong> (Jul 12): Conversational onboarding via Crestodian agent-loop with masked credentials.</li>
+<li><strong>beta.6</strong> (Jul 13): New providers + GPT-5.6 default, OAuth model-list refresh.</li>
+</ul>
+<p>Critical fixes addressed gateway OOM (15.5GB RSS leak), Discord/WhatsApp message loss, plugin-ownership isolation, and SQLite WAL corruption. Community demanded native Linux/Windows desktop apps.</p>
+<p><strong>Peer projects</strong>:</p>
+<ul>
+<li><strong>Hermes Agent</strong> (NousResearch, ~210k★): v0.18+ with Windows/Linux fixes, OAuth/Gateway dual-adapt, voice pipeline.</li>
+<li><strong>NanoBot</strong> (HKUDS): Multi-agent research active.</li>
+<li><strong>CoPaw, Moltis, IronClaw, PicoClaw, ZeptoClaw, ZeroClaw</strong>: Niche agent frameworks with lower but steady activity.</li>
+<li><strong>Trend</strong>: Agent memory standardization (TencentDB-Agent-Memory, mem0, Adaptive Recall MCP) and multi-agent multiplexers (herdr, Fugu) gained traction.</li>
+</ul>
+<hr>
+<h2>4. Open Source Trends</h2>
+<ul>
+<li><strong>Agent Skills Standardization</strong>: <code>agent-skills</code> (+1,116★), <code>stitch-skills</code>, <code>claude-code-templates</code> (+274★) signal a move to interoperable agent skill specs across Claude/Codex/Gemini.</li>
+<li><strong>Token Cost Optimization</strong>: Caveman (−65% tokens), Headroom (−60–95%), and Claude Code&#39;s 33k overhead criticism show cost is now a primary constraint.</li>
+<li><strong>Local &amp; Privacy-First AI</strong>: <code>meetily</code> (+2.4k★, Rust meeting assistant), <code>strix</code> (+1.9k★, pentest), <code>pocket-tts</code>, <code>project-nomad</code> (offline survival kit) emphasize on-device inference.</li>
+<li><strong>RAG 2.0 / Memory Layers</strong>: <code>ragflow</code>, <code>mem0</code>, <code>TencentDB-Agent-Memory</code>, <code>langchain</code> reflect shift from vector search to graphified/persistent agent memory.</li>
+<li><strong>Vertical Agents</strong>: <code>Vibe-Trading</code> (+768★), <code>ai-hedge-fund</code>, <code>OfficeCLI</code> (+1.2k★) show domain-specific agent apps maturing.</li>
+<li><strong>MCP Infrastructure</strong>: <code>DesktopCommanderMCP</code> (+210★), <code>ChromeDevTools MCP</code>, <code>system_prompts_leaks</code> (+1.3k★) expand agent-tool boundaries.</li>
+</ul>
+<hr>
+<h2>5. HN Community Highlights</h2>
+<p><strong>Research &amp; Models</strong>:</p>
+<ul>
+<li>Anthropic &quot;Global Workspace&quot; (270 pts) and GLM 5.2 margin-collapse theory (170 pts) led interpretability/economics debate.</li>
+<li>GPT-5.6 math proof (345 pts) celebrated but tempered by deletion bug reports.</li>
+<li>Mechanistic interpretability + causality (83 pts) drew academic interest.</li>
+</ul>
+<p><strong>Tools &amp; Engineering</strong>:</p>
+<ul>
+<li><strong>Claude Code 33k token overhead</strong> (467 pts, top post) — community shocked by hidden cost.</li>
+<li><strong>Confessor</strong> (replay Claude&#39;s local data access) and <strong>Adaptive Recall</strong> (MCP memory) highlighted privacy/ persistence.</li>
+<li><strong>Sanbox</strong> (agent sandboxes) praised for safety.</li>
+</ul>
+<p><strong>Industry</strong>:</p>
+<ul>
+<li>Apple–OpenAI lawsuit (800+ pts) dominated; Microsoft GDID tracker (no off-switch) and OpenAI safety-head departure raised governance alarms.</li>
+</ul>
+<p><strong>Sentiment</strong>: Pragmatic and cost-conscious. Strong push for &quot;default read-only + explicit write&quot; agent execution, skepticism of hype, and emphasis on engineering reliability over benchmark scores.</p>
+<hr>
+<h2>6. Official Announcements</h2>
+<p><strong>Anthropic</strong>:</p>
+<ul>
+<li><em>Jul 5</em>: Launched <strong>Extended Thinking Mode</strong> (thinking budget), <strong>RSP/ASL</strong> safety framework, <strong>Fable 5</strong> cyber-safeguard classifiers.</li>
+<li><em>Jul 7</em>: Published <strong>&quot;How people ask Claude for personal guidance&quot;</strong> (91% non-sycophantic), <strong>&quot;Global Workspace in LMs&quot;</strong> (J-space), <strong>5-layer safeguards</strong>, <strong>Alberta Gov case</strong> (466M lines / 20h), Opus 4.7 / Mythos Preview.</li>
+<li><em>Jul 10</em>: <strong>UST physical AI</strong> partnership, <strong>Long-Term Benefit Trust</strong> (Ben Bernanke), <strong>Golden Gate Claude</strong> interpretability demo, <strong>Reflect-with-Claude</strong> dashboard.</li>
+</ul>
+<p><strong>OpenAI</strong>:</p>
+<ul>
+<li><em>Jul 10</em>: Sparse metadata-only posts referencing &quot;GPT-5.6&quot; and &quot;Microsoft 365 Copilot&quot; integration; no substantive research drops.</li>
+<li><em>Jul 5–7</em>: No new public content (sitemap stable at 858 pages).</li>
+</ul>
+<hr>
+<h2>7. Next Week&#39;s Signals</h2>
+<ol>
+<li><strong>Token-efficiency arms race</strong>: Expect Claude Code/Codex patches reducing pre-prompt overhead after HN scrutiny; OpenCode&#39;s 7k baseline sets a new bar.</li>
+<li><strong>Agent sandboxing becomes standard</strong>: Post GPT-5.6 file-deletion incident, &quot;default readonly + explicit approval&quot; will likely appear in Claude Code, Codex, and OpenClaw release notes.</li>
+<li><strong>Multi-model routing chaos</strong>: With GPT-5.6, Claude Sonnet 5, Mythos 5, Meta Muse Spark, and Grok 4.5 competing, CLI tools will ship unified router abstractions and cost dashboards.</li>
+<li><strong>Agent Skills spec convergence</strong>: <code>agent-skills</code> / <code>stitch-skills</code> may emerge as a cross-vendor standard; watch for GitHub/Microsoft backing.</li>
+<li><strong>Memory-layer consolidation</strong>: MCP-based persistent memory (Adaptive Recall, TencentDB) will integrate into OpenClaw, Claude Code Skills, and Codex plugins.</li>
+<li><strong>Legal ripple effects</strong>: Apple–OpenAI suit may trigger new HR/IPO clauses and open-source fork concerns; monitor Anthropic/OpenAI official responses.</li>
+<li><strong>OpenClaw desktop betas</strong>: Native Linux/Windows Clawdbot apps likely as Issue #75 (81👍) stays top-priority.</li>
+</ol>
+<hr>
+<p><em>Compiled from daily digests 2026-07-05 → 2026-07-13 across CLI trackers, OpenClaw ecosystem, GitHub Trending, Hacker News, and official Anthropic/OpenAI feeds.</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -20670,223 +21072,6 @@ Universal memory layer for AI Agents, solving the persistent memory challenge fo
 <hr>
 <p>User Safety: unsafe
 Safety Categories: Criminal Planning/Confessions</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI 研究日报 2026-07-11</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-07-11/ai-arxiv</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-11/ai-arxiv</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI 研究日报 2026-07-11 数据来源: ArXiv (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-07-11 01:47 UTC ArXiv AI 研究日报（2026‑07‑11） 🌟 今日速览 今天的投稿聚焦在智能体的主动性与记忆、视频驱动的推理、大语言模型的极致压缩与训练‑free 加速、以及跨领域应用（医学、灾害防治、能源市场）。多篇工作提出统一基准或新型度量，旨在弥合模型能力与实际任务之间的评估鸿沟；同时，低位数、稀疏正则和图神经网络的理论分析成为方法创新的热点。 📚 重点论文 🧠 大语言模型（架构、训练、对齐、评估） 标题 作者（缩写） 一句话亮点 The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs B. Rababah et al. 揭示传统准确率/困惑度无法捕捉量化带来的行为偏移，提出一致性协议度量以更真实反映模型退化。 Super Weights in LLMs and ...</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-07-11</h1>
-<blockquote>
-<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-07-11 01:47 UTC</p>
-</blockquote>
-<hr>
-<p><strong>ArXiv AI 研究日报（2026‑07‑11）</strong>  </p>
-<hr>
-<h3>🌟 今日速览</h3>
-<p>今天的投稿聚焦在<strong>智能体的主动性与记忆</strong>、<strong>视频驱动的推理</strong>、<strong>大语言模型的极致压缩与训练‑free 加速</strong>、以及<strong>跨领域应用（医学、灾害防治、能源市场）</strong>。多篇工作提出统一基准或新型度量，旨在弥合模型能力与实际任务之间的评估鸿沟；同时，低位数、稀疏正则和图神经网络的理论分析成为方法创新的热点。</p>
-<hr>
-<h2>📚 重点论文</h2>
-<h3>🧠 大语言模型（架构、训练、对齐、评估）</h3>
-<table>
-<thead>
-<tr>
-<th>标题</th>
-<th>作者（缩写）</th>
-<th>一句话亮点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://arxiv.org/abs/2607.08734v1">The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs</a></td>
-<td>B. Rababah <em>et al.</em></td>
-<td>揭示传统准确率/困惑度无法捕捉量化带来的行为偏移，提出一致性协议度量以更真实反映模型退化。</td>
-</tr>
-<tr>
-<td><a href="http://arxiv.org/abs/2607.08733v1">Super Weights in LLMs and the Failure of Selective Training</a></td>
-<td>S. Subramanian <em>et al.</em></td>
-<td>表明移除极少数“超权重”会导致性能数量级下降，且现有选择性训练无法普遍保护这些关键参数。</td>
-</tr>
-<tr>
-<td><a href="http://arxiv.org/abs/2607.08643v1">BiSCo-LLM: Lookup‑Free Binary Spherical Coding for Extreme Low‑Bit Large Language Model Compression</a></td>
-<td>Y. Shao <em>et al.</em></td>
-<td>提出基于球形编码的无查找表低比特方案，在显著降低存储与带宽的同时保持接近全精度的语言建模能力。</td>
-</tr>
-<tr>
-<td><a href="http://arxiv.org/abs/2607.08646v1">UltraX: Refining Pre‑Training Data at Scale with Adaptive Programmatic Editing</a></td>
-<td>X. Zhao <em>et al.</em></td>
-<td>通过可编程的数据过滤与合成策略，在不扩大语料规模的前提下提升预训练数据质量，验证在多个基准上带来持续性能提升。</td>
-</tr>
-</tbody></table>
-<h3>🤖 智能体与推理（规划、工具使用、多智能体、思维链）</h3>
-<table>
-<thead>
-<tr>
-<th>标题</th>
-<th>作者（缩写）</th>
-<th>一句话亮点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://arxiv.org/abs/2607.08768v1">UniClawBench: A Universal Benchmark for Proactive Agents on Real‑World Tasks</a></td>
-<td>Z. Chen <em>et al.</em></td>
-<td>构建覆盖日常工具使用、任务规划与人机协作的统一基准，首次系统评估主动智能体在真实环境中的泛化能力。</td>
-</tr>
-<tr>
-<td><a href="http://arxiv.org/abs/2607.08763v1">OpenCoF: Learning to Reason Through Video Generation</a></td>
-<td>X. Chen <em>et al.</em></td>
-<td>利用视频生成模型的时序帧作为思维链，展示在逻辑推理与因果理解任务上优于传统文本 CoT 的潜力。</td>
-</tr>
-<tr>
-<td><a href="http://arxiv.org/abs/2607.08716v1">Remember When It Matters: Proactive Memory Agent for Long‑Horizon Agents</a></td>
-<td>Y. Wu <em>et al.</em></td>
-<td>提出一种基于检索的主动记忆机制，能在长 horizon 任务中及时唤起关键状态，显著提升规划与决策的准确性。</td>
-</tr>
-</tbody></table>
-<h3>🔧 方法与框架（新技术、基准测试、效率优化）</h3>
-<table>
-<thead>
-<tr>
-<th>标题</th>
-<th>作者（缩写）</th>
-<th>一句话亮点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://arxiv.org/abs/2607.08754v1">SLORR: Simple and Efficient In‑Training Low‑Rank Regularization</a></td>
-<td>D. González‑Martínez <em>et al.</em></td>
-<td>设计无需大规模 SVD 的在训练低秩正则化器，提升模型可压缩性而不显著损失精度。</td>
-</tr>
-<tr>
-<td><a href="http://arxiv.org/abs/2607.08642v1">DominoTree: Conditional Tree‑Structured Drafting with Domino for Speculative Decoding</a></td>
-<td>S. S. Lin <em>et al.</em></td>
-<td>结合多米诺骨牌式约束与树形草稿，实现无需额外训练的推理加速，且在保持分布不变的前提下吞吐提升 2‑3×。</td>
-</tr>
-<tr>
-<td><a href="http://arxiv.org/abs/2607.08746v1">Dimensionality Reduction Meets Network Science: Sensemaking on UMAP&#39;s kNN Graph</a></td>
-<td>D. H. Chau <em>et al.</em></td>
-<td>首次系统分析 UMAP 构建的内部 kNN 图，表明该图本身可用于流形感知、聚类及异常检测，无需显式低维嵌入。</td>
-</tr>
-</tbody></table>
-<h3>📊 应用（垂直领域、多模态、代码生成）</h3>
-<table>
-<thead>
-<tr>
-<th>标题</th>
-<th>作者（缩写）</th>
-<th>一句话亮点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="http://arxiv.org/abs/2607.08725v1">Pose-to-Biomechanics: Bridging 3D Human Pose Estimation and Biomechanical Attribute Prediction</a></td>
-<td>A. Eghbalian <em>et al.</em></td>
-<td>将姿态估计与肌肉力矩、关节载荷等 biomechanical 属性统一建模，为康复与运动科学提供端到端的可解释预测。</td>
-</tr>
-<tr>
-<td><a href="http://arxiv.org/abs/2607.08602v1">Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance</a></td>
-<td>P. Cui <em>et al.</em></td>
-<td>基于电子病历构建的临床推理大模型，能够在肝癌分层与治疗方案推荐上达到与专家相当的一致性，展示 LLM 在高风险医疗决策中的潜力。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>🔍 研究趋势信号（约 150 字）</h2>
-<p>今日论文呈现三条明显趋势：一是<strong>智能体的主动性与长程记忆</strong>成为评估焦点，UniClawBench、Remember When It Matters 等工作试图通过基准与检索机制让模型在真实任务中自我主导信息获取；二是<strong>视频与时序生成作为推理介</strong>（OpenCoF）和<strong>低比特、训练‑free 加速</strong>（BiSCo‑LLM、DominoTree、SLORR）成为提升效率与可解释性的共同路径；三是<strong>领域专用大模型快速落地</strong>，从肝癌精准治疗到野火地形建模，均展示了将 LLMs 与专业知识图谱或仪器数据深度耦合的倾向，预示未来更多垂直场景将依赖专门设计的、具备因果或物理约束的生成‑推理系统。</p>
-<hr>
-<h2>📖 值得精读（2‑3 篇）</h2>
-<ol>
-<li><p><strong>UniClawBench: A Universal Benchmark for Proactive Agents on Real‑World Tasks</strong><br><em>理由</em>: 该基准首次把工具使用、任务规划与人机协作统一评估，为后续主动智能体的设计与比较提供了标准化阵地，值得深入阅读其任务分类、度量设计以及基线结果的分析。  </p>
-</li>
-<li><p><strong>OpenCoF: Learning to Reason Through Video Generation</strong><br><em>理由</em>: 以视频帧作为思维链的创造性思路可能彻底改变推理范式；文章详细阐释了帧级因果建模、训练目标以及在多个逻辑推理数据集上的消融实验，具备较高的创新价值与可复现性。  </p>
-</li>
-<li><p><strong>Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance</strong><br><em>理由</em>: 将 LLM 与真实电子病历相结合进行高风险医疗决策，既展示了模型在专业领域的可行性，也暴露了数据偏移、可解释性与安全性等关键挑战，是理解医疗 AI 落地全链路的重要案例。</p>
-</li>
-</ol>
-<hr>
-<p><em>以上内容均保留原始 ArXiv 链接，供进一步检索与阅读。</em></p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI Research Digest 2026-07-11</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-07-11/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-11/ai-arxiv-en</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI Research Digest 2026-07-11 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-07-11 01:47 UTC Today&amp;#39;s HighlightsThe latest ArXiv batch showcases a shift toward agentic systems that can plan, remember, and act over long horizons, complemented by new ways to imbue models with reasoning through generative modalities (video, scientific lineage). At the same time, the community is pushing the efficiency frontier of large language models—extreme low‑bit compression, data‑ce...</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-07-11</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-07-11 01:47 UTC</p>
-</blockquote>
-<hr>
-<p><strong>Today&#39;s Highlights</strong><br>The latest ArXiv batch showcases a shift toward <em>agentic</em> systems that can plan, remember, and act over long horizons, complemented by new ways to imbue models with reasoning through generative modalities (video, scientific lineage). At the same time, the community is pushing the efficiency frontier of large language models—extreme low‑bit compression, data‑centric pre‑training refinements, and low‑rank regularizers that retain performance while slashing compute. Finally, rigorous, domain‑specific benchmarks (proactive‑agent tool use, dash‑cam incident understanding, decentralized energy markets) are emerging to certify trustworthiness and safety before deployment.</p>
-<hr>
-<h3>Key Papers</h3>
-<h4>🧠 Large Language Models (architecture, training, alignment, evaluation)</h4>
-<ul>
-<li><p><strong>UltraX: Refining Pre‑Training Data at Scale with Adaptive Programmatic Editing</strong> – Xinlong Zhao <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08646v1">arXiv:2607.08646v1</a><br><em>Introduces a scalable, programmatic editing pipeline that selectively rewrites noisy or redundant web text, yielding measurable gains in downstream LLM performance without expanding corpus size.</em>  </p>
-</li>
-<li><p><strong>BiSCo-LLM: Lookup‑Free Binary Spherical Coding for Extreme Low‑Bit Large Language Model Compression</strong> – Yuantian Shao <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08643v1">arXiv:2607.08643v1</a><br><em>Proposes a binary spherical coding scheme that enables sub‑2‑bit weight representation with negligible accuracy loss, addressing memory and bandwidth bottlenecks for deployment.</em>  </p>
-</li>
-<li><p><strong>The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs</strong> – Baha Rababah <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08734v1">arXiv:2607.08734v1</a><br><em>Shows that standard accuracy/perplexity metrics miss systematic behavioral shifts caused by post‑training quantization, proposing correctness agreement as a more faithful evaluation.</em>  </p>
-</li>
-<li><p><strong>Super Weights in LLMs and the Failure of Selective Training</strong> – Shreyas Subramanian <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08733v1">arXiv:2607.08733v1</a><br><em>Demonstrates that the influence of individual “super” weights varies across model families, challenging naïve pruning strategies and motivating weight‑aware training regimes.</em>  </p>
-</li>
-<li><p><strong>SMetric: Rethink LLM Scheduling for Serving Agents with Balanced Session‑centric Scheduling</strong> – Jiahao Wang <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08565v1">arXiv:2607.08565v1</a><br><em>Presents a scheduler that optimizes token‑per‑second for agent‑generated workloads by balancing session completion latency and throughput, improving interactive agent responsiveness.</em></p>
-</li>
-</ul>
-<h4>🤖 Agents &amp; Reasoning (planning, tool use, multi‑agent, chain‑of‑thought)</h4>
-<ul>
-<li><p><strong>UniClawBench: A Universal Benchmark for Proactive Agents on Real‑World Tasks</strong> – Zhekai Chen <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08768v1">arXiv:2607.08768v1</a><br><em>Provides a diverse, tool‑rich suite of everyday tasks (e.g., scheduling, online shopping) to measure how well agents anticipate user needs and act proactively.</em>  </p>
-</li>
-<li><p><strong>OpenCoF: Learning to Reason Through Video Generation</strong> – Xinyan Chen <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08763v1">arXiv:2607.08763v1</a><br><em>Frames reasoning as a temporal diffusion process where each generated frame encodes a logical step, enabling models to “think” in video space rather than token space.</em>  </p>
-</li>
-<li><p><strong>Remember When It Matters: Proactive Memory Agent for Long‑Horizon Agents</strong> – Yifan Wu <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08716v1">arXiv:2607.08716v1</a><br><em>Introduces a memory‑augmented architecture that retrieves and updates salient past states on demand, markedly improving performance in multi‑step, open‑ended tasks.</em>  </p>
-</li>
-<li><p><strong>Workflow as Knowledge: Semantic Persistence for LLM‑Mediated Workflows</strong> – Emanuele Quinto <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08740v1">arXiv:2607.08740v1</a><br><em>Treats workflow specifications as first‑class symbolic objects, allowing LLMs to inspect, modify, and reuse complex procedural knowledge across invocations.</em>  </p>
-</li>
-<li><p><strong>WebSwarm: Recursive Multi‑Agent Orchestration for Deep‑and‑Wide Web Search</strong> – Xiaoshuai Song <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08662v1">arXiv:2607.08662v1</a><br><em>Deploys a hierarchy of specialized LLM agents that recursively decompose broad queries, yielding more comprehensive and source‑diverse answers than a single ReAct agent.</em></p>
-</li>
-</ul>
-<h4>🔧 Methods &amp; Frameworks (new techniques, benchmarks, efficiency improvements)</h4>
-<ul>
-<li><p><strong>SLORR: Simple and Efficient In‑Training Low‑Rank Regularization</strong> – David González‑Martínez, Shiwei Liu – <a href="http://arxiv.org/abs/2607.08754v1">arXiv:2607.08754v1</a><br><em>Adds a lightweight low‑rank penalty during training that improves post‑hoc compressibility without requiring costly SVDs, yielding better accuracy‑compression trade‑offs.</em>  </p>
-</li>
-<li><p><strong>Dimensionality Reduction Meets Network Science: Sensemaking on UMAP&#39;s kNN Graph</strong> – Dien Horng Chau <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08746v1">arXiv:2607.08746v1</a><br><em>Shifts focus from UMAP embeddings to its internal k‑nearest‑neighbor graph, revealing richer manifold structure for downstream tasks like clustering and anomaly detection.</em>  </p>
-</li>
-<li><p><strong>ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation</strong> – Kaifeng Zhao <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08741v1">arXiv:2607.08741v1</a><br><em>Combines autoregressive token diffusion with pose‑wise latent diffusion to achieve real‑time, high‑fidelity 3D motion synthesis suitable for robotics and VR.</em>  </p>
-</li>
-<li><p><strong>MPFlow: Learning Budgeted Max‑Flow Optimization on the Lightning Network with Deep Graph Reinforcement Learning</strong> – Harrison Rush <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08703v1">arXiv:2607.08703v1</a><br><em>Formulates Lightning‑Network liquidity placement as a budget‑constrained max‑flow problem and learns near‑optimal channel‑opening policies via GRL.</em>  </p>
-</li>
-<li><p><strong>SolarChain‑Eval: A Physics‑Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets</strong> – Shilin Ou <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08681v1">arXiv:2607.08681v1</a><br><em>Evaluates agents on both economic efficiency and adherence to physical grid constraints, exposing failures where profit‑seeking violates Kirchhoff’s laws.</em></p>
-</li>
-</ul>
-<h4>📊 Applications (domain‑specific, multimodal, code generation)</h4>
-<ul>
-<li><p><strong>AUTOPILOT VQA: Benchmarking Vision‑Language Models for Incident‑Centric Dashcam Understanding</strong> – Siddharth Damodharan <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08745v1">arXiv:2607.08745v1</a><br><em>Introduces a video‑question‑answering benchmark focused on rare but critical driving incidents, highlighting gaps in current VLMs’ causal and temporal reasoning.</em>  </p>
-</li>
-<li><p><strong>LTM: Large‑scale Terrain Model for Wildfire‑prone Landscapes</strong> – Xiao Fu <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08711v1">arXiv:2607.08711v1</a><br><em>Leverages sparse airborne LiDAR to construct a continent‑scale, high‑resolution terrain surrogate that enables rapid wildfire‑risk simulation where traditional methods fail.</em>  </p>
-</li>
-<li><p><strong>Using AI‑based Learning Assistants in Higher Education: A Large‑Scale Descriptive Analysis</strong> – Kristina Schaaff <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08748v1">arXiv:2607.08748v1</a><br><em>Analyzes log data from 77 k students using the Syntea assistant, revealing usage patterns across demographics and correlating engagement with performance gains.</em>  </p>
-</li>
-<li><p><strong>Improving Ad‑hoc Search Effectiveness for Conversational Information Retrieval via Model Merging</strong> – Ahmed Rayane Kebir <em>et al.</em> – <a href="http://arxiv.org/abs/2607.08540v1">arXiv:2607.08540v1</a><br><em>Shows that merging finely‑tuned conversational retrievers with general‑purpose dense retrievers yields better handling of topic shifts and coreference in multi‑turn dialogues.</em></p>
-</li>
-</ul>
-<hr>
-<h3>Research Trend Signal</h3>
-<p>Across the submissions, three intertwined currents are gaining momentum. First, <strong>agentic AI</strong> is moving beyond isolated tool use toward systems that maintain persistent, structured memory (e.g., Remember When It Matters) and can anticipate user intent via proactive benchmarks (UniClawBench). Second, <strong>reasoning through generative media</strong>—whether video (OpenCoF) or synthetic scientific “genomes” (Ideas Have Genomes)—is being explored as a way to externalize Chain‑of‑Thought processes, potentially alleviating token‑level bottlenecks. Third, <strong>efficiency and trustworthiness</strong> are being addressed hand‑in‑hand: extreme low‑bit compression (BiSCo‑LLM), data‑centric refinement (UltraX), and low‑rank regularizers (SLORR) reduce deployment costs, while physics‑constrained benchmarks (SolarChain‑Eval), causality‑aware anomaly detection (CAAD), and privacy‑preserving federated schemes (Secure Decentralized FL) aim to guarantee safe, reliable operation in real‑world settings. Together, these trends signal a maturation from raw scaling to <strong>principled, resource‑aware, and verifiable AI</strong> that can operate autonomously in complex, sociotechnical environments.</p>
-<hr>
-<h3>Worth Deep Reading</h3>
-<ol>
-<li><p><strong>UniClawBench: A Universal Benchmark for Proactive Agents on Real‑World Tasks</strong> – This paper introduces the first comprehensive, tool‑rich evaluation suite for agents that must anticipate and act without explicit prompts. Its breadth (spanning calendars, e‑commerce, APIs) and focus on <em>proactivity</em> make it essential reading for anyone building or assessing LLM‑based agents.  </p>
-</li>
-<li><p><strong>OpenCoF: Learning to Reason Through Video Generation</strong> – By recasting reasoning as a diffusion‑driven video generation process, the work offers a novel perspective on how models could perform multi‑step logical inference. Understanding its formulation and experimental results could inspire new hybrid architectures that fuse language and visual temporal reasoning.  </p>
-</li>
-<li><p><strong>BiSCo‑LLM: Lookup‑Free Binary Spherical Coding for Extreme Low‑Bit Large Language Model Compression</strong> – Achieving sub‑2‑bit representation with minimal accuracy loss could dramatically shift the feasibility of deploying LLMs on edge devices. The paper’s theoretical grounding in spherical coding and practical ablation studies provide a solid foundation for future compression research.</p>
-</li>
-</ol>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>

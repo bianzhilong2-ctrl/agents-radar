@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI 推出 v0.52.0‑n，强化 Agent 鲁棒性与安全治理",
+      "OpenAI Codex 聚焦 GPT‑5.6 适配与性能优化",
+      "Claude Code 关注权限与 IDE 集成稳定性问题",
+      "Kimi Code CLI 高爆发，重点提升数据库集成",
+      "OpenCode 热度超高，集中修复核心 Bug",
+      "DeepSeek‑TUI 强调计费透明化与多语言支持"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1‑beta.6 新增多模型供商与默认 GPT‑5.6",
+      "OpenClaw 修复 Discord 消息丢失与插件隔离安全漏洞",
+      "OpenClaw OAuth 后刷新模型列表，解决可用性问题",
+      "OpenClaw 处理 500+ Issues 与 500+ PR，迭代节奏极快",
+      "OpenClaw 关键回归针对会话状态损坏与内存泄漏",
+      "OpenClaw 新增 ClawRouter 提供跨平台路由能力"
+    ],
+    "ai-trending": [
+      "DesktopCommanderMCP 获 +210 star，提供 Claude 本地终端控制",
+      "claude-code-templates 今日增 +274 star，简化 Claude Code 工作流",
+      "Vibe‑Trading +768 star，LLM 驱动的实时交易 Agent",
+      "ai‑hedge‑fund +115 star，模拟对冲基金多智能体系统",
+      "PrefectHQ/prefect +66 star，原生支持 ML 工作流编排",
+      "project‑nomad +125 star，离线 AI 生存套件展示极端场景"
+    ],
+    "ai-hn": [
+      "Claude Code 读取提示前耗费 33k tokens，引发成本担忧",
+      "OpenCode 只用 7k tokens，展现更高 token 效率",
+      "Mechanistic interpretability 研究尝试因果解释 LLM 推理",
+      "Grok 4.5 与 GPT‑5.6 在 PR 漏洞检测上胜过 Anthropic",
+      "Show HN: Adaptive Recall 提供 MCP 持久记忆框架",
+      "Show HN: Confessor 可回放 Claude Code 的本地数据访问"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI releases v0.52.0‑nightly",
+      "Claude Code shows 33k token overhead",
+      "OpenCode trims to 7k tokens",
+      "CLI tools add daemon‑style workspace support",
+      "Cross‑platform stability remains a pain point",
+      "Observability now a must‑have feature"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1‑beta.6 released",
+      "GPT‑5.6 set as default model",
+      "Claude Sonnet 5 added to OpenClaw",
+      "Memory‑leak fix in gateway (P0)",
+      "500 issues and PRs in 24h",
+      "Security refresh: OAuth, masked secrets"
+    ],
+    "ai-trending": [
+      "destructive_command_guard adds Rust safety layer",
+      "vllm tops inference servers with 86k ★",
+      "ollama enables local deployment of new models",
+      "CopilotKit builds generative UI for agents",
+      "headroom compresses RAG chunks, cuts costs",
+      "DesktopCommanderMCP offers MCP terminal control"
+    ],
+    "ai-hn": [
+      "Claude Code token use 33k vs OpenCode 7k",
+      "Apple sues OpenAI, sparks legal debate",
+      "OpenAI safety chief departs unexpectedly",
+      "Causal theory applied to LLM interpretability",
+      "Anthropic finds hidden Claude puzzle space",
+      "Grok 4.5 & GPT‑5.6 out‑perform Anthropic on security PRs"
+    ]
+  }
+}

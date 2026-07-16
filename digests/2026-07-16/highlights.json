@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.211发布新增子代理文本输出",
+      "修复权限预览特殊字符安全漏洞",
+      "Cowork工具静默截断文件引43条讨论",
+      "社区请求VSCode添加Diff审核UI",
+      "子代理无限递归致高额费用受热议",
+      "Claude Code Skills社区热点持续更新"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.1发布支持远程会话",
+      "OpenClaw日更467 Issues和500 PRs",
+      "PR修复iOS推送注册丢失严重问题",
+      "修复MCP图像块丢失提升多模态稳定",
+      "解决WSL2 Gateway启动失败兼容问题",
+      "Linux/Windows Clawdbot Apps讨论113评"
+    ],
+    "ai-trending": [
+      "GitHub Trending今日AI开源趋势更新",
+      "数据来自GitHub Trending与Search API",
+      "覆盖AI开源项目热门动向",
+      "日报由agents-radar自动生成",
+      "用户安全状态标记为safe",
+      "今日无详细趋势条目列出"
+    ],
+    "ai-web": [
+      "Anthropic发Claude Tag Slack协作者Beta",
+      "Claude Tag内部65%代码由它生成",
+      "发布10个金融服务开箱Agent模板",
+      "Claude for Teachers免费赋能K12",
+      "Anthropic加投加拿大1000万加元",
+      "OpenAI新增2篇内容数据严重受限"
+    ],
+    "ai-hn": [
+      "OpenAI Codex Micro微模型引263分热议",
+      "Inkling 975B开源大模型登HN",
+      "MIT论文谈AI泡沫获55评讨论",
+      "GPT-Red自我改进框架提升鲁棒性",
+      "Fuse开源工具加速Claude Code",
+      "Agentty C++26替代claude-code仅11MB"
+    ],
+    "ai-arxiv": [
+      "Deep Interaction优化大推理模型交互",
+      "验证器级联揭示LLM判定盲区",
+      "保护者幻觉揭示LLM安全隐患",
+      "SAFETY SENTRY执行询问拒绝路由",
+      "经验记忆图实现智能体一次纠错",
+      "分析GitHub代理编码工具早期采用"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE版获3998赞489k下载",
+      "Qwen3.6-35B非审查版下载244万",
+      "Ternary-Bonsai-27B 2bit量化474赞",
+      "Ornith-1.0-35B GGUF下载153万",
+      "Inkling多模态模型支持图音文本",
+      "Unlimited-OCR百度OCR模型上榜"
+    ],
+    "ai-community": [
+      "Dev.to谈AI时代软件质量度量指标",
+      "Qwen+MCP代理不懂时拒绝回答",
+      "LangSmith vs Traccia生产监控对比",
+      "Zod实现类型安全LLM输出减错",
+      "本地MCP服务器用Ollama避隐私",
+      "LLM断路器预算尽转本地模型"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, OpenCode, Qwen Code ship stable version bumps",
+      "AI-CLI ecosystem consolidates around multi-agent orchestration",
+      "Nightly updates target Windows-ARM reliability and sandboxing",
+      "Community focuses on session management and token costs",
+      "Claude Code Skills repo listed among covered tools",
+      "9 AI CLI tools covered in today's community digest"
+    ],
+    "ai-agents": [
+      "OpenClaw has 467 issues and 500 PRs in 24 hours",
+      "OpenClaw v2026.7.2-beta.1 adds cloud coding sessions",
+      "New terminal-native session control surfaces introduced",
+      "High-severity gateway crashes from migration conflicts",
+      "PR #98320 fixes Feishu message delivery recovery",
+      "PR #108177 preserves MCP image content"
+    ],
+    "ai-trending": [
+      "moeru-ai/airi: self-hosted Grok companion trending",
+      "destructive_command_guard blocks dangerous agent commands",
+      "HKUDS/Vibe-Trading personal AI trading agent included",
+      "openinterpreter coding agent for low-cost models trends",
+      "HKUDS/DeepTutor personalized AI tutoring repo trending",
+      "awesome-llm-apps curated AI agent and RAG list trending"
+    ],
+    "ai-web": [
+      "Anthropic published 4 new articles on official site",
+      "OpenAI published 2 new articles on official site",
+      "Anthropic sitemap now totals 418 content pages",
+      "OpenAI sitemap reaches 868 total articles",
+      "6 new official AI content pieces released today",
+      "User safety flagged as safe in today's digest"
+    ],
+    "ai-hn": [
+      "Codex Micro signals interest in specialized AI hardware",
+      "OpenAI loses trademark case at EU court",
+      "Inkling: open-weights 975B parameter LLM released",
+      "MIT paper debates AI speculative bubble risks",
+      "Anthropic studies Claude values across languages",
+      "HN skeptica of AI-driven design processes"
+    ],
+    "ai-arxiv": [
+      "Paper shows skip-connections stabilize deep Transformers",
+      "Verifier cascade theory quantifies LLM reliability limits",
+      "Groc-PO reduces multimodal visual hallucination",
+      "Agent-centric safety papers dominate arXiv today",
+      "Quadrupedal locomotion AI applications presented",
+      "AI-augmented HR and energy forecasting papers published"
+    ],
+    "ai-hf": [
+      "Qwen3.6 35B uncensored hits 2.7k likes, 2.4M downloads",
+      "Qwythos 9B Claude-style GGUF gets 2.2k likes",
+      "GLM-5.2 from zai-org reaches 3,998 likes",
+      "Ternary-Bonsai-27B revives ultra-low-precision inference",
+      "GGUF quantized variants surge on Hugging Face",
+      "Community fine-tunes signal democratized deployment"
+    ],
+    "ai-community": [
+      "Dev.to: quality metrics must evolve for AI development",
+      "Qwen + MCP agent avoids guessing on ambiguous input",
+      "Banking chatbot needs heavy production engineering",
+      "Zod enables type-safe LLM output contracts",
+      "Lobste.rs critiques AI surveillance and data centers",
+      "Local-first and auditable AI workflows gaining traction"
+    ]
+  }
+}

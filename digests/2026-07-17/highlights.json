@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.212 修复语义并新增 auto-mode reset",
+      "OpenAI Codex v0.145.0-alpha.19 支持自定义模型提供者",
+      "Gemini CLI v0.52.0-preview.0 修复沙箱逃逸问题",
+      "OpenCode v1.18.3 修复内存泄漏 Megathread 问题",
+      "DeepSeek TUI v0.9.0 更名 CodeWhale 支持多提供商",
+      "Kimi/Pi/Qwen Code CLI 今日无公开动态"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日处理 500 Issues 与 500 PRs",
+      "OpenClaw 无新版本发布仍处稳定 hiatus",
+      "高优先级 P1/P0 缺陷占比约 35%",
+      "合并 PR 修复 CJK 文本 token 估算错误",
+      "修复网关 schema 一致性降低变更风险",
+      "Claude Code 强占会话模型选择获保护"
+    ],
+    "ai-trending": [
+      "技能生态爆发 日增 Stars 超 7000",
+      "Graphify +1107⭐ 代码知识图谱新范式",
+      "github/copilot-sdk 官方多平台 SDK 发布",
+      "apache/ossie +60⭐ 语义元数据标准",
+      "hallmark +3372⭐ 反 AI 废话技能包",
+      "awesome-llm-apps +923⭐ 端到端模板热"
+    ],
+    "ai-web": [
+      "OpenAI 发布青少年安全 AI 访问页面",
+      "Anthropic 今日官网零新增静默",
+      "OpenAI 页面更新于 07-16 暑期前",
+      "青少年专属使用框架信号出现",
+      "OpenAI 引领安全合规叙事",
+      "开发者需关注年龄分级合规成本"
+    ],
+    "ai-hn": [
+      "LM Studio Bionic 开源模型代理引讨论",
+      "传统 ML 检测 LLM 文本获赞轻量",
+      "HN 聚焦大模型开源与可解释性",
+      "AI 安全与监管成高分帖热点",
+      "社区情绪正面充满探索欲",
+      "欧美监管动态引发激烈讨论"
+    ],
+    "ai-arxiv": [
+      "VEXMLM 解决低资源语言 OOV 问题",
+      "Mask-Aware Diffusion LLM 增强推理",
+      "AlphaAgents 动态工具组合提升 92%",
+      "SwiftCoder 代码 NAS 效率达 68%",
+      "MassivePipe 千机 GPU 利用率至 81%",
+      "StructEval 分层评估协议实证"
+    ],
+    "ai-community": [
+      "Dev.to 聚焦 LLM 评估与 Agent 观测",
+      "AI 生成代码如贷款需偿还成本警示",
+      "agentic harness 概念厘清文章热",
+      "自托管 Agent 观测工具分享",
+      "Token Drift 致 Agent 变慢更贵",
+      "Lobste.rs 关注 AI 财富集中影响"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.212 adds /fork and auto-mode reset",
+      "Gemini CLI nightly v0.52.0-preview.0, no stable yet",
+      "9 AI CLI tools covered in community digest",
+      "Ecosystem maturing with sub-agent orchestration focus",
+      "Common pain: memory leaks and context budget issues",
+      "Open-source pushes WSL, Wayland, TUI rendering support"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem covers 13 agent projects",
+      "Fragmented '-Claw' brands target niche markets",
+      "Bugs and stability now primary roadmaps",
+      "Sandbox enforcement a repeated concern",
+      "500 issues and 500 PRs across ecosystem",
+      "Continuous-maintenance sprints over feature bloat"
+    ],
+    "ai-trending": [
+      "Graphify gains +1,107 stars in one day",
+      "awesome-llm-apps spikes +923 stars today",
+      "OpenInterpreter drives Rust AI tooling rise",
+      "LobeHub and OpenHands gain agent orchestration traction",
+      "github/copilot-sdk launches with +13 stars",
+      "vllm hits 86,451 stars for LLM serving"
+    ],
+    "ai-web": [
+      "OpenAI publishes teen AI safety article",
+      "Article: Why Teens Deserve Access Safe Ai",
+      "Anthropic pauses new public content today",
+      "OpenAI sitemap totals 869 articles",
+      "Anthropic sitemap steady at 418 articles",
+      "Youth AI access strategy signaled by OpenAI"
+    ],
+    "ai-hn": [
+      "105 YC founders worked at OpenAI, Anthropic",
+      "LM Studio releases agentic Bionic version",
+      "Classical ML detects LLM text effectively",
+      "$100 AI music video: Claude vs GPT-5.6",
+      "1-bit LLM runs in browser via WebGPU",
+      "HN wary of centralized AI power"
+    ],
+    "ai-arxiv": [
+      "LongStraw boosts efficient long-context training",
+      "Paper questions IRT trust for AI evaluation",
+      "T²MLR adds temporal recurrence to transformers",
+      "Mask-aware gradients for diffusion LMs proposed",
+      "BadWAM analyzes embodied AI failure modes",
+      "MedFailBench targets medical AI failures"
+    ],
+    "ai-hf": [
+      "GLM-5.2 leads with 4,029 likes, 513K downloads",
+      "Qwythos-9B GGUF hits 2.2M downloads",
+      "Tencent Hy3 open-weight model released",
+      "Quantization trends via unsloth and prism-ml",
+      "Baidu Unlimited-OCR joins trending models",
+      "empero-ai tops multimodal with two models"
+    ],
+    "ai-community": [
+      "Dev.to: LLM evals for dev tools essential",
+      "AI code called 'small loan' of tech debt",
+      "Tiny observability tool for AI agents built",
+      "Anthropic preps $965B IPO, microVM infra",
+      "Lobste.rs: AI surveillance and wealth concerns",
+      "Push for practical auditable AI systems"
+    ]
+  }
+}

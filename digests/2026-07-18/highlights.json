@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.214修复权限与Windows兼容",
+      "OpenAI Codex发3个Rust LSP Alpha版",
+      "Gemini CLI v0.52.0-nightly每日构建",
+      "OpenCode模型自动发现Issue获182赞",
+      "Pi TUI占满CPU核心问题引关注",
+      "Claude Code 10个高热度Issue含OOM"
+    ],
+    "ai-agents": [
+      "OpenClaw今日新开249关闭165 Issue",
+      "OpenClaw v2026.7.2-beta.2发远程会话",
+      "OpenClaw合并五区域侧边栏PR",
+      "OpenClaw修复Discord消息丢失P1",
+      "OpenClaw生态覆盖13个项目",
+      "OpenClaw待合并PR达294个"
+    ],
+    "ai-trending": [
+      "DeepTutor首日登榜获531星",
+      "LangChain 3.0新增2.3万星",
+      "AutoGPT稳居榜八天达185K星",
+      "LLamaScope新增5.6万星",
+      "Dolly V3开源媲美Mixtral",
+      "Stable Diffusion 3新增2.1万星"
+    ],
+    "ai-web": [
+      "OpenAI发AI时代评估记分卡",
+      "Anthropic今日无新增内容",
+      "OpenAI关注可衡量性与透明",
+      "Scorecard或成行业评估标准",
+      "Anthropic维持安全技术节奏",
+      "OpenAI指标体系引生态关注"
+    ],
+    "ai-hn": [
+      "Apple发法律信 targeting OpenAI员工",
+      "Claude Code缺陷文获136分116评",
+      "Anthropic被指毁约下线Fable 5",
+      "Kimi K3疑蒸馏未发布Anthropic模型",
+      "中国开源模型反超美国引讨论",
+      "护士反抗AI监控降质声浪起"
+    ],
+    "ai-arxiv": [
+      "RoboTTT扩视觉上下文至8K步",
+      "IRT用于AI评估遭质疑论文",
+      "SearchOS-V1多智能体搜索协作",
+      "Plover计划引导GUI智能体",
+      "AutoSynthesis自动元分析智能体",
+      "分词器原地扩展降延迟能耗"
+    ],
+    "ai-hf": [
+      "GLM-5.2登顶获4071赞53万下",
+      "Bonsai-27B 1bit量化破百万下",
+      "Qwen3.6无审查视觉模型229万下",
+      "百度Unlimited-OCR近200万下",
+      "Qwythos多模态推理包超200万下",
+      "腾讯Hy3基模引GGUF衍生潮"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code released v2.1.214 with per-agent model routing",
+      "Gemini CLI ships v0.52.0-nightly release",
+      "GitHub Copilot CLI updated to v1.0.72-1",
+      "Qwen Code launches v0.19.11-nightly build",
+      "OpenAI Codex has no recent release, 10 hot issues",
+      "DeepSeek TUI shows moderate community score activity"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.7.2 adds remote coding sessions",
+      "OpenClaw fixed Codex integration failures in beta.2",
+      "OpenClaw has 414 issues and 500 PRs in 24h",
+      "OpenClaw adds native automation framework nodes",
+      "OpenClaw enables Pi and OpenCode terminal resume",
+      "Session cleanup regression bug #50248 now closed"
+    ],
+    "ai-trending": [
+      "Design-skill repo gained +1485 stars for Claude Code",
+      "openinterpreter +431 stars with Kimi K3 support",
+      "DeepTutor +531 stars launches LLM tutoring system",
+      "PostHog +438 stars adds AI observability features",
+      "turbovec +280 stars Rust vector index with Python",
+      "LangChain dominates agent engineering discussions"
+    ],
+    "ai-web": [
+      "OpenAI published 'Scorecard for the AI Age' index",
+      "OpenAI article is metadata-only, no details yet",
+      "Anthropic reported zero new articles today",
+      "Anthropic pipeline static this reporting window",
+      "OpenAI sitemap totals 870 articles today",
+      "Strategic signal analysis shows no Anthropic shift"
+    ],
+    "ai-hn": [
+      "HN backs backlash on Anthropic Fable model rollback",
+      "Claude Code misfeature critique hit 136 points",
+      "Apple sent legal letters to OpenAI employees",
+      "Kimi K3 rumored to distill unreleased Anthropic model",
+      "Axios claims China erased US AI lead via Kimi K3",
+      "Meta-Anthropic $10B compute lease reported"
+    ],
+    "ai-arxiv": [
+      "RoboTTT extends visuomotor context to 8K timesteps",
+      "T²MLR adds temporal recurrence to Transformers",
+      "Tokenizer expansion avoids full LLM retraining",
+      "Mask-aware RL improves diffusion language models",
+      "On-Policy Delta Distillation studies post-training",
+      "Clinician medical safety benchmarks paper released"
+    ],
+    "ai-hf": [
+      "GLM-5.2 open MoE tops weekly likes on HF",
+      "Tencent Hy3 open model attracts major attention",
+      "Qwythos GGUF hits 2M downloads with 1M context",
+      "HauhauCS Qwen3.6 uncensored MoE leads downloads",
+      "Bonsai/Ternary 1-2 bit models trend on HF",
+      "Agents-A1 agentic model shows open workload gains"
+    ],
+    "ai-community": [
+      "Kimi K3 2.8T param open model detailed on Dev.to",
+      "Gemini Nano on-device AI tutorial on Dev.to",
+      "Codex with GPT-5.6 on Bedrock two-line config",
+      "Skill locks design taste before Claude Code writes",
+      "Lobste.rs debates AI surveillance and wealth concentration",
+      "RAG retrieval failures recurring Dev.to theme"
+    ]
+  }
+}

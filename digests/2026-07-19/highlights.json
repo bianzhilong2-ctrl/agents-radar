@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code现3个极高危Issue，修复受内核级Bug限制",
+      "OpenAI Codex日发10 PR、2版本，Rust迭代极快",
+      "Pi单日27更新9 PR，社区高强度修复打磨",
+      "Qwen Code双轨发布+10 PR，工程化最规范",
+      "DeepSeek TUI单日合并20+ PR，架构重构迅猛",
+      "Copilot CLI零PR提交，原生层崩溃风险高"
+    ],
+    "ai-agents": [
+      "OpenClaw日处理896变动，活跃度极高",
+      "OpenClaw发v2026.7.2-beta.3支持远程编码",
+      "社区推skill.yaml标准防恶意技能窃凭据",
+      "Linux/Windows缺失Clawdbot Apps引呼声",
+      "OpenClaw修Discord/Telegram消息渲染",
+      "跨平台统一会话线程术语定义进行中"
+    ],
+    "ai-trending": [
+      "AirLLM 4GB显存跑70B模型单日涨161星",
+      "code-review-graph本地代码图谱涨355星",
+      "kimi-cli登榜原生集成长上下文零配置",
+      "wigolo浏览器伴侣涨203星走MCP协议",
+      "ollama支持Kimi-K2.6/GLM-5.2新模型",
+      "lingbot-map流式3D重建涨831星领跑"
+    ],
+    "ai-hn": [
+      "GPT-5.6提示关闭30年凸优化鸿沟499分",
+      "Claude Code控Mac指南177分实用低门槛",
+      "土地使用AI图像监管讨论196分引担忧",
+      "单token指纹识别LLM论文引版权关注",
+      "Anthropic意识研究被讽走入死胡同",
+      "开源Claude Design替代77k星1M安装"
+    ],
+    "ai-hf": [
+      "GLM-5.2点赞4126下载54万MoE多模态",
+      "gemma-4-31B-it下载1260万图像文本",
+      "Qwen3.6-35B未审查攻击性模型赞2865",
+      "Agents-A1基于Qwen MoE专注工具调用",
+      "Qwythos-9B融合Claude推理赞2315",
+      "baidu Unlimited-OCR高精度下载208万"
+    ],
+    "ai-community": [
+      "PDF吞token提醒开发者控成本避延迟",
+      "AI应用账户边界指南助建安全权限",
+      "代理循环人类监督职责逆向视角讨论",
+      "跨模型切换状态同步隐患架构兼容",
+      "开源模型占63% token流量推本地推理",
+      "AI Gate切换模型失效揭示兼容问题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code fixes Windows BSOD and macOS token limits",
+      "OpenAI Codex shipped 2 releases today (v0.x)",
+      "AI CLI tools in stability-and-hardening phase",
+      "Only 3 of 9 CLI tools shipped versions today",
+      "Gemini CLI and Qwen Code covered in digest",
+      "Claude Code Skills repo listed among CLI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem covers 13 agent projects",
+      "NanoBot focuses on memory/subagent stability",
+      "Hermes Agent targets multi-profile enterprise",
+      "PicoClaw builds IoT/edge WhatsApp agents",
+      "Ecosystem shifts to secure agent orchestration",
+      "396 issues and 500 PRs tracked in ecosystem"
+    ],
+    "ai-trending": [
+      "AirLLM 70B runs on single 4GB GPU",
+      "Kimi CLI surges as local-first agent tool",
+      "ollama hits 176,412 stars on GitHub",
+      "vllm reaches 86,586 stars for LLM serving",
+      "memvid offers Rust single-file memory layer",
+      "PostHog AI observability gains star growth"
+    ],
+    "ai-hn": [
+      "GPT-5.6 closed 30-year convex optimization gap",
+      "Mayor bans AI-generated landlord ad images",
+      "HN discusses AI-fabricated misinformation risks",
+      "30 AI stories tracked from Hacker News",
+      "Prompt-engineered AI analytical limits debated",
+      "Policy debate over AI in real estate advertising"
+    ],
+    "ai-hf": [
+      "Bonsai-27B-gguf hits 736 likes, 301k downloads",
+      "GLM-5.2 gains 4.1k likes, 542k downloads",
+      "Qwythos-9B multimodal model 2.1M downloads",
+      "Unlimited-OCR from Baidu hits 2M downloads",
+      "Gemma-4-31B balances image-text performance",
+      "needle Jax tool-use framework trending"
+    ],
+    "ai-community": [
+      "PDFs inflate LLM token usage dramatically",
+      "FLUX runs locally on RTX 4070 GPU",
+      "Open-weight models drive 63% token traffic",
+      "Agents shift from tool-runner to decision engine",
+      "Kimi K3 enables 120B mobile inference",
+      "MCP sufficiency for enterprise debated"
+    ]
+  }
+}

@@ -1,4 +1,22 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-weekly": [
+      "Anthropic推Claude Tag嵌入Slack，65%代码由其生成",
+      "Claude Code迁Rust-Bun，Codex暗砍上下文引信任危机",
+      "OpenClaw v2026.7.2-beta.3推云端远程编码会话",
+      "Agent技能生态爆发，hallmark等日增7000+Star",
+      "AirLLM单日+161Star，4GB显存跑70B模型",
+      "Zig之父评Anthropic推诿帖获1406分703评"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "Claude Code migrates to Rust-rewritten Bun (Jul 20)",
+      "OpenAI cuts Codex context 372K to 272K silently",
+      "OpenClaw v2026.7.2-beta.3 adds cloud coding sessions",
+      "AirLLM runs 70B on 4GB VRAM, +161 stars",
+      "Skill ecosystems explode: hallmark +3.4k stars",
+      "Anthropic launches Claude Tag for Slack agents"
+    ]
+  }
 }

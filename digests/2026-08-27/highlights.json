@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.247发布，聚焦守护进程稳定性",
+      "GitHub Copilot CLI支持Entra ID企业认证",
+      "OpenCode集中修复内存管理与代理循环问题",
+      "DeepSeek-TUI 17+ PR冲刺，处理巨型代码文件",
+      "Pi 工具存在PowerShell兼容性与TUI渲染异常",
+      "Kimi Code CLI仅2个Issue，会话可靠性成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw今日332条活跃Issue，持续高强度迭代",
+      "多槽内存架构#60572重构内存管理层级",
+      "WebChat转录丢失#110771已修复",
+      "SQLite迁移空状态#94939引发存储损坏",
+      "子代理完成公告#80498解决重复通知",
+      "Codex插件注册#112248修复静默无操作"
+    ],
+    "ai-trending": [
+      "Anthropic官方插件目录单日狂揽308星",
+      "Rust本地超级大脑openhuman首日525星",
+      "RAG新范式PageIndex实现无向量推理",
+      "LEANN实现97%存储压缩颠覆向量库",
+      "caveman用原始人语言省65% Token",
+      "browser-use累计11万星验证Agent刚需"
+    ],
+    "ai-web": [
+      "Anthropic发布核安全分类器与persona-vectors研究",
+      "LLNL实验室全员万科学家接入Claude企业版",
+      "Anthropic签署白宫AI教育承诺投入100万美元",
+      "使用政策更新明确禁止AI Agent网络犯罪",
+      "Anthropic发布反恶意用途检测报告",
+      "OpenAI仅发三篇新闻稿无实质细节"
+    ],
+    "ai-arxiv": [
+      "VBVR-Pro实现可验证原生视觉推理",
+      "MU-CPT开启无监督继续后训练新范式",
+      "Agentic Autoresearch让AI自主设计模型",
+      "AsymSpec专为Agentic长上下文无损加速",
+      "ICON概念级解释框架提升模型可审计性",
+      "PlanSightRAG视觉优先多模态RAG新方案"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B以12933点赞登顶本周冠军",
+      "DeepSeek-V4-Flash下载量突破385万次",
+      "Kimi-K3多模态模型获11023点赞",
+      "GLM-5.3-Flash新发布即冲榜，下载为零",
+      "MiniMax-H3视频生成模型领跑生成赛道",
+      "榜单超三分之一为Qwen3.8去审查变体"
+    ],
+    "ai-community": [
+      "Dev.to推出结构化AI内容披露分级制度",
+      "MCP协议比CLI多浪费4-32倍Token",
+      "Vibe Coding可行但Vibe Debugging才是杀手",
+      "WAF对LLM Agent流量存在安全盲区",
+      "5款设计转代码工具统一基准横评",
+      "开发者质疑AI工具真实生产力ROI"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code skill-creator: run_eval.py always reports 0% recall",
+      "Showstopper bug breaks Skills evaluation pipeline",
+      "9 CLI tools tracked: Claude Code, Codex, Gemini CLI +6",
+      "Anthropic Skills repo: 12 comments on bug #556",
+      "Cross-tool safety flag: Criminal Planning/Confessions",
+      "Claude Code dominates 9-tool community digest"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues/PRs in 24h, intense activity",
+      "13 Claw-ecosystem projects tracked today",
+      "OpenClaw prepping v2026.9.1-beta.1 release",
+      "NanoBot, Hermes, IronClaw among active forks",
+      "332 open issues, 198 PRs merged in OpenClaw",
+      "Multi-agent orchestration focus across ecosystem"
+    ],
+    "ai-trending": [
+      "Agent Skills ecosystem explodes as new abstraction layer",
+      "marin: open foundation-model R&D framework, 441 stars",
+      "browser-use climbs as standard agent web layer",
+      "Anthropic plugin directory + marketplace launch today",
+      "AI job-search tools surge: 1,300+ stars in a day",
+      "openhuman, claude-obsidian chase second-brain niche"
+    ],
+    "ai-web": [
+      "Anthropic debuts major robotics eval with Unitree Go2",
+      "Nuclear-safeguards classifier hits 96% accuracy",
+      "LLNL expands Claude Enterprise to 10,000 scientists",
+      "Anthropic publishes 30 new articles today",
+      "OpenAI activity metadata-only: 5 new articles",
+      "Anthropic layers safety: nuclear + persona vectors"
+    ],
+    "ai-hn": [
+      "GLM-5.3-Flash dominates with 957 HN points",
+      "GLM-5.3-Flash thread hits 481 comments",
+      "30 AI stories tracked on Hacker News today",
+      "GLM-5.3-Flash sparks record community engagement",
+      "Record-breaking discussion around new Flash model",
+      "HN AI buzz centered on single dominant launch"
+    ],
+    "ai-arxiv": [
+      "VBVR-Pro: verifiable suite for native visual reasoning",
+      "Agentic Autoresearch tackles cell-edge power control",
+      "PlanSightRAG: visual-first RAG for compliance QA",
+      "50 ArXiv papers tracked across cs.AI/CL/LG",
+      "Sparse autoencoders interpret neutrino foundation model",
+      "MyoMechanix grounds activity understanding in biomechanics"
+    ],
+    "ai-community": [
+      "37 articles aggregated from Dev.to and Lobste.rs",
+      "Dev.to leads with 30 AI-tagged articles",
+      "Lobste.rs contributes 7 stories to today's digest",
+      "Community digest flagged as user-safe content",
+      "Multi-source community pulse: dev + lobsters",
+      "Auto-generated daily community AI roundup"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.251发布，含安全规则修复",
+      "OpenAI Codex日合并10个PR，发5个Alpha版本",
+      "Gemini CLI发布v0.59.0-nightly",
+      "Windows桌面端回归bug成最大痛点",
+      "模型层成本优化成热门（批处理/批量调用）",
+      "MCP、浏览器控制等插件化集成迅速扩展"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.9.1-beta.1版本",
+      "Gateway内存泄漏被标记为O级严重问题",
+      "会话通道拥塞导致消息丢失（#54488等）",
+      "Codex子代理静默截断/丢弃问题",
+      "24小时内500条Issue和500条PR互动",
+      "安装策略警告需精确输入目标名才能继续"
+    ],
+    "ai-trending": [
+      "FreeLLMAPI日增433星，74亿Token/月免费额度",
+      "Anthropic官方插件库日增457星",
+      "LiveKit Agents登顶实时语音框架趋势",
+      "Chrome DevTools MCP让Coding Agent驱动浏览器",
+      "Ollama维持179,675高星，本地LLM首选",
+      "Graph RAG与长时记忆（Mem0等）成刚需"
+    ],
+    "ai-hn": [
+      "Pentagon将Anthropic列入黑名单被裁定违法",
+      "OpenAI Python SDK迁移至HTTPX2引热议（190分）",
+      "LLM记忆机制意外可用于程序分析",
+      "StemDeck开源本地音频分离工具发布",
+      "开源guardrails项目Conduct保障LLM安全",
+      "1,200个沙箱AI Agent曾被用于攻击Hugging Face"
+    ],
+    "ai-arxiv": [
+      "CritICL：推理时弱到强泛化新框架",
+      "Puro-2B：5090美元预算完成1.5B预训练",
+      "TTPO：测试时策略优化突破固定标注依赖",
+      "WikiSkill将Agent经验编译为持久化技能",
+      "SWE-Prime挑战\"更多轨迹=更好\"假设",
+      "视频世界模型CLAP、PAWBench涌现"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B周下载345万，当周双冠王",
+      "MiniMax-H3登顶视频生成（458万下载）",
+      "GLM-5.3、DeepSeek-V4-Flash、Kimi-K3同周发布",
+      "Unsloth推出GGUF/FP8量化包下载百万级",
+      "DeepSeek-V4-Flash代码数学推理接近满血版",
+      "腾讯混元Hy4-preview、Ornith-1.5-35B社区衍生"
+    ],
+    "ai-community": [
+      "AI\"记住一切\"不等于\"理解因果\"",
+      "AWS Strands让Claude Opus5达99.95%准确率",
+      "Agent日志是证词而非证据（METR报告）",
+      ".mcp.json配置中存在API密钥泄露风险",
+      "1,200个沙箱AI Agent曾被用于攻击Hugging Face",
+      "SQLite替代向量数据库等工程权衡获认可"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.251 drops with 164+ comment bug thread",
+      "OpenAI Codex ships 5 Alpha Builds in 24 hours",
+      "Gemini CLI nightly releases accelerating",
+      "Windows stability remains top CLI tool pain point",
+      "Claude Code Skills integration now available",
+      "Top CLI tools tier: Claude, Codex, Gemini CLI"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.1-beta.1 fixes Gateway restart recovery",
+      "500 issues and 500 PRs updated in 24 hours",
+      "LobsterAI and PicoClaw expand agent ecosystem",
+      "IronClaw project launched by nearai",
+      "OpenClaw config-write reliability improved",
+      "13 agents tracked with 500+ open issues"
+    ],
+    "ai-trending": [
+      "scientific-agent-skills gains thousands of stars",
+      "Claude-plugins-official trending with new releases",
+      "LightRAG emerges as new vector store contender",
+      "OpenMontage: agentic video production platform",
+      "AnythingLLM privacy-preserving platform growing",
+      "Ollama hits 179,675 stars on GitHub"
+    ],
+    "ai-web": [
+      "Anthropic: automated alignment failure mitigation demo",
+      "Claude for Teachers launches for K-12 educators",
+      "Anthropic offers 10,000 free Claude Science seats",
+      "Model Hardware Standard enables lab equipment AI control",
+      "OpenAI: Cursor acquisition by SpaceX announced",
+      "OpenAI supports next-gen AI startups in Thailand"
+    ],
+    "ai-arxiv": [
+      "Test-time training replaces ground-truth labels in LLM research",
+      "Puro-2B trains on RTX 5090 for under $5,090",
+      "Inference-time scaling methods gaining momentum",
+      "Architectural patterns for agent alignment and auditability",
+      "Competitive LLM pretraining on consumer hardware shown",
+      "AI integration into molecular chemistry and physics research"
+    ],
+    "ai-community": [
+      "Strands agent hits 99.95% on ARC-AGI-3 (from 30%)",
+      "89% of LLM debates found to be synthetic",
+      "Hallucination is an architecture problem, not prompt",
+      "System fights back against fake AI second opinions",
+      "ARC-AGI performance breakthrough via agentic prompting",
+      "API key exposure and security dominate discussions"
+    ]
+  }
+}

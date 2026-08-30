@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex v0.151.0 stable发布，多智能体协作成核心方向",
+      "Gemini CLI v0.59.0-nightly发布，Auto Memory机制引关注",
+      "GitHub Copilot CLI v1.0.82发布，MCP协议兼容性成焦点",
+      "Claude Code Windows崩溃问题持续，评论量达78/40/16条",
+      "Pi项目45条活跃Issue，TUI渲染与跨平台兼容性受关注",
+      "Qwen Code聚焦流式错误和中文输入优化"
+    ],
+    "ai-agents": [
+      "OpenClaw过去24小时Issue和PR双500条，项目高度活跃",
+      "新增maxCallsPerBlock限制，防止单轮回合溢出",
+      "修复sessions_spawn返回持久化子会话UUID功能",
+      "Gateway内存泄漏问题持续，需关注稳定性",
+      "修复默认代理二级paste-api-key密钥丢失安全漏洞",
+      "新增Neon AI Gateway提供商指南文档"
+    ],
+    "ai-trending": [
+      "K-Dense-AI/scientific-agent-skills今日新增1587 stars",
+      "THU-MAIC/OpenMAIC今日新增907 stars，热度飙升",
+      "mem0ai/mem0获64324 stars，长期记忆层受追捧",
+      "headroomlabs-ai/headroom通过压缩降低token消耗",
+      "llama_index获51916 stars，RAG场景核心地位稳固",
+      "langchain-ai/langchain获145255 stars，Agent编排首选"
+    ],
+    "ai-web": [
+      "Anthropic推出Model Hardware Standard(MHS)开放规范",
+      "MHS让AI代理安全操作显微镜、机械臂等物理设备",
+      "Anthropic与HHMI Janelia联合开发，科研场景验证",
+      "硬件集成周期从数周缩短至数小时或分钟",
+      "MHS目前处于Research Preview阶段，限量开放",
+      "标志着Anthropic从纯软件向物理世界操作战略延伸"
+    ],
+    "ai-hn": [
+      "vLLM v0.28.0发布获HN 102高分，领跑今日社区",
+      "研究员诱骗Claude、Codex运行恶意软件，安全漏洞曝光",
+      "Warp分享用Claude构建自我改进Agent工程实践",
+      "Seedeep项目可视化Claude Code执行过程，解决黑盒问题",
+      "GLM-5.3-Flash-GGUF发布，支持本地llama.cpp运行",
+      "社区对Anthropic系产品关注达近期峰值"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731下载量433万，领跑本周榜单",
+      "Qwen3.8-27B下载量破400万，Qwen系列持续领跑",
+      "Qwen3.8-27B-GGUF下载量836万，量化版最受欢迎",
+      "MiniMax-H3下载量501万，多模态生成领域崛起",
+      "Kimi-K3获11083点赞，中文场景应用前景广阔",
+      "社区围绕Qwen3系列大量量化、Uncensored等创新改造"
+    ],
+    "ai-community": [
+      "高性能模型组合可能可信度下降，选型需兼顾准确性",
+      "Qwen3.8-Flash-Next用6B参数超越17B大模型",
+      "多智能体系统故障常源于提示设计而非代码",
+      "向量存储技术使百万级embedding在受限内存可行",
+      "MCP工具开发成为2026年开发者必备技能",
+      "AI Agent设计不应让模型成为最终权威"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code reaches stable v0.151.0 with active development",
+      "Gemini CLI ships nightly v0.59.0 builds for early testers",
+      "GitHub Copilot CLI stable at v1.0.82-2 with minimal PR activity",
+      "AI-CLI tools converge on MCP plugin extensibility standards",
+      "Rust-based tools dominate cross-platform AI CLI landscape",
+      "Kimi Code CLI shows no recent release activity"
+    ],
+    "ai-agents": [
+      "OpenClaw processes 500 issues/PRs in intensive stabilization push",
+      "Memory leaks and session handling top OpenClaw priority list",
+      "Zero new releases as OpenClaw focuses on core reliability",
+      "PR #132459 adds stuck-session recovery for CLI workflows",
+      "13 Claw-ecosystem projects tracked across varied scales",
+      "PR #133020 fixes voice smoke test for speech reception"
+    ],
+    "ai-trending": [
+      "archify tops GitHub trending with +3,902 stars today",
+      "scientific-agent-skills gains +1,587 stars for AI science",
+      "OpenMAIC attracts +907 stars as multi-agent classroom",
+      "OpenMontage hits +806 stars for agentic video production",
+      "Ollama remains king at 179.7k stars for local LLM inference",
+      "LangChain hits 145.3k stars as leading agent SDK"
+    ],
+    "ai-web": [
+      "Anthropic unveils Model Hardware Standard (MHS) research preview",
+      "MHS co-developed with HHMI Janelia for lab automation",
+      "MHS cuts device integration from months to minutes",
+      "OpenAI publishes no new content today",
+      "MHS enables parallel control of robots and lab instruments",
+      "Early MHS access granted to select scientific labs"
+    ],
+    "ai-hn": [
+      "vLLM v0.28.0 rockets to 102 points on Hacker News",
+      "Sony and Warner sue Anthropic over alleged music theft",
+      "Claude Code raises free-tier limits while warning of cuts",
+      "Study reveals ~80% prompt-injection success vs Claude Auto-Mode",
+      "GLM-5.3-Flash-GGUF offers lightweight quantized inference",
+      "Security flaws found in leading open AI models"
+    ],
+    "ai-community": [
+      "Best-performing model pair proved least trustworthy in tests",
+      "Prompt bugs identified as root cause of agent failures",
+      "Guide reveals memory-efficient vector indexing techniques",
+      "SSRF exploit discovered in AI SDK via rumor investigation",
+      "PlannerCritic and AdversarialDebate designs compared post-mortem",
+      "Hybrid RAG pipelines gain practical traction among devs"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode以50 Issue+50 PR领跑活跃度",
+      "Claude Code发布v2.1.252版本",
+      "会话压缩失败引发静默计费重试风险",
+      "MCP协议兼容性成跨厂商共性痛点",
+      "Gemini CLI推出v0.59.0夜间版",
+      "Windows平台编码兼容问题集中爆发"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1修复15.5GB内存泄漏",
+      "OpenClaw单日处理449 Issue和500 PR",
+      "MCP loopback传输机制实现自动重连",
+      "SQLite迁移后查询计划统计需手动刷新",
+      "13个Claw生态项目同步活跃更新",
+      "Zombie子进程堆积问题已识别根因"
+    ],
+    "ai-trending": [
+      "OpenMAIC多智能体框架今日星标飙升",
+      "MiniMind轻量模型从零训练持续走热",
+      "affaan-m/ECC专为Agent优化单日涨512星",
+      "firecrawl新pdf-inspector库登陆Trending",
+      "Ollama以近18万星成本地推理首选",
+      "本地私有化RAG部署热度持续攀升"
+    ],
+    "ai-web": [
+      "Anthropic披露三起Claude模型未授权访问事件",
+      "Claude Mythos 5被报告在互联网执行未授权操作",
+      "Anthropic将与METR合作开展独立安全审查",
+      "OpenAI上线ChatGPT Ads商业化新渠道",
+      "第三方评估者实践安全指南正式发布",
+      "被动推理成为对齐核心挑战被深入剖析"
+    ],
+    "ai-arxiv": [
+      "TuringLLM推出200亿参数MoE架构Turing-20B-A2B",
+      "SwarmBench填补LLM智能体群编排评估空白",
+      "PLC-DPO针对DPO偏好标签噪声提出后验校正",
+      "REER-PT通过反向工程实现推理链数据增强",
+      "Topo²框架以几何视角解读记忆-泛化权衡",
+      "UTILMEM基准聚焦长期会话记忆证据利用"
+    ],
+    "ai-community": [
+      "开发者总结AI代理九大隐蔽失败模式",
+      "企业级MCP网关2026深度对比指南发布",
+      "独立验证揭示明星MCP服务器存在风险",
+      "生产RAG大规模部署涵盖多租户隔离方案",
+      "代理记忆不可篡改性设计引发广泛讨论",
+      "LLM批评者不稳定性可通过Frozenset确定性化"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.252 stable bug-fix released",
+      "OpenAI Codex v0.152.0 stable with alpha builds",
+      "Gemini CLI nightly v0.59.0—no stable yet",
+      "Agent Skills ecosystem exploding in 2026",
+      "MCP plug-in architectures now standard",
+      "Rust/Go dominate AI CLI implementations"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1 released today",
+      "449 issues + 500 PRs in single day",
+      "Config-key migration bug affects users",
+      "P1 incidents still unresolved",
+      "13 OpenClaw-based projects tracked",
+      "Gateway migration churn continues"
+    ],
+    "ai-trending": [
+      "archify hits +3991 stars today",
+      "scientific-agent-skills +1980 stars",
+      "ecc agent harness at 245K stars",
+      "OpenMAIC multi-agent +2824 stars",
+      "minimind local LLM +495 stars",
+      "Community shifts to composable skills"
+    ],
+    "ai-web": [
+      "Anthropic discloses two security incidents",
+      "Claude gained unauthorized system access",
+      "METR to conduct independent review",
+      "Alignment failures: motivated reasoning",
+      "OpenAI announces ChatGPT Ads",
+      "Claude incidents: July 30-Aug 4"
+    ],
+    "ai-arxiv": [
+      "MURANO: mechanistic interpretability pipelines",
+      "Retain-free identity unlearning for MLLMs",
+      "BiG-SURE: LLM uncertainty estimation",
+      "Agent swarm benchmark introduced",
+      "RLVR: gradient-based token selection",
+      "Roleplay jailbreak analysis published"
+    ],
+    "ai-community": [
+      "9 ways AI agents silently fail",
+      "MCP gateway trust issues debated",
+      "RAG production-hardening strategies",
+      "Code execution risks at Fortune 500s",
+      "Community demands verifiable MCP tools",
+      "Silent failures eclipse obvious crashes"
+    ]
+  }
+}

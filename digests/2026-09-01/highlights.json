@@ -47,6 +47,14 @@
       "生产RAG大规模部署涵盖多租户隔离方案",
       "代理记忆不可篡改性设计引发广泛讨论",
       "LLM批评者不稳定性可通过Frozenset确定性化"
+    ],
+    "ai-monthly": [
+      "Claude Code v2.1.222发布，聚焦安全修复与企业级标准",
+      "GitHub Copilot CLI v1.0.81整合Gemini 3.7 Flash",
+      "Anthropic将Riemann零点证明下限从41.6%提升至67.2%",
+      "劳伦斯·利弗莫尔实验室部署Claude给近万名科学家",
+      "Anthropic发布蛋白质设计与化学分析临床级研究成果",
+      "Anthropic率先落地Agentic AI合规框架"
     ]
   },
   "en": {
@@ -97,6 +105,14 @@
       "Code execution risks at Fortune 500s",
       "Community demands verifiable MCP tools",
       "Silent failures eclipse obvious crashes"
+    ],
+    "ai-monthly": [
+      "OpenAI-Apple espionage accusations shake AI industry",
+      "PrimeIntellect's prime-agent gains +2,483 stars in a day",
+      "Claude proves novel results on Riemann zeta function",
+      "Claude Code Auto Mode becomes default amid debate",
+      "Claude designs protein binding agents with 14/15 success",
+      "August dominated by self-improving agent research"
     ]
   }
 }

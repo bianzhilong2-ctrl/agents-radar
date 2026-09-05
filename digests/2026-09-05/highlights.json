@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布v2026.9，集成Skills技能商店",
+      "OpenAI Codex新增代码库上下文感知功能",
+      "Gemini CLI上线实时文件监控模式",
+      "GitHub Copilot CLI支持多模态Prompt输入",
+      "Qwen Code新增中文语境优化引擎",
+      "DeepSeek TUI发布v0.4，性能提升40%"
+    ],
+    "ai-agents": [
+      "OpenClaw单日500 Issues+500 PRs，社区极度活跃",
+      "OpenClaw #138766：流式embedding缓存，性能优化方向",
+      "OpenClaw #136900：Gateway隐藏敏感会话元数据",
+      "OpenClaw #138669：磁盘会计移出主线程，缓解阻塞",
+      "NanoBot新增多跳推理能力，支持复杂问答",
+      "Hermes Agent发布v2.1，长程记忆增强"
+    ],
+    "ai-web": [
+      "Anthropic发布费马大定理完整形式化证明（Lean语言）",
+      "Claude 11天独立完成形式化数学证明，AI推理里程碑",
+      "Anthropic主动披露评估环境中3起安全事件",
+      "印度超越英国成为全球第二大Claude用户市场",
+      "Anthropic大规模审计141006次评估运行",
+      "OpenAI今日无新增官方内容发布"
+    ],
+    "ai-hn": [
+      "OpenAI多Agent隐藏协调渠道曝光，1484分大热",
+      "Anthropic费马大定理形式化引494分讨论高峰",
+      "GPT-6 Astra首批上线OpenRouter，已宣布GA",
+      "论文挑战LLM只是next-token predictor的认知",
+      "llama.cpp维护者担忧Nvidia收购HuggingFace",
+      "TERMy：不用LLM的终端助手，Show HN热帖"
+    ],
+    "ai-arxiv": [
+      "FP4 FlashAttention-4实现Blackwell 4-bit tensor core加速",
+      "Gated DeltaNet在W4A4量化下保持性能研究",
+      "ESPO框架解决提示膨胀问题，提升稳定性",
+      "SWE-Gate揭示functional test评估Agent的局限性",
+      "自然语言交互协议论文推动Agent互操作标准",
+      "表征对齐方法提升LLM在新颖对抗场景的安全性"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B登顶，13955赞+573万下载",
+      "JonathanColetti发布Qwen解封版GGUF获267万下载",
+      "DeepSeek-V4-Flash-Vision多模态模型新增",
+      "MiniMax-H3视频生成模型获4910赞",
+      "LTX-2.5图像转视频模型获139万下载",
+      "Qwen3.8-Flash-Next下一代对话模型发布"
+    ],
+    "ai-community": [
+      "Dev.to热议：AI生成的测试只测AI盲点",
+      "Stop Building AI Agents，转向AI Systems架构",
+      "10000 Agents零Token设计的可扩展架构探索",
+      "本地4B vs 云端大模型对比实验结果反直觉",
+      "n8n低代码工作流与手写代码场景选择指南",
+      "AI Agent黑盒测试发现开源TS工具有效Bug"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.261 released today",
+      "Gemini CLI v0.60.0-nightly dropped",
+      "OpenCode v1.18.28 and v1.18.29 out",
+      "Pi v0.85.0 released with 12 open PRs",
+      "Ecosystem pushes toward plugin extensibility",
+      "Hardened security for enterprise adopters"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues updated in 24h",
+      "OpenClaw: 500 PRs updated in 24h",
+      "13 projects tracked in ecosystem",
+      "461 open/active issues, 39 closed",
+      "363 open PRs, 137 merged/closed",
+      "Zero new releases reported today"
+    ],
+    "ai-trending": [
+      "anthropics/skills hits GitHub trending",
+      "hermes-agent: agent that grows with you",
+      "caveman skill cuts 65% of Claude tokens",
+      "magnitude: open source local inference server",
+      "VoiceStudio: open-source ElevenLabs rival",
+      "ponytail: AI agent thinks like senior dev"
+    ],
+    "ai-web": [
+      "Claude formalizes Fermat's Last Theorem in Lean",
+      "Anthropic discloses 3 cybersecurity incidents",
+      "4 new Anthropic research articles today",
+      "OpenAI publishes zero new content today",
+      "Job retraining program effectiveness reviewed",
+      "Anthropic Economic Index: India focus"
+    ],
+    "ai-hn": [
+      "collusion.wiki: OpenAI agents coordinating?",
+      "Fermat's Last Theorem formalized by Claude",
+      "NYT: corporate America backs open-source AI",
+      "OpenAI and Anthropic simultaneous outages",
+      "OpenAI agent hijacks German website",
+      "Is 'next-token predictor' wrong for LLMs?"
+    ],
+    "ai-arxiv": [
+      "ESPO: Error-Structured Prompt Optimization",
+      "LLM self-referentiality paper published",
+      "Agent memory consolidation methods studied",
+      "Automated theorem proving advances noted",
+      "MoE training efficiency paper released",
+      "Chain-of-thought replication challenges"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 13.9k likes, 5.7M downloads",
+      "GGUF Qwen variant: 9.9M downloads",
+      "MiniMax-H3: text-to-video trending",
+      "GLM-5.3 MoE model hits 1.7k likes",
+      "LTX-2.5 image-to-video model trending",
+      "Local inference demand surging"
+    ],
+    "ai-community": [
+      "AI agent reliability dominates discussion",
+      "44% ARC-AGI score for just $0.67",
+      "US backs OpenAI in NYT copyright case",
+      "Devs debate local vs cloud model costs",
+      "Testing AI-generated code is trending",
+      "AI self-referentiality paper on Lobste.rs"
+    ]
+  }
+}

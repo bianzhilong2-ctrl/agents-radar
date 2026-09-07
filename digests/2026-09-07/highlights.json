@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.263 发布，聚焦安全拦截与性能修复",
+      "DeepSeek TUI 提交 50 个 PR，全项目活跃度居首",
+      "OpenAI Codex 引发 Windows 稳定性与配额焦虑讨论",
+      "Gemini CLI v0.60.0-nightly 推进 Auto Memory 与 OAuth",
+      "Qwen Code 0.23.0 preview 发布失败，OpenTUI 迁移受阻",
+      "AI CLI 头部进入稳定性打磨与 Agent 安全治理深水区"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态覆盖 13 个项目，今日 500 Issue 涌入",
+      "Hermes Agent 强调自适应记忆与技能扩展框架",
+      "NanoBot 与 IronClaw 等新兴 Agent 框架快速崛起",
+      "PR 待合并 308 个，合并率不足 40% 积压严重",
+      "社区聚焦个人 AI 助手与多 Agent 协作能力建设",
+      "新版本发布为 0，开发节奏进入沉淀期"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 单日涨星超 2200 创纪录",
+      "affaan-m/ECC 为 Claude Code 提供 Agent harness",
+      "ruvnet/ruflo 支持多 Agent Swarm 与 Claude/Codex 驱动",
+      "MiniMax-H3 视频生成模型在 HF 持续爆红",
+      "Magnitude 本地推理服务器降低模型部署门槛",
+      "Agent 生态围绕 Skills 与 Harness 全面爆发"
+    ],
+    "ai-web": [
+      "OpenAI 单日发布 5 篇文章含《An Alien Mind》",
+      "Anthropic 今日零更新，产品线保持静默",
+      "OpenAI 公开内部研究加速机制引发关注",
+      "Anthropic 重心仍在安全治理与 Claude 3 迭代",
+      "OpenAI 战略倾向模型能力突破与研发规模化",
+      "两家公司内容发布节奏出现明显差距"
+    ],
+    "ai-hn": [
+      "《An Alien Mind》329 分断层领跑 HN 引发热议",
+      "AMD ROCm 10.0 锚定 Agentic AI 算力新基建",
+      "Anthropic IPO 时间表确认成为资本焦点",
+      "OpenAI 披露内部 Coding Agent 对齐监控实践",
+      "HN 情绪兴奋与审慎并存，聚焦模型可解释性",
+      "LLM 隐式符号结构研究为可解释性提供新视角"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 点赞破 1.4 万，GGUF 下载超千万",
+      "MiniMax-H3 下载近 500 万领跑视频生成赛道",
+      "GLM-5.3-Flash 兼顾速度与多模态适合边缘部署",
+      "Qwen3.8 uncensored/abliterated 变体社区扎堆",
+      "FP8 与 NVFP4 新量化格式开始崭露头角",
+      "腾讯混元 Hy4-preview 入榜关注中文多任务表现"
+    ],
+    "ai-community": [
+      "开发者反思：Agent 重点已从 prompt 转向评估循环",
+      "Postgres pgvector 一年实战跑赢专用向量库",
+      "RAG 新痛点：何时不该检索成为核心议题",
+      "JSON/CSV/YAML 被指为 Agent 攻击向量需警惕",
+      "Lobste.rs 聚焦 ARC-AGI 推理极限与 LLM 自指性",
+      "社区氛围从造 Agent 转向管 Agent 工程化"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI ecosystem tracks 9 tools with mature TUI patterns",
+      "Claude Code Skills joins the extensibility lineup",
+      "Differentiation shifts to integration depth and polish",
+      "DeepSeek TUI and OpenCode lack actionable telemetry",
+      "Convergence on MCP, sub-agents, and multi-provider routing",
+      "Nightly releases at Gemini and Qwen signal rapid iteration"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "13 OpenClaw ecosystem projects tracked today",
+      "Session management and event-loop bugs dominate backlog",
+      "Review bottleneck: 308 PRs still open after 192 merges",
+      "Rapid release cadence (2026.9.2) causing regressions",
+      "Windows-specific regressions flagged across ecosystem"
+    ],
+    "ai-trending": [
+      "hermes-agent surges 520 stars, hits 242k total",
+      "magnitude gains 604 stars as universal inference server",
+      "Agent skill/harness infrastructure dominates trending",
+      "Vectorless RAG tools PageIndex and cognee gaining traction",
+      "On-device vector DBs zvec and LEANN outperform stacks",
+      "opencode CLI gains 551 stars challenging Claude Code"
+    ],
+    "ai-hn": [
+      "'An Alien Mind' tops HN with 329 points, 288 comments",
+      "Anthropic IPO speculation stirs AI industry anxiety",
+      "Model fatigue emerges as labs flood with releases",
+      "Internal coding agent monitoring sparks safety debate",
+      "OpenAI research culture post draws 115 points",
+      "Community grapples with AI guardrail removal tensions"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads with 14k likes, 6.19M downloads",
+      "Qwen ecosystem fills nearly half of trending slots",
+      "GLM-5.3 emerges as top non-Qwen open-weight model",
+      "LTX-2.5 and MiniMax-H3 drive multimodal momentum",
+      "Tencent Hy4-preview signals next frontier releases",
+      "NVFP4, GGUF, and FP8 quantization trending in parallel"
+    ],
+    "ai-community": [
+      "Knowing when not to retrieve beats better retrieval",
+      "Postgres vector extensions beat dedicated vector DBs",
+      "ARC-AGI at low cost sparks efficient eval interest",
+      "RAG without LangChain: gains and tradeoffs explored",
+      "Prompt systems lack rigorous testing culture",
+      "Concurrent AI agents gain gentle intro traction"
+    ]
+  }
+}

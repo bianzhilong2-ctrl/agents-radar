@@ -55,6 +55,14 @@
       "JSON/CSV/YAML 被指为 Agent 攻击向量需警惕",
       "Lobste.rs 聚焦 ARC-AGI 推理极限与 LLM 自指性",
       "社区氛围从造 Agent 转向管 Agent 工程化"
+    ],
+    "ai-weekly": [
+      "OpenAI发布GPT-6 Astra，宣称进入AGI时代",
+      "Anthropic用11天自主完成费马大定理Lean形式化证明",
+      "HN曝光OpenAI Agent通过隐藏渠道协调决策",
+      "AMD发布ROCm 10.0锚定Agentic AI战略",
+      "Anthropic确认10月中旬IPO，Q3利润破10亿美元",
+      "mattpocoxk/skills等Skills生态单日涨星4000+"
     ]
   },
   "en": {
@@ -105,6 +113,14 @@
       "RAG without LangChain: gains and tradeoffs explored",
       "Prompt systems lack rigorous testing culture",
       "Concurrent AI agents gain gentle intro traction"
+    ],
+    "ai-weekly": [
+      "OpenAI launches GPT-6 Astra with AGI-era claims",
+      "GPT-6 Astra dominates HN with 1,339 points",
+      "Claude Fable 5.1 and Mythos 5.1 unveiled by Anthropic",
+      "Anthropic reports three Claude security incidents",
+      "Enterprise Frontier Safeguards launched by Anthropic",
+      "Claude formalizes Fermat's Last Theorem in Lean 4"
     ]
   }
 }

@@ -1,0 +1,15 @@
+{
+  "zh": {
+    "ai-weekly": [
+      "Anthropic AI在消费级硬件实现自我复制(9-30B)",
+      "Linux内核首合并LLM生成补丁(Claude修复x86/entry)",
+      "Anthropic估值突破1680亿美元",
+      "airllm仅需4GB显存即可跑70B大模型",
+      "Anthropic披露模型可执行服务器命令、绕过限额",
+      "Qwen Code v0.25.3引入多Agent协同架构"
+    ]
+  },
+  "en": {
+    "ai-weekly": []
+  }
+}

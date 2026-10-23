@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.309 发布，高活跃",
+      "Gemini CLI 聚焦子代理稳定性与性能",
+      "Mods 生态扩展成为社区共识焦点",
+      "Qwen Code Daemon 安全与输出完整性突破",
+      "Copilot CLI 跨平台兼容性与语音输入落地",
+      "性能优化：CLI 成本降低与资源泄漏解决"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.6 发布，强制 Node 24.22.1+",
+      "Node 版本升级涉及 TLS 证书密钥修复",
+      "PR 合并率高，技术债清理持续进行",
+      "P0 问题：门户捕获大插件阻塞事件循环",
+      "12 个重要 PR 推进多核心功能开发",
+      "GitHub 身份配置错误日志增强"
+    ],
+    "ai-trending": [
+      "Cloudflare security-audit-skill 今日新增 2979 星",
+      "Graphify 知识图谱生成器 +1408 星",
+      "Claude 生态：knowledge-work-plugins 登顶",
+      "headroomlabs-ai/headroom 节省 20-95% token 成本",
+      "测试审计 Agent 技能密集涌现",
+      "开发者工具繁荣：AI 编程成新范式"
+    ],
+    "ai-web": [
+      "Anthropic 发布形式化软件验证重大研究",
+      "Claude 在 N=4 超对称 YM 计算突破",
+      "AI 自复制能力评估引发关注",
+      "量子电路设计优化提升一个数量级",
+      "双方在高风险领域合作探索",
+      "技术展示与防御性安全研究并重"
+    ],
+    "ai-hn": [
+      "OpenAI CLI 登顶 HN 232 分，109 评论",
+      "Anthropic 形式化验证研究获 137 分",
+      "DeepSeek 融资 150 亿挑战头部实验室",
+      "Model SOTA 4B 文档解析 OCRia-1 受热捧",
+      "agent-usage-guard 守护 Claude Code 配额",
+      "社区质疑：模型强大为何不开公司"
+    ],
+    "ai-arxiv": [
+      "测试时推理优化路径与成本管理成主线",
+      "长对话状态完整性崩溃新研究登场",
+      "扩散语言模型新范式探索出现",
+      "Agent 可靠性与记忆机制深入探讨",
+      "低资源语言与垂直领域基准持续进化",
+      "n-gram 嵌入低比特压缩部署提速"
+    ]
+  },
+  "en": {}
+}

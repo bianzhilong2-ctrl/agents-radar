@@ -1,0 +1,22 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI v0.67.0-nightly发布，单日50+Issue/22PR",
+      "OpenAI官方CLI工具发布，HN获232分",
+      "Claude Code v2.1.309稳定版发布",
+      "AI CLI三足鼎立：Claude Code/Codex/Gemini",
+      "Qwen Code v0.26.0-nightly攻克Daemon内存泄漏",
+      "Gemini CLI社区活跃度最高，夜间构建快速迭代"
+    ]
+  },
+  "en": {
+    "ai-weekly": [
+      "OpenClaw v2026.10.6 forces Node.js 24.22.1+ upgrade for TLS fix",
+      "OpenCode hit by critical quota bugs causing false rate limit errors",
+      "Anthropic files for NASDAQ IPO under ticker ANT",
+      "Anthropic offers 40% off Claude for U.S. government agencies",
+      "Anthropic unveils Managed Agents architecture separating brain from hands",
+      "Anthropic opens real-world Claude usage data to outside researchers"
+    ]
+  }
+}

@@ -6,7 +6,627 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 01 Nov 2026 03:37:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 06:59:50 +0000</lastBuildDate>
+    <item>
+      <title>AI 工具生态周报 2026-11-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-11-02/ai-weekly</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-11-02/ai-weekly</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <description>AI 工具生态周报 2026-W45 覆盖日期: 2026-10-18 ~ 2026-11-01 | 生成时间: 2026-11-02 06:58 UTC AI 工具生态周报（2026-W45） 覆盖周期：2026-10-18 至 2026-11-01角色：AI 开源生态技术分析师受众：技术开发者、产品经理、架构决策者 1. 本周要闻 日期 重要事件 2026-11-01 Anthropic 提交 S-1 招股书，拟在纳斯达克上市（股票代码 ANT），承销商为高盛和摩根士丹利，标志其正式进入公开市场融资阶段。 2026-11-01 Anthropic 扩大与美国总务管理局（GSA）合作，向联邦、州及地方政府提供 Claude 40% 折扣，预计为政府节省约 10 亿美元，已有约 500 个政府组织在用。 2026-10-29 OpenAI 官方 CLI 工具发布，在 Hacker News 获得 232 分、109 条评论，成为当周开发者工具热度最高话题，反映 AI 能力深度嵌入终端工作流的强烈需求。 2026-10-24 瑞典政府办公室宣布禁用 ChatGPT 和 Claude，HN...</description>
+      <content:encoded><![CDATA[<h1>AI 工具生态周报 2026-W45</h1>
+<blockquote>
+<p>覆盖日期: 2026-10-18 ~ 2026-11-01 | 生成时间: 2026-11-02 06:58 UTC</p>
+</blockquote>
+<hr>
+<h1>AI 工具生态周报（2026-W45）</h1>
+<p><strong>覆盖周期</strong>：2026-10-18 至 2026-11-01<br><strong>角色</strong>：AI 开源生态技术分析师<br><strong>受众</strong>：技术开发者、产品经理、架构决策者  </p>
+<hr>
+<h2>1. 本周要闻</h2>
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>重要事件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>2026-11-01</strong></td>
+<td><strong>Anthropic 提交 S-1 招股书</strong>，拟在纳斯达克上市（股票代码 <code>ANT</code>），承销商为高盛和摩根士丹利，标志其正式进入公开市场融资阶段。</td>
+</tr>
+<tr>
+<td><strong>2026-11-01</strong></td>
+<td><strong>Anthropic 扩大与美国总务管理局（GSA）合作</strong>，向联邦、州及地方政府提供 Claude 40% 折扣，预计为政府节省约 10 亿美元，已有约 500 个政府组织在用。</td>
+</tr>
+<tr>
+<td><strong>2026-10-29</strong></td>
+<td><strong>OpenAI 官方 CLI 工具发布</strong>，在 Hacker News 获得 232 分、109 条评论，成为当周开发者工具热度最高话题，反映 AI 能力深度嵌入终端工作流的强烈需求。</td>
+</tr>
+<tr>
+<td><strong>2026-10-24</strong></td>
+<td><strong>瑞典政府办公室宣布禁用 ChatGPT 和 Claude</strong>，HN 讨论度达 315 分 / 118 评论，引发全球对 AI 数据主权、监管合规及企业级准入的热烈讨论。</td>
+</tr>
+<tr>
+<td><strong>2026-10-23</strong></td>
+<td><strong>DeepSeek 获得 150 亿美元融资</strong>，公开挑战 OpenAI 与 Anthropic，标志中国 AI 力量在全球前沿模型赛道进入直接对抗阶段。</td>
+</tr>
+<tr>
+<td><strong>2026-10-23</strong></td>
+<td><strong>Anthropic 发布多项前沿研究</strong>：LLM 形式化软件验证（RISC-V 汇编级）、九环超对称 Yang-Mills 理论计算、AI 自我复制能力评估、量子电路设计优化及 ECDSA 曲线起源解析。</td>
+</tr>
+<tr>
+<td><strong>2026-11-01</strong></td>
+<td><strong>Gemini CLI 保持最高社区活跃度</strong>，发布 <code>v0.67.0-nightly.20261101</code>，单日 Issue 更新 50+、PR 更新 22，正以夜间构建模式快速迭代 Agent 能力。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2. CLI 工具进展</h2>
+<h3>生态格局</h3>
+<p>AI CLI 工具已呈现<strong>三足鼎立</strong>态势：</p>
+<ul>
+<li><strong>成熟平台型</strong>：Anthropic Claude Code、OpenAI Codex，聚焦企业级可靠性、会话持久化与模型安全，但稳定性尚未完全达到生产环境要求。</li>
+<li><strong>激进迭代型</strong>：Gemini CLI，通过高频 nightly 版本打造 Agent 能力（子 Agent 调度、工具链优化、配额自适应），社区活跃度最高。</li>
+<li><strong>轻量/安全型</strong>：Pi、Kimi Code CLI 等，侧重可审计的 Shell 命令执行、终端兼容性与 TUI 细节，成熟度相对较低。</li>
+</ul>
+<h3>本周关键动态</h3>
+<ul>
+<li><strong>Gemini CLI</strong>：11-01 发布 nightly 版本，单日 Issue/PR 更新量最大（50+ Issues, 22 PRs），核心修复方向包括工具数过多崩溃、子 Agent 挂起、Wayland 兼容性及配额中断恢复。</li>
+<li><strong>OpenAI Codex</strong>：发布 <code>rust-alpha</code> 系列版本（10-24 及 10-29），热点集中在 MCP 进程内存泄漏、后台轮询 Token 浪费、macOS/Windows 跨平台崩溃及多账号切换。</li>
+<li><strong>Claude Code</strong>：10-23 发布稳定版 <code>v2.1.309</code>；11-01 社区反馈聚焦桌面端 UI 主题定制、VS Code 标签页集成、语音转写及计费配额 Bug。</li>
+<li><strong>Qwen Code</strong>：维持 nightly 频率（<code>v0.26.0-nightly</code>），重点攻克 Daemon 内存泄漏（VS Code 伴侣进程 OOM）及工具输出完整性问题。</li>
+<li><strong>Pi / Copilot CLI / OpenCode</strong>：活跃度中等偏低，主要集中在跨平台终端适配（Windows/ConPTY/tmux、Linux 沙箱 DNS）与 IDE 编辑器焦点恢复。</li>
+</ul>
+<h3>共性痛点</h3>
+<ol>
+<li><strong>性能与资源管理</strong>：MCP 进程泄漏、Token 计费浪费、内存/CPU 泄漏。</li>
+<li><strong>跨平台兼容性</strong>：Windows UI 卡顿、macOS TUI 崩溃、Linux Wayland 环境支持。</li>
+<li><strong>IDE 深度集成</strong>：VS Code、Neovim、Emacs 插件生态及编辑器焦点/状态同步。</li>
+<li><strong>安全与权限</strong>：命令执行前置审计、凭证存储、沙箱隔离、默认目录权限控制。</li>
+</ol>
+<hr>
+<h2>3. AI Agent 生态（OpenClaw 及同赛道）</h2>
+<h3>OpenClaw 核心进展</h3>
+<ul>
+<li><strong>11-01</strong>：单日 Issues 495 条（392 新/活跃，103 关闭）、PRs 500 条（269 待合并，231 已合并/关闭），<strong>无新版本发布</strong>。项目健康度评估为**“高活跃、承压”**，暴露出 Gateway 阻塞、崩溃恢复失败、插件安装失败等 P0/P1 级稳定性问题。</li>
+<li><strong>10-23</strong>：发布 <code>v2026.10.6</code>，强制要求 Node.js 24.22.1+ / 26.12.1+（因 TLS 证书密钥撤销），Docker 镜像已更新至 Node 24.2。合并 12 个重要 PR，涵盖安全身份认证、性能优化、稳定性修复及更新机制。</li>
+<li><strong>社区热点 Issue</strong>：#160959（大型外部插件阻塞事件循环数分钟，P0）；#7707（内存信任标签分类，防止内存抢穿攻击）；#53763（内置无头浏览器以增强网页访问可靠性）；#166634（崩溃恢复后无法获取聊天历史）。</li>
+</ul>
+<h3>同赛道项目对比</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>活跃度</th>
+<th>关键进展</th>
+<th>状态评估</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>OpenClaw</strong></td>
+<td>极高</td>
+<td>无新版本，P0/P1 稳定性问题堆积</td>
+<td>高活跃、承压</td>
+</tr>
+<tr>
+<td><strong>Hermes Agent</strong></td>
+<td>高</td>
+<td>10-24 发布 <code>v0.22.5</code> Patch，处于回归修复期</td>
+<td>需关注稳定性回归</td>
+</tr>
+<tr>
+<td><strong>NanoClaw</strong></td>
+<td>中高</td>
+<td>维持 Nightly 构建，聚焦调度精度与交付可靠性</td>
+<td>稳定化交付期</td>
+</tr>
+<tr>
+<td><strong>Moltis</strong></td>
+<td>中高</td>
+<td>10-24 发布 <code>v20261023.01</code>，高频迭代</td>
+<td>健康高频迭代</td>
+</tr>
+<tr>
+<td><strong>CoPaw</strong></td>
+<td>中</td>
+<td>筹备 <code>v2.3.0</code>，修复媒体阻塞与 UI 崩溃</td>
+<td>稳定节奏/重构预备</td>
+</tr>
+<tr>
+<td><strong>NanoBot / PicoClaw / IronClaw</strong></td>
+<td>低/中</td>
+<td>维护性修复、依赖升级、单特性推进</td>
+<td>稳定维护期</td>
+</tr>
+</tbody></table>
+<h3>生态趋势</h3>
+<p>个人 AI 助手/自主智能体开源生态呈现**“一核多翼、分层演进”**：头部项目聚焦会话恢复、统一网关、多模型路由等基建攻坚；尾部项目多处于低活跃或依赖维护期。**安全合规（PII/隐私）**已成为新关注点，OpenClaw 今日即出现用户安全警告。</p>
+<hr>
+<h2>4. 开源趋势</h2>
+<h3>GitHub Trending 与社区关注方向（10-23 / 10-29）</h3>
+<ul>
+<li><strong>AI 安全审计 Agent</strong>：Cloudflare <code>security-audit-skill</code> 单日新增 2,979 星，成为安全验证工具新宠。</li>
+<li><strong>无向量知识图谱</strong>：Graphify 基于确定性 AST 解析，单日新增 1,408 星，探索“无向量库”的 RAG 新路径。</li>
+<li><strong>Claude 生态插件爆发</strong>：<code>claude-howto</code>（+177 星）、<code>ponytail</code>（+1,948 星）、<code>knowledge-work-plugins</code> 等登顶热榜，AI 编程助手正成为新的开发范式。</li>
+<li><strong>小模型专用能力</strong>：OCRia-1（4B 参数文档解析 SOTA）体现“小而美”模型在垂直任务上的高效性。</li>
+<li><strong>基础设施持续高热</strong>：ollama、firecrawl、browser-use、transformers、langchain、langgraph 等核心框架保持高星与高贡献度。</li>
+</ul>
+<h3>技术方向总结</h3>
+<p>本周开发者最关注：<strong>AI 安全审计与可解释性</strong>、<strong>轻量级专用模型</strong>、<strong>Agent 记忆层与上下文压缩</strong>、<strong>终端/CLI 原生 Agent 集成</strong>。</p>
+<hr>
+<h2>5. HN 社区热议</h2>
+<h3>核心话题（10-23 / 10-24）</h3>
+<ol>
+<li><strong>监管与合规</strong>：瑞典政府禁用 ChatGPT 和 Claude（315 分 / 118 评论），成为全球 AI 数据主权与企业合规讨论的风向标。</li>
+<li><strong>AI 产业经济</strong>：AI 占企业 IT 预算五分之一，引发对 ROI 与预算分配的审慎讨论。</li>
+<li><strong>前沿模型安全</strong>：OpenAI 发布前沿模型训练环境安全博文（78 分 / 94 评论）；Anthropic 形式化软件验证研究（137 分 / 69 评论）被视为 AI 从“生成”走向“验证”的里程碑。</li>
+<li>**开发者工</li>
+</ol>
+<hr>
+<p><em>本日报由 <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Tools Weekly Digest 2026-11-02</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-11-02/ai-weekly-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-11-02/ai-weekly-en</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <description>AI Tools Ecosystem Weekly Report 2026-W45 Coverage: 2026-10-18 ~ 2026-11-01 | Generated: 2026-11-02 06:58 UTC AI Tools Ecosystem Weekly Report — 2026 W45 Coverage Period: October 18 – November 1, 2026Prepared by: AI Technical Analyst 1. Week&amp;#39;s Top Stories Date Event Significance Oct 23 OpenClaw releases v2026.10.6 with mandatory Node.js 24.22.1+ / 26.12.1+ upgrade, addressing a revoked TLS certificate vulnerability. Breaking change forces runtime upgrade; Docker images pre-updated. Oct 24 Op...</description>
+      <content:encoded><![CDATA[<h1>AI Tools Ecosystem Weekly Report 2026-W45</h1>
+<blockquote>
+<p>Coverage: 2026-10-18 ~ 2026-11-01 | Generated: 2026-11-02 06:58 UTC</p>
+</blockquote>
+<hr>
+<h1>AI Tools Ecosystem Weekly Report — 2026 W45</h1>
+<p><strong>Coverage Period:</strong> October 18 – November 1, 2026<br><strong>Prepared by:</strong> AI Technical Analyst</p>
+<hr>
+<h2>1. Week&#39;s Top Stories</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Event</th>
+<th>Significance</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Oct 23</strong></td>
+<td><strong>OpenClaw releases v2026.10.6</strong> with mandatory Node.js 24.22.1+ / 26.12.1+ upgrade, addressing a revoked TLS certificate vulnerability.</td>
+<td>Breaking change forces runtime upgrade; Docker images pre-updated.</td>
+</tr>
+<tr>
+<td><strong>Oct 24</strong></td>
+<td><strong>OpenCode reports critical quota bugs</strong> — false &quot;rate limit exhausted&quot; errors (#58284) and VPN-based free-tier bypass (#34344).</td>
+<td>Highlights systemic issues in usage tracking and abuse prevention across CLI tools.</td>
+</tr>
+<tr>
+<td><strong>Oct 29</strong></td>
+<td><strong>Anthropic files S-1 with SEC</strong> for NASDAQ IPO under ticker <code>ANT</code>, underwritten by Goldman Sachs and Morgan Stanley.</td>
+<td>Marks the beginning of the public-market era for frontier AI labs.</td>
+</tr>
+<tr>
+<td><strong>Oct 29</strong></td>
+<td><strong>Anthropic expands GSA partnership</strong> — 40% discount on Claude Enterprise, API, and Government tiers, covering federal, state, and tribal governments.</td>
+<td>Estimated $1B in government savings; ~500 U.S. government organizations already using Claude.</td>
+</tr>
+<tr>
+<td><strong>Oct 30</strong></td>
+<td><strong>Anthropic publishes Managed Agents architecture</strong> — decoupling &quot;brain&quot; from &quot;hands&quot; via stable interfaces to outlast any single model version.</td>
+<td>Represents a foundational shift in how agent harnesses are designed across model generations.</td>
+</tr>
+<tr>
+<td><strong>Oct 31</strong></td>
+<td><strong>Anthropic enables independent external research</strong> on Claude usage patterns — first time outside researchers can access aggregate, privacy-preserving real-world data.</td>
+<td>Breaks the lab monopoly on usage data; opens new policy and sociological research avenues.</td>
+</tr>
+<tr>
+<td><strong>Week-long</strong></td>
+<td><strong>Gemini CLI maintains daily nightly releases</strong> (v0.67.0-nightly series) with 50+ issue updates and 22 PRs — highest community activity among CLI tools.</td>
+<td>Demonstrates an aggressive iteration model focused on agent scheduling, tool chains, and quota adaptation.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>2. CLI Tools Progress</h2>
+<h3>Overall Activity</h3>
+<p>The CLI ecosystem entered a <strong>stability-and-depth phase</strong>. Three trends dominated: (1) resource management fixes (memory leaks, token waste), (2) cross-platform terminal compatibility (Windows/macOS/Linux), and (3) IDE integration deepening. Nightly builds became the norm for fast-iteration tools, while mature tools accumulated production-blocking bugs.</p>
+<h3>Tool-by-Tool Summary</h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Activity Level</th>
+<th>Key Changes &amp; Issues</th>
+<th>Release Status</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Claude Code</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>Desktop UI customisation (themes, sidebar), Neovim/Emacs plugin support, Mods engine expansion. Critical issues: billing quota bugs (#102667), desktop window rendering failures (#79305). Skills repo: 8+ high-impact PRs including SDD harness suite, proofcore contract auditor, md2video pipeline.</td>
+<td>v2.1.309 / v2.37337.1</td>
+</tr>
+<tr>
+<td><strong>OpenAI Codex</strong></td>
+<td>⭐⭐⭐</td>
+<td>MCP process leak (#30408), background polling token waste (#13733), macOS crashes (#56647), Windows UI stutter (#56941). Multi-account switching (#20500) and VS Code tab integration (#20951) requested.</td>
+<td>Rust alpha series (v0.164.0, v0.165.0-alpha.1)</td>
+</tr>
+<tr>
+<td><strong>Gemini CLI</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>Most active project: 50+ issue updates, 22 PRs. Focus on sub-agent scheduling (#21409), tool count crash (#24246), Wayland failures (#21983), quota adaptive recovery (#29799).</td>
+<td>v0.67.0-nightly.20261101 (daily)</td>
+</tr>
+<tr>
+<td><strong>Pi</strong></td>
+<td>⭐⭐⭐</td>
+<td>Terminal compatibility focus: ConPTY/tmux/Windows adapter (#10256, #10618), OSC escape leaks (#10256), input line redraw (#6300), Git package SHA validation (#10758).</td>
+<td>No formal release</td>
+</tr>
+<tr>
+<td><strong>OpenCode</strong></td>
+<td>⭐⭐⭐</td>
+<td>Quota reporting bugs (#58284, #34344), context compression failures (#41358), sub-agent count limits (#27110). VS Code daemon OOM.</td>
+<td>No stable release</td>
+</tr>
+<tr>
+<td><strong>Qwen Code</strong></td>
+<td>⭐⭐⭐</td>
+<td>Daemon memory leaks (#15071), tool output integrity, Managed Agent dual-path architecture (#12380).</td>
+<td>v0.26.0-nightly.20261023</td>
+</tr>
+<tr>
+<td><strong>Kimi Code</strong></td>
+<td>⭐</td>
+<td>Minimal activity; single PR (#2648) for hook ecosystem audit.</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>GitHub Copilot CLI</strong></td>
+<td>⭐⭐</td>
+<td>Voice input, cross-platform compatibility. Data transparency low.</td>
+<td>v1.0.103</td>
+</tr>
+<tr>
+<td><strong>DeepSeek TUI</strong></td>
+<td>⭐</td>
+<td>Insufficient data for assessment.</td>
+<td>—</td>
+</tr>
+</tbody></table>
+<h3>Key Cross-Tool Themes</h3>
+<ul>
+<li><strong>Resource optimisation:</strong> Token waste, memory leaks, and CPU overhead are the #1 community complaint across Codex, Gemini, OpenCode, and Qwen.</li>
+<li><strong>Security &amp; permission control:</strong> Default directory permissions, pre-command auditing, and OAuth token handling recur in Pi, Kimi, and Claude Code.</li>
+<li><strong>Plugin/extension standardisation:</strong> MCP stdio server gaps, hook ecosystems, and mod systems are the main integration battlegrounds.</li>
+</ul>
+<hr>
+<h2>3. AI Agent Ecosystem</h2>
+<h3>OpenClaw (Reference Project)</h3>
+<ul>
+<li><strong>Version:</strong> v2026.10.6 (Oct 23) — mandatory Node.js upgrade; Docker images updated to Node 24.2.</li>
+<li><strong>Activity:</strong> 500 issue updates, 500 PR updates — high volume but <strong>stability pressure</strong>.</li>
+<li><strong>Critical issues:</strong> Gateway event-loop blocking (#160959, P0), crash recovery losing chat history (#166634), plugin installation failures, memory trust-labeling for prompt injection defence (#7707).</li>
+<li><strong>Merged PRs:</strong> Session controller refactor (#175837), channel token encryption (#175334), GitHub identity error logging (#181208), console UI performance (#181205).</li>
+</ul>
+<h3>Peer Projects</h3>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Activity</th>
+<th>Status</th>
+<th>Highlights</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Hermes Agent</strong></td>
+<td>⭐⭐⭐⭐</td>
+<td>v0.22.5 (stable)</td>
+<td>High activity but P0/P1 regressions: cross-profile message misrouting, remote session recovery failures, Signal/Slack adapter bugs, Ubuntu dependency failures.</td>
+</tr>
+<tr>
+<td><strong>NanoBot</strong></td>
+<td>⭐⭐⭐</td>
+<td>Stable maintenance</td>
+<td>Security PRs merged, idle compaction fixes, WebUI refactoring, Azure/DeepSeek parameter compatibility.</td>
+</tr>
+<tr>
+<td><strong>NanoClaw</strong></td>
+<td>⭐⭐⭐</td>
+<td>Nightly builds</td>
+<td>Worker session lifecycle management, hardened image dependencies, OneCLI security hardening, local model (llmman) integration.</td>
+</tr>
+<tr>
+<td><strong>CoPaw</strong></td>
+<td>⭐⭐⭐</td>
+<td>v2.3.0-beta prep</td>
+<td>Plugin architecture refactoring, channel stability fixes, media preview recovery, Hub container readiness probing.</td>
+</tr>
+<tr>
+<td><strong>PicoClaw</strong></td>
+<td>⭐⭐</td>
+<td>Moderate</td>
+<td>Provider ecosystem expansion, Android/OpenWrt network stability, Telegram/Cron bug fixes.</td>
+</tr>
+<tr>
+<td><strong>LobsterAI</strong></td>
+<td>⭐⭐</td>
+<td>Moderate</td>
+<td>OpenClaw integration, image processing, account features.</td>
+</tr>
+<tr>
+<td><strong>Moltis</strong></td>
+<td>⭐⭐</td>
+<td>v20261023.01</td>
+<td>Daily release cadence; NEAR AI/DeepSeek/Z.AI provider stability, i18n localisation.</td>
+</tr>
+<tr>
+<td><strong>NullClaw / IronClaw / ZeptoClaw / ZeroClaw</strong></td>
+<td>⭐</td>
+<td>Low</td>
+<td>Maintenance-only or single-feature PRs; no releases.</td>
+</tr>
+</tbody></table>
+<h3>Ecosystem Insight</h3>
+<p>The agent layer is consolidating around <strong>OpenClaw as the reference gateway</strong>, with projects differentiating on: multi-tenant session isolation, cross-platform Signal/Telegram adapters, plugin sandboxing, and multimodal (image/video) processing. The gap between high-activity projects (OpenClaw, Hermes, NanoBot) and the long tail is widening.</p>
+<hr>
+<h2>4. Open Source Trends</h2>
+<h3>🔥 Top Rising Projects (GitHub Trending, Oct 23–31)</h3>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Stars (Today)</th>
+<th>Category</th>
+<th>Signal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Cloudflare security-audit-skill</strong></td>
+<td>+2,979</td>
+<td>AI Security</td>
+<td>Multi-stage security audit agent skill with machine-readable output — strong community demand for AI safety verification.</td>
+</tr>
+<tr>
+<td><strong>Graphify (Graphify-Labs)</strong></td>
+<td>+1,408</td>
+<td>Code Intelligence</td>
+<td>Deterministic AST-based code knowledge graph — no vector DB required; represents &quot;non-vector&quot; RAG exploration.</td>
+</tr>
+<tr>
+<td><strong>Ponytail (DietrichGebert)</strong></td>
+<td>+1,948</td>
+<td>Agent Philosophy</td>
+<td>AI agent prompt that enforces minimal, purposeful code generation — reflects developer frustration with AI &quot;slop.&quot;</td>
+</tr>
+<tr>
+<td><strong>ECC (affaan-m)</strong></td>
+<td>⭐286,585</td>
+<td>Agent Performance</td>
+<td>Performance optimisation system for Claude Code, Codex, Cursor — skills, memory, policies, security.</td>
+</tr>
+<tr>
+<td><strong>Ollama</strong></td>
+<td>⭐184,347</td>
+<td>Local Inference</td>
+<td>Local model runner supporting Kimi, GLM, DeepSeek, Qwen, Gemma — foundational infrastructure for on-device AI.</td>
+</tr>
+<tr>
+<td><strong>browser-use</strong></td>
+<td>⭐118,901</td>
+<td>AI Agents</td>
+<td>Open-source Python library for AI browser agents; local and hosted options.</td>
+</tr>
+<tr>
+<td><strong>Headroom (headroomlabs-ai)</strong></td>
+<td>⭐77,573</td>
+<td>Context Compression</td>
+<td>Compresses tool outputs, logs, RAG chunks to save 20–95% token costs — directly addresses the token waste pain point.</td>
+</tr>
+</tbody></table>
+<h3>Emerging Technical Directions</h3>
+<ol>
+<li><strong>Security-first agent skills:</strong> Automated audit, static analysis, and vulnerability scanning as composable skills.</li>
+<li><strong>Non-vector knowledge retrieval:</strong> AST-based code graph tools challenge the dominance of embedding-based RAG.</li>
+<li><strong>Token cost engineering:</strong> Compression, context window management, and &quot;agent budgeting&quot; tools are proliferating.</li>
+<li><strong>Local-first AI:</strong> Ollama, anything-llm, and local model serving are the foundation of the decentralised AI stack.</li>
+<li><strong>Agent design philosophy:</strong> Prompts that enforce minimalism, purposefulness, and reduced code generation are gaining traction.</li>
+</ol>
+<hr>
+<h2>5. HN Community Highlights</h2>
+<h3>Top Discussions (Oct 23–31)</h3>
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Score</th>
+<th>Comments</th>
+<th>Sentiment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Swedish government bans ChatGPT &amp; Claude</strong></td>
+<td>315</td>
+<td>118</td>
+<td>Alarm → Regulatory urgency</td>
+</tr>
+<tr>
+<td><strong>OpenAI CLI release</strong></td>
+<td>232</td>
+<td>109</td>
+<td>Enthusiastic → Developer adoption</td>
+</tr>
+<tr>
+<td><strong>Securing frontier model training environments (OpenAI)</strong></td>
+<td>78</td>
+<td>94</td>
+<td>Cautious → Security awareness</td>
+</tr>
+<tr>
+<td><strong>AI consuming 20% of IT budgets</strong></td>
+<td>14</td>
+<td>2</td>
+<td>Concerned → ROI scrutiny</td>
+</tr>
+<tr>
+<td><strong>LLMs making formal verification feasible (Anthropic)</strong></td>
+<td>137</td>
+<td>69</td>
+<td>Optimistic → Technical credibility</td>
+</tr>
+<tr>
+<td><strong>DeepSeek raises $15B</strong></td>
+<td>8</td>
+<td>0</td>
+<td>Observant → Competitive landscape</td>
+</tr>
+<tr>
+<td><strong>Canva&#39;s in-house AI image model</strong></td>
+<td>3</td>
+<td>0</td>
+<td>Noted → Vertical integration</td>
+</tr>
+</tbody></table>
+<h3>Community Sentiment</h3>
+<ul>
+<li><strong>Regulatory vigilance dominates:</strong> The Swedish government ban sparked the week&#39;s most intense discussion, reflecting growing European AI governance anxiety.</li>
+<li><strong>CLI tools are the new frontier:</strong> OpenAI&#39;s CLI release was the most-upvoted developer tool, signalling that the terminal is the next battleground for AI interaction.</li>
+<li><strong>Formal verification credibility:</strong> Anthropic&#39;s research on LLM-assisted formal verification was well-received as a maturation signal beyond pure generation.</li>
+<li><strong>Economic realism:</strong> Discussions about AI budgets and valuations are shifting from hype to ROI scrutiny.</li>
+</ul>
+<hr>
+<h2>6. Official Announcements</h2>
+<h3>Anthropic (6–8 new posts/day)</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Announcement</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Oct 26</strong></td>
+<td><strong>S-1 IPO filing</strong> (NASDAQ: ANT)</td>
+<td>Goldman Sachs and Morgan Stanley underwrite; public market access imminent.</td>
+</tr>
+<tr>
+<td><strong>Oct 27</strong></td>
+<td><strong>GSA partnership expansion</strong> — 40% discount across all Claude products for U.S. government at every level</td>
+<td>~$1B projected savings; 500 orgs already onboard; 8× weekly active user growth since February.</td>
+</tr>
+<tr>
+<td><strong>Oct 28</strong></td>
+<td><strong>AI for Science expansion</strong> — 20+ foundations and research institutions (HHMI, etc.) receive free Claude credits</td>
+<td>Democratises access; accelerates hypothesis generation across biology, physics, chemistry.</td>
+</tr>
+<tr>
+<td><strong>Oct 30</strong></td>
+<td><strong>Managed Agents stable interfaces</strong> — &quot;Brain and hands&quot; decoupling for long-lived agents</td>
+<td>Harness survives model version changes; internal validation across Sonnet 4.5 and Opus 4.5.</td>
+</tr>
+<tr>
+<td><strong>Oct 31</strong></td>
+<td><strong>Independent research pilot</strong> — External researchers gain access to aggregate Claude usage data</td>
+<td>Industry-first; Expression of Interest open for future collaborations.</td>
+</tr>
+<tr>
+<td><strong>Oct 30</strong></td>
+<td><strong>Critical vulnerability discovery</strong> — 5 attack chains found in Chrome, Safari, Android, Linux, Windows</td>
+<td>Demonstrates multi-step exploit capability; 90-day patch window.</td>
+</tr>
+<tr>
+<td><strong>Oct 20–23</strong></td>
+<td><strong>Research cluster:</strong> Formal verification at scale, ECDSA curve origin resolved, 9-loop QFT computation, quantum circuit optimisation, self-replicating AI assessment</td>
+<td>Broad capability demonstration across security, physics, and AI safety.</td>
+</tr>
+</tbody></table>
+<h3>OpenAI (5–13 new posts/day)</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Announcement</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Oct 23–31</strong></td>
+<td><strong>Model Spec, Fair Use, training preferences documentation</strong></td>
+<td>Institutionalising governance; metadata-only updates but signal of compliance-first strategy.</td>
+</tr>
+<tr>
+<td><strong>Oct 24</strong></td>
+<td><strong>Decisions API</strong> — Embed decision logic directly into applications</td>
+<td>New primitive for app developers; blurs line between generation and deterministic logic.</td>
+</tr>
+<tr>
+<td><strong>Week</strong></td>
+<td><strong>Oracle, ServiceNow integrations</strong></td>
+<td>Enterprise-grade ecosystem expansion; signals enterprise readiness.</td>
+</tr>
+<tr>
+<td><strong>Week</strong></td>
+<td><strong>GPT-6.1 Terra references</strong></td>
+<td>Next-gen model in pipeline; alignment and safety testing framework updates.</td>
+</tr>
+</tbody></table>
+<h3>Strategic Take</h3>
+<ul>
+<li><strong>Anthropic</strong> is in full IPO-mode: productising agents, penetrating government, opening data to researchers, and demonstrating frontier capabilities (security, science, formal methods).</li>
+<li><strong>OpenAI</strong> is governance-institutionalising: publishing policy frameworks, building enterprise integrations, and preparing the next model generation with robust alignment infrastructure.</li>
+</ul>
+<hr>
+<h2>7. Next Week&#39;s Signals</h2>
+<table>
+<thead>
+<tr>
+<th>Signal</th>
+<th>Confidence</th>
+<th>Rationale</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>OpenClaw stability fixes land</strong></td>
+<td>High</td>
+<td>P0 issues (#160959, #166634) have been flagged; community pressure and PR velocity suggest fixes are imminent.</td>
+</tr>
+<tr>
+<td><strong>Anthropic IPO narrative accelerates</strong></td>
+<td>High</td>
+<td>S-1 filing → roadshow → pricing; expect leadership interviews, prospectus analysis, and market commentary.</td>
+</tr>
+<tr>
+<td><strong>CLI tool &quot;quota wars&quot; intensify</strong></td>
+<td>Medium</td>
+<td>OpenCode, Codex, and Gemini are all hitting free-tier limits; expect transparent quota UIs and abuse-prevention PRs.</td>
+</tr>
+<tr>
+<td><strong>Agent memory &amp; context management becomes a battleground</strong></td>
+<td>High</td>
+<td>Headroom, mem0, claude-mem, and ECC are all racing to solve the context window economics problem.</td>
+</tr>
+<tr>
+<td><strong>Government AI procurement frameworks solidify</strong></td>
+<td>Medium</td>
+<td>GSA deal is a template; expect more state/local adoptions and compliance requirements (data residency, audit trails).</td>
+</tr>
+<tr>
+<td><strong>&quot;Non-vector&quot; RAG gains traction</strong></td>
+<td>Medium</td>
+<td>Graphify&#39;s AST-based approach may inspire hybrid retrieval architectures that reduce embedding dependency.</td>
+</tr>
+<tr>
+<td><strong>AI safety skills go mainstream</strong></td>
+<td>Medium</td>
+<td>Cloudflare&#39;s security-audit-skill (2,979 stars in one day) signals developer demand for auditable, composable safety checks.</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>Report generated from 5 daily digest summaries covering 9 CLI tools, 13 agent projects, GitHub Trending, Hacker News, and official AI lab publications.</em></p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-11-01</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-11-01/ai-cli</link>
@@ -11815,1761 +12435,6 @@ This incremental snapshot cannot support any substantive analytical conclusion a
 </blockquote>
 <hr>
 <p>User Safety: safe</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI 工具社区动态日报 2026-10-24</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-24/ai-cli</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-24/ai-cli</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI 工具社区动态日报 2026-10-24 生成时间: 2026-10-24 02:34 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills 横向对比 AI CLI 工具生态横向对比（2026‑10‑24） 1. 生态全景 全球 AI CLI 社区正进入“稳定攻坚”阶段。主流项目同时追求 多代理协作能力、平台兼容性 及 免费额度透明度，同时努力解决 内存/性能瓶颈（如 VS Code daemon OOM、macOS TUI 崩溃）及 安全合规问题（配额欺诈、泄漏）。Nightly 构建已成为快速迭代的主流模式，但实际面向用户的产品发布节奏仍参差不齐。 2. 各工具活跃度对比 工具（仓库） Issues 发布* PR 合并数* 发布版本 OpenAI Codex 7 条 – (数据未公开) rust‑v0.164.0、rust‑v0.165.0‑alph...</description>
-      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-10-24</h1>
-<blockquote>
-<p>生成时间: 2026-10-24 02:34 UTC | 覆盖工具: 9 个</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
-<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
-<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
-<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
-<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
-<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
-<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>横向对比</h2>
-<p><strong>AI CLI 工具生态横向对比（2026‑10‑24）</strong></p>
-<hr>
-<h3>1. 生态全景</h3>
-<p>全球 AI CLI 社区正进入“稳定攻坚”阶段。主流项目同时追求 <strong>多代理协作能力</strong>、<strong>平台兼容性</strong> 及 <strong>免费额度透明度</strong>，同时努力解决 <strong>内存/性能瓶颈</strong>（如 VS Code daemon OOM、macOS TUI 崩溃）及 <strong>安全合规问题</strong>（配额欺诈、泄漏）。Nightly 构建已成为快速迭代的主流模式，但实际面向用户的产品发布节奏仍参差不齐。</p>
-<hr>
-<h3>2. 各工具活跃度对比</h3>
-<table>
-<thead>
-<tr>
-<th>工具（仓库）</th>
-<th>Issues 发布*</th>
-<th>PR 合并数*</th>
-<th>发布版本</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>OpenAI Codex</strong></td>
-<td>7 条</td>
-<td>– (数据未公开)</td>
-<td><code>rust‑v0.164.0</code>、<code>rust‑v0.165.0‑alpha.1</code></td>
-</tr>
-<tr>
-<td><strong>Gemini CLI</strong></td>
-<td>9 条</td>
-<td>– (仅 nightly 修复)</td>
-<td><code>v0.67.0‑nightly.20261024.gcd1b45c2d</code></td>
-</tr>
-<tr>
-<td><strong>OpenCode</strong></td>
-<td>10 条</td>
-<td>10 个</td>
-<td>– (暂无稳定版发布)</td>
-</tr>
-<tr>
-<td><strong>Qwen Code</strong></td>
-<td>10 条</td>
-<td>10 个</td>
-<td><code>v0.26.0‑nightly.20261023.5a0be33432</code></td>
-</tr>
-<tr>
-<td><strong>Claude Code</strong></td>
-<td>– (摘要失败)</td>
-<td>–</td>
-<td>–</td>
-</tr>
-<tr>
-<td><strong>GitHub Copilot CLI</strong></td>
-<td>– (仅安全备注)</td>
-<td>–</td>
-<td>–</td>
-</tr>
-<tr>
-<td><strong>Kimi Code CLI</strong></td>
-<td>0 条（无活动）</td>
-<td>–</td>
-<td>–</td>
-</tr>
-<tr>
-<td><strong>Pi</strong></td>
-<td>– (摘要失败)</td>
-<td>–</td>
-<td>–</td>
-</tr>
-<tr>
-<td><strong>DeepSeek‑TUI</strong></td>
-<td>– (摘要失败)</td>
-<td>–</td>
-<td>–</td>
-</tr>
-</tbody></table>
-<p>*“Issues 发布”指报告当天新出现的 Issue（不区分优先级）。*“PR 合并数”指本文档中提及的合并 PR（粗略计数）。</p>
-<hr>
-<h3>3. 共同关注的功能方向</h3>
-<table>
-<thead>
-<tr>
-<th>关注点</th>
-<th>涉及工具</th>
-<th>具体诉求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>免费额度透明与滥用控制</strong></td>
-<td>OpenCode、OpenAI Codex</td>
-<td>• 误报“额度耗尽”（OpenCode #58284）<br>• 利用 VPN 绕过免费配额（OpenCode #34344）</td>
-</tr>
-<tr>
-<td><strong>自动压缩/上下文管理</strong></td>
-<td>OpenCode、OpenAI Codex</td>
-<td>• 压缩后代理行为异常（OpenCode #41358）<br>• 长期任务上下文压缩丢失连续性（OpenAI Codex #29356）</td>
-</tr>
-<tr>
-<td><strong>并行代理控制</strong></td>
-<td>OpenCode、Qwen Code</td>
-<td>• 设置子代理最大数量（OpenCode #27110）<br>• Managed Agent 双路径架构（Qwen Code #12380）</td>
-</tr>
-<tr>
-<td><strong>IDE 集成稳定性</strong></td>
-<td>Qwen Code、OpenCode</td>
-<td>• VS Code 伴侣 daemon 内存泄漏 OOM（Qwen Code #15071）<br>• macOS TUI 长时间运行 V8 OOM（Qwen Code #15344）</td>
-</tr>
-<tr>
-<td><strong>代理/网络配置健壮性</strong></td>
-<td>OpenCode、OpenAI Codex</td>
-<td>• <code>no_proxy</code> 配置错误导致事件循环重启（OpenCode #52054）<br>• MCP 线程栈泄漏与 Windows 桌面崩溃（OpenAI Codex）</td>
-</tr>
-<tr>
-<td><strong>多模态扩展</strong></td>
-<td>OpenCode、Gemini CLI</td>
-<td>• 音频/视频文件读取支持（OpenCode PR #54496）<br>• 终端字符渲染修复与流式中断处理（Gemini CLI nightly）</td>
-</tr>
-<tr>
-<td><strong>CI/CD 流程优化</strong></td>
-<td>Qwen Code</td>
-<td>• 独立主干 E2E 验证、CI 故障签名规范化（PR #15405、#15383）</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>4. 差异化定位分析</h3>
-<table>
-<thead>
-<tr>
-<th>工具</th>
-<th>技术路线</th>
-<th>目标用户</th>
-<th>特色优先级</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>OpenAI Codex</strong></td>
-<td>Rust 核心、<code>/presets</code>、模型直选参数</td>
-<td>需要低延迟、高吞吐量的开发者（CLI‑first）</td>
-<td>命令行配置便捷性、模型容量管理</td>
-</tr>
-<tr>
-<td><strong>Gemini CLI</strong></td>
-<td>多子代理架构、TUI（ink → OpenTUI）</td>
-<td>偏好集成 Gemini 模型的终端用户</td>
-<td>Agent 协作、跨平台界面</td>
-</tr>
-<tr>
-<td><strong>OpenCode</strong></td>
-<td>Rust TUI + 云端代理支持，专注开源社区</td>
-<td>开源工具爱好者、寻求扩展性的用户</td>
-<td>开源贡献、社区驱动功能（配额透明化、代理环路修复）</td>
-</tr>
-<tr>
-<td><strong>Qwen Code</strong></td>
-<td>Managed Agent + VS Code 伴侣插件</td>
-<td>希望 IDE 级代码处理与终端体验融合的开发者</td>
-<td>IDE 集成、性能优化（双路径架构、内存泄漏修复）</td>
-</tr>
-<tr>
-<td><strong>GitHub Copilot CLI</strong></td>
-<td>最小化、安全优先</td>
-<td>企业安全审计员</td>
-<td>安全沙盒、合规性</td>
-</tr>
-<tr>
-<td><strong>Kimi Code CLI</strong></td>
-<td>–</td>
-<td>暂无活动，观望状态</td>
-<td>–</td>
-</tr>
-<tr>
-<td><strong>Claude Code / Pi / DeepSeek‑TUI</strong></td>
-<td>数据不可用</td>
-<td>未知社区</td>
-<td>–</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>5. 社区热度与成熟度</h3>
-<table>
-<thead>
-<tr>
-<th>工具</th>
-<th>社区活跃度</th>
-<th>成熟度判断依据</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>OpenCode</strong></td>
-<td>高（问题多样、PR 数量 &gt; 10）</td>
-<td>社区贡献多，正在加速升级中； Nightly 构建虽未发布稳定版，但开源氛围浓厚。</td>
-</tr>
-<tr>
-<td><strong>Qwen Code</strong></td>
-<td>高（Issues/PR 数量 ≈ 10，每月 nightly 发布）</td>
-<td>处于快速演进阶段；Managed Agent 和 IDE 集成工作显示出工程成熟度。</td>
-</tr>
-<tr>
-<td><strong>OpenAI Codex</strong></td>
-<td>中等（Issues 7，无公开 PR 数据）</td>
-<td>主要关注点是稳定性（崩溃、栈泄漏）；社区反馈以 Bug 报告为主，改进节奏较缓。</td>
-</tr>
-<tr>
-<td><strong>Gemini CLI</strong></td>
-<td>中高（Issues 9， nightly 修复较多）</td>
-<td>聚焦 Agent 架构及渲染性能，但问题仍以严重级别为主（P1）。</td>
-</tr>
-<tr>
-<td><strong>GitHub Copilot CLI</strong></td>
-<td>低（数据未公开，仅安全备注）</td>
-<td>社区静默，典型 SaaS 闭源模式。</td>
-</tr>
-<tr>
-<td><strong>Kimi Code CLI</strong></td>
-<td>几乎无活动</td>
-<td>暂未进入活跃开发周期。</td>
-</tr>
-<tr>
-<td><strong>Claude Code / Pi / DeepSeek‑TUI</strong></td>
-<td>数据不可用</td>
-<td>无法评估社区健康度。</td>
-</tr>
-</tbody></table>
-<hr>
-<h3>6. 值得关注的趋势信号</h3>
-<table>
-<thead>
-<tr>
-<th>趋势</th>
-<th>体现该趋势的证据</th>
-<th>对开发者的参考价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>配额滥用与透明化</strong></td>
-<td>OpenCode #34344（VPN 绕过）、#58284（误报额度耗尽）</td>
-<td>设计更严格的免费额度边界验证、提供清晰的使用率仪表盘。</td>
-</tr>
-<tr>
-<td><strong>自动压缩/上下文连续性</strong></td>
-<td>OpenCode #41358、OpenAI Codex #29356</td>
-<td>需设计压缩时保留用户意图的机制（如“继续会话”提示）。</td>
-</tr>
-<tr>
-<td><strong>Managed Agent 架构演进</strong></td>
-<td>Qwen Code #12380（双路径架构）、Gemini CLI 子代理问题</td>
-<td>如规划多代理协作功能，提前关注架构稳定性、内存管理和故障恢复。</td>
-</tr>
-<tr>
-<td><strong>IDE‑CLI 深度融合</strong></td>
-<td>VS Code daemon OOM（#15071）、TUI 渲染层迁移</td>
-<td>如构建端到端 IDE 扩展，需注意进程内存管理及跨平台渲染兼容性。</td>
-</tr>
-<tr>
-<td><strong>代理配置陷阱</strong></td>
-<td>OpenCode #52054（<code>no_proxy</code>）、OpenAI Codex Windows 崩溃</td>
-<td>对 <code>no_proxy</code>、安全政策配置进行自动化测试。</td>
-</tr>
-<tr>
-<td><strong>多模态支持扩展</strong></td>
-<td>OpenCode 音频/视频读取、Gemini CLI 字符渲染修复</td>
-<td>未来可扩展富媒体提示工程、离线视频转录功能。</td>
-</tr>
-<tr>
-<td><strong>CI/CD 流程自动化</strong></td>
-<td>Qwen Code PR #15405（CI 签名拆分）、#15383（并行运行降噪）</td>
-<td>采用独立主干验证、规范化故障跟踪，降低回归风险。</td>
-</tr>
-</tbody></table>
-<p><strong>总结</strong> – 当前生态正从“功能爆发”向“稳定性深耕”过渡。开发者应关注三个优先事项：</p>
-<ol>
-<li><strong>资源管理</strong> – 代理/子代理并行限制、daemon/进程内存监控（尤其 macOS/Windows 平台）。</li>
-<li><strong>合规与透明度</strong> – 免费额度机制设计、审计日志与用户可见配额状态。</li>
-<li><strong>架构弹性</strong> – Managed Agent、自动压缩及 CI/CD 流程健壮性，这些是未来多 Agent 协同应用的基础。</li>
-</ol>
-<p>上述方向既是 <strong>近期优先修复项</strong>（如 VS Code daemon OOM、配额误报），也是 <strong>中期功能机会</strong>（多模态支持、精细化代理控制）。密切关注社区活动（以 OpenCode、Qwen Code、Gemini CLI 为主）将有助于在生态演进中把握技术投资方向。</p>
-<hr>
-<h2>各工具详细报告</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills 社区热点</h2>
-<blockquote>
-<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<h2>Claude Code Skills 社区热点报告（截止 2026-10-24）</h2>
-<h3></h3>
-<hr>
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<p><strong>2026‑10‑24 OpenAI Codex 社区动态日报</strong></p>
-<hr>
-<h2>1. 今日速览</h2>
-<ul>
-<li>新版 <strong>rust‑v0.164.0</strong> 引入了可保存的提示词/斜杠命令（<code>/presets</code>）以及直接通过 <code>/model</code>、<code>/permissions</code> 参数配置模型、推理强度、速度和权限。  </li>
-<li>多起高频问题集中在 <strong>Windows 桌面端崩溃、模型容量限制、安装脚本失效</strong>，并出现 <strong>MCP 线程栈泄漏</strong> 等性能与安全隐患。</li>
-</ul>
-<hr>
-<h2>2. 版本发布</h2>
-<table>
-<thead>
-<tr>
-<th>版本</th>
-<th>关键更新</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>rust‑v0.164.0</strong></td>
-<td>• 支持 10 个编号 <code>/presets</code> 槽位，键盘菜单快速访问 <br>• 直接在 CLI 中用 <code>/model</code>、<code>/permissions</code> 参数设置模型、推理策略、速度与权限</td>
-</tr>
-<tr>
-<td><strong>rust‑v0.165.0‑alpha.1</strong></td>
-<td>预览版，包含上述新特性及内部优化</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>3. 社区热点 Issues（按评论数排序）</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Issue</th>
-<th>简要描述</th>
-<th>评论数</th>
-<th>链接</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>#28507</td>
-<td>Selected model is at capacity</td>
-<td>选定模型已达到容量上限，导致会话卡顿或错误</td>
-<td><strong>60</strong></td>
-<td><a href="https://github.com/openai/codex/issues/28507">#28507</a></td>
-</tr>
-<tr>
-<td>#51308</td>
-<td>GPT‑6 Sol/Luna 在 Windows 模型选择器缺失</td>
-<td>Windows 端未显示最新 GPT‑6 系列模型</td>
-<td><strong>24</strong></td>
-<td><a href="https://github.com/openai/codex/issues/51308">#51308</a></td>
-</tr>
-<tr>
-<td>#29356</td>
-<td>Context compaction 丢失操作连续性</td>
-<td>长任务中上下文压缩导致操作步骤断裂</td>
-<td><strong>23</strong></td>
-<td><a href="https://github.com/openai/codex/issues/29356">#29356</a></td>
-</tr>
-<tr>
-<td>#50362</td>
-<td>Computer Use 窗口捕获超时</td>
-<td>可访问性读取工作时截图失败</td>
-<td><strong>16</strong></td>
-<td><a href="https://github.com/openai/codex/issues/50362">#50362</a></td>
-</tr>
-<tr>
-<td>#25914</td>
-<td>App‑Server 客户端发现/附加文档缺失</td>
-<td>缺少官方说明，外部集成困难</td>
-<td><strong>16</strong></td>
-<td><a href="https://github.com/openai/codex/issues/25914">#25914</a></td>
-</tr>
-<tr>
-<td>#39783</td>
-<td>MCP 临时线程栈泄露完整 MCP 堆栈</td>
-<td>线程创建后继承全局 MCP 配置，可能泄露敏感信息</td>
-<td><strong>12</strong></td>
-<td><a href="https://github.com/openai/codex/issues/39783">#39783</a></td>
-</tr>
-<tr>
-<td>#41594</td>
-<td>macOS “Chat” 标签混淆</td>
-<td>同一对</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
-
-
-<p><strong>Gemini CLI 社区动态日报 | 2026-10-24</strong></p>
-<p><strong>1. 今日速览</strong>
-今日发布 Gemini CLI v0.67.0-nightly 新版本，重点修复了终端字符渲染与流式处理中断问题。社区动态的“重头戏”在于多子代理架构的稳定性：多条 P1/P2 级别的 Bug 报告揭示了子代理恢复失败、通用代理死锁及配置覆盖失效等核心隐患。与此同时，针对工具容错、安全边界及上下文管理的 PR 正在密集推进，旨在大幅提升 Agent 在复杂任务下的鲁棒性。</p>
-<p><strong>2. 版本发布</strong></p>
-<ul>
-<li><strong>v0.67.0-nightly.20261024.gcd1b45c2d</strong><ul>
-<li><strong>更新内容</strong>:<ul>
-<li><code>fix(cli):</code> 请求取消后停止 continuation stream processing 并自动 nudge（提醒用户）。</li>
-<li><code>fix(cli):</code> 修正泰语和老挝语 SARA AM 的显示宽度计算，避免终端错乱。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><strong>3. 社区热点 Issues</strong>
-以下为过去24小时内评论区最活跃的 Top 10 Issues，按优先级与影响力排序：</p>
-<ul>
-<li><strong>#22323 [P1] 子代理恢复逻辑失效</strong> (13 评论)<ul>
-<li><strong>说明</strong>: <code>codebase_investigator</code> 子代理在达到最大轮次后被判定为 GOAL 成功，但实际上未做任何分析，导致中断状态被掩盖。这是核心 Agent 架构的稳定性痛点。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/22323">Issue #22323</a></li>
-</ul>
-</li>
-<li><strong>#19873 [P2] 零依赖 OS 沙箱与执行意图路由</strong> (9 评论)<ul>
-<li><strong>说明</strong>: 提出利用模型原生 bash 偏好，通过 OS 沙箱隔离并路由执行意图，以在不牺牲安全性的前提下发挥模型原生能力。属于架构级新需求。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/19873">Issue #19873</a></li>
-</ul>
-</li>
-<li><strong>#21409 [P1] 通用代理死锁</strong> (8 评论)<ul>
-<li><strong>说明</strong>: <code>gemini-cli</code> 委托给通用代理时永远挂起，即使简单的操作（如建目录）也会卡死长达一小时。 instruct 模型不使用子代理可解决此问题，反映了 Agent 自动调度机制的低效。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/21409">Issue #21409</a></li>
-</ul>
-</li>
-<li><strong>#22267 [P1] Browser Agent 忽略 settings.json 覆盖</strong> (4 评论)<ul>
-<li><strong>说明</strong>: 设置中的 <code>maxTurns</code> 等关键参数被完全无视，AgentRegistry 初始化正确读取但运行时未应用，导致 Agent 行为不可控。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/22267">Issue #22267</a></li>
-</ul>
-</li>
-<li><strong>#21968 [P2] 技能与子代理调用不足</strong> (7 评论)<ul>
-<li><strong>说明</strong>: 无意中极少主动使用自定义技能和子代理，仅在显式指令下才触发，暴露了 Agent 调用策略缺失。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/21968">Issue #21968</a></li>
-</ul>
-</li>
-<li><strong>#22745 / #22747 [P3] AST 感知文件读写评估</strong> (7 评论)<ul>
-<li><strong>说明</strong>: 评估 AST 感知工具对代码库映射、方法边界精度的提升，以减少无效轮次和 Token 膨胀。当前是早期技术调研阶段。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/22745">Issue #22745</a>、<a href="https://github.com/google-gemini/gemini-cli/issues/22747">#22747</a></li>
-</ul>
-</li>
-<li><strong>#22232 [P2] Browser 代理会话接管与锁恢复</strong> (4 评论)<ul>
-<li><strong>说明</strong>: 当浏览器标签页被锁定时采用“快速失败”策略，缺乏自动恢复机制，影响长时间运行的浏览器操作体验。</li>
-<li>链接：<a href="https://github.com/google-gemini/gemini-cli/issues/22232">Issue #22232</a></li>
-</ul>
-</li>
-<li>**#21983 [P1] Wayland 下 Browser</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
-
-<p>User Safety: safe</p>
-</details>
-
-<details>
-<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
-
-<h1>OpenCode 社区动态日报（2026-10-24）</h1>
-<h2>今日速览</h2>
-<ol>
-<li>多项关键 Bug 修复 PR 合并，包括 Azure 部署发现、代理环路、VM 插件问题；</li>
-<li>社区聚焦免费额度误报、会话历史搜索及自动压缩后代理行为异常等问题；</li>
-<li>开发者反馈聚焦性能瓶颈、并行代理控制及跨平台网络一致性。</li>
-</ol>
-<h2>版本发布</h2>
-<p>暂无新版发布。</p>
-<h2>社区热点 Issues</h2>
-<table>
-<thead>
-<tr>
-<th>编号</th>
-<th>标题</th>
-<th>评论数</th>
-<th>重要性</th>
-<th>社区反应</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/34344">#34344</a></td>
-<td>Unlimited usage Exploit on opencode models</td>
-<td>35</td>
-<td>高风险安全漏洞</td>
-<td>用户确认可用 VPN 轮换绕过免费额度限制，已关闭</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/3176">#3176</a></td>
-<td>Why is OpenCode massively abusing git?</td>
-<td>21</td>
-<td>性能/资源</td>
-<td>用户抱怨 45GB 项目 <code>git add .</code> 超时，开发团队已认定问题</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/27110">#27110</a></td>
-<td>[FEATURE]: Setting to limit max number of parallel subagents</td>
-<td>9</td>
-<td>功能需求</td>
-<td>获得 39 👍，社区普遍需要并行代理控制</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/41354">#41354</a></td>
-<td>[FEATURE]: Search across my message history</td>
-<td>13</td>
-<td>功能需求</td>
-<td>会话历史检索是高频诉求，用户数百条记录难以查找</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/41358">#41358</a></td>
-<td>[BUG] Auto-compaction breaks agent flow</td>
-<td>11</td>
-<td>稳定性</td>
-<td>Windows 桌面版自动压缩后代理不确认继续，行为混乱</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/58284">#58284</a></td>
-<td>Free models report limit reached despite zero usage</td>
-<td>7</td>
-<td>关键 Bug</td>
-<td>新版升级后即显示额度耗尽，影响体验</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/52054">#52054</a></td>
-<td>Event stream loops when HTTP proxy set without no_proxy</td>
-<td>7</td>
-<td>网络配置</td>
-<td>代理配置错误导致 TUI 卡死，循环重启</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/40524">#40524</a></td>
-<td>V2: Reconcile provider catalogs with /models endpoints</td>
-<td>6</td>
-<td>架构</td>
-<td>V2 需要实时同步模型目录，避免模型不可用</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/57690">#57690</a></td>
-<td>Azure deployments not rediscovered after network returns</td>
-<td>4</td>
-<td>云集成</td>
-<td>网络恢复后 Azure 模型不刷新，需重启服务</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/58570">#58570</a></td>
-<td>Assistant stops displaying text during long tool-driven task</td>
-<td>2</td>
-<td>体验</td>
-<td>长任务执行时不输出中途结果，用户难以判断进度</td>
-</tr>
-</tbody></table>
-<h2>重要 PR 进展</h2>
-<table>
-<thead>
-<tr>
-<th>编号</th>
-<th>标题</th>
-<th>功能/修复</th>
-<th>状态</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58576">#58576</a></td>
-<td>fix: retry Azure deployment discovery after transient failure</td>
-<td>修复 Azure 模型发现逻辑，支持网络恢复后自动重试</td>
-<td>OPEN</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/57030">#57030</a></td>
-<td>fix(cli): bypass environment proxies for loopback</td>
-<td>解决代理环路导致的 <code>#52054</code> 问题</td>
-<td>OPEN</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58562">#58562</a></td>
-<td>feat(core): record reported cost and Go allowance</td>
-<td>记录实际计费与 Go 额度，用于财务透明度</td>
-<td>OPEN</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58565">#58565</a></td>
-<td>feat(tui): show Go allowance when a session costs nothing</td>
-<td>TUI 显示免费额度信息</td>
-<td>OPEN</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58566">#58566</a></td>
-<td>feat(app): show Go allowance when a session costs nothing</td>
-<td>图形版同样展示额度</td>
-<td>OPEN</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58575">#58575</a></td>
-<td>fix(app): scroll natively with one shared scrollbar style</td>
-<td>统一滚动条样式，提升 UI 一致性</td>
-<td>OPEN</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58577">#58577</a></td>
-<td>fix(app): fade sidebar contents only near closed</td>
-<td>优化收缩动画与 hover 反馈</td>
-<td>OPEN</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58578">#58578</a></td>
-<td>chore(app): ship settled experiments and organize Knobs</td>
-<td>部署实验功能并重组设置面板</td>
-<td>OPEN</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/54496">#54496</a></td>
-<td>feat(read): attach audio and video files for multimodal models</td>
-<td>支持音视频文件读取，扩展多模态能力</td>
-<td>OPEN</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58501">#58501</a></td>
-<td>docs: add spec for reducing shell output spam in chat</td>
-<td>文档化减少 shell 输出干扰的规范</td>
-<td>OPEN</td>
-</tr>
-</tbody></table>
-<h2>功能需求趋势</h2>
-<ol>
-<li><strong>会话记忆与检索</strong>：历史记录搜索、自动压缩后保持上下文目标。</li>
-<li><strong>并行控制</strong>：限制子代理数量、任务平行化工具。</li>
-<li><strong>跨平台稳定</strong>：Windows/Mac 网络权限、代理配置兼容性。</li>
-<li><strong>云服务集成</strong>：Azure、DeepSeek 等提供商的模型发现与容错。</li>
-<li><strong>使用配额透明化</strong>：免费额度误报、计费反馈展示。</li>
-</ol>
-<h2>开发者关注点</h2>
-<ul>
-<li><strong>免费额度判定异常</strong>：升级后立即触发“额度耗尽”，影响新用户体验；</li>
-<li><strong>代理/网络配置陷阱</strong>：<code>no_proxy</code> 为空时循环请求，局域网连接受限；</li>
-<li><strong>大批量文件操作卡顿</strong>：<code>git add .</code> 45GB 项目超时；</li>
-<li><strong>自动行为一致性</strong>：压缩后代理不确认、写入权限静默失败；</li>
-<li><strong>UI 交互细节</strong>：滚动条、侧边栏动效、聚焦抢夺问题。</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
-
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<details>
-<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
-
-<h1>Qwen Code 社区动态日报（2026-10-24）</h1>
-<h2>一、日期速览</h2>
-<p>今天发布了 <strong>v0.26.0-nightly.20261023.5a0be33432</strong> 夜间构建，重点推进 Managed Agent 双路径架构和 TUI 渲染层迁移。核心问题包括主干 E2E 测试路由失败、VS Code 伴侣进程内存耗尽（OOM）以及 macOS 上长时间运行的 TUI 会话崩溃。社区对 Managed Agent 的架构设计和性能优化提出了高度关注。</p>
-<hr>
-<h2>二、版本发布</h2>
-<table>
-<thead>
-<tr>
-<th>版本</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>v0.26.0-nightly.20261023.5a0be33432</strong></td>
-<td>最新夜间构建，包含 Managed Agent 双路径架构提案、TUI 渲染层迁移（ink → OpenTUI）、CI 改进等多项更新。</td>
-</tr>
-</tbody></table>
-<p>该版本是 Qwen Code 2026 年底的关键迭代节点，主要聚焦于生产环境稳定性与可扩展性提升。</p>
-<hr>
-<h2>三、社区热点 Issues（Top 10）</h2>
-<table>
-<thead>
-<tr>
-<th>Issue ID</th>
-<th>主题</th>
-<th>评论数</th>
-<th>重要性</th>
-<th>社区反馈</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>#12380</strong></td>
-<td>Managed Agent 双路径架构与分阶段交付</td>
-<td>71</td>
-<td>⭐⭐⭐⭐⭐</td>
-<td>开发者高度关注，涉及核心架构演进，讨论中提出分阶段上线策略</td>
-</tr>
-<tr>
-<td><strong>#8662</strong></td>
-<td>TUI 渲染层从 ink 迁移至 OpenTUI</td>
-<td>34</td>
-<td>⭐⭐⭐⭐</td>
-<td>重大功能变更，涉及渲染性能与结构重构，已进入追踪状态</td>
-</tr>
-<tr>
-<td><strong>#14713</strong></td>
-<td>Managed Agent 主干 CI 失败（HostedMcpStoreFaultGatesIT）</td>
-<td>24</td>
-<td>⭐⭐⭐⭐</td>
-<td>阻塞生产环境，需优先修复，社区持续跟踪</td>
-</tr>
-<tr>
-<td><strong>#13395</strong></td>
-<td>Kubernetes 工具运行时进度与跨平台交付</td>
-<td>20</td>
-<td>⭐⭐⭐</td>
-<td>相关性高，影响多平台部署能力</td>
-</tr>
-<tr>
-<td><strong>#15052</strong></td>
-<td>独立主干 E2E 验证保留</td>
-<td>8</td>
-<td>⭐⭐⭐</td>
-<td>CI 流程优化，防止中间运行替换导致的误判</td>
-</tr>
-<tr>
-<td><strong>#15076</strong></td>
-<td>Managed Agent 添加 web_fetch 与 todo_write 工具</td>
-<td>6</td>
-<td>⭐⭐⭐</td>
-<td>增强功能，提升工作流便利性</td>
-</tr>
-<tr>
-<td><strong>#15344</strong></td>
-<td>Qwen Code 0.26.0 TUI 在 macOS 上 V8 OOM 崩溃</td>
-<td>5</td>
-<td>⭐⭐⭐⭐</td>
-<td>严重性能问题，macOS 用户反馈频繁</td>
-</tr>
-<tr>
-<td><strong>#15071</strong></td>
-<td>VS Code 伴侣 daemon 堆内存无限增长导致 OOM</td>
-<td>5</td>
-<td>⭐⭐⭐⭐</td>
-<td>致命性能瓶颈，影响 VS Code 集成体验</td>
-</tr>
-<tr>
-<td><strong>#14447</strong></td>
-<td>Stage F 故障门控（Hosted MCP 域）</td>
-<td>4</td>
-<td>⭐⭐⭐</td>
-<td>影响多宿主 MCP 生命周期管理</td>
-</tr>
-<tr>
-<td><strong>#15353</strong></td>
-<td>Web Shell 移除旋转加载动画</td>
-<td>4</td>
-<td>⭐⭐</td>
-<td>UI 优化，改善用户体验</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p><strong>亮点</strong>：#12380（Managed Agent 架构）和 #15071（VS Code daemon OOM）是当前社区最活跃的两个议题，反映出系统稳定性与架构演进的双重需求。</p>
-</blockquote>
-<hr>
-<h2>四、重要 PR 进展（Top 10）</h2>
-<table>
-<thead>
-<tr>
-<th>PR ID</th>
-<th>内容摘要</th>
-<th>状态</th>
-<th>关键价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>#11486</strong></td>
-<td><code>qwen update --target-version &lt;version&gt;</code>：支持精确版本更新而非依赖 npm 发现</td>
-<td>OPEN</td>
-<td>新增 CLI 功能，允许直接指定目标版本安装，提升部署灵活性</td>
-</tr>
-<tr>
-<td><strong>#15405</strong></td>
-<td>将 main CI 失败签名拆分为独立 Issue</td>
-<td>OPEN</td>
-<td>规范化 CI 故障追踪，避免信息混乱</td>
-</tr>
-<tr>
-<td><strong>#15209</strong></td>
-<td><code>qwen attach</code>：让终端重新连接现有本地 daemon 会话</td>
-<td>OPEN</td>
-<td>增强交互性，方便远程会话管理</td>
-</tr>
-<tr>
-<td><strong>#14140</strong></td>
-<td>接受显式 Local Control 地址（非 RFC 1918/3927）</td>
-<td>OPEN</td>
-<td>拓宽控制地址范围，适配企业内网场景</td>
-</tr>
-<tr>
-<td><strong>#15261</strong></td>
-<td>添加 HTTP 后端外部临时工工作者</td>
-<td>OPEN</td>
-<td>优化 Runtime Broker 资源调度，减少单点瓶颈</td>
-</tr>
-<tr>
-<td><strong>#15383</strong></td>
-<td>减少冗余 TUI 并行运行，跳过相同 PR 变化</td>
-<td>OPEN</td>
-<td>降低测试成本，提高 CI 效率</td>
-</tr>
-<tr>
-<td><strong>#15286</strong></td>
-<td>缩小 SDK Java 测试任务锁范围至缓存写回</td>
-<td>OPEN</td>
-<td>减少全局 Maven 锁竞争，提升测试并发</td>
-</tr>
-<tr>
-<td><strong>#14890</strong></td>
-<td>技能快照在后台重验证（每秒一次，5 秒释放槽位）</td>
-<td>OPEN</td>
-<td>提升技能加载响应速度</td>
-</tr>
-<tr>
-<td><strong>#15363</strong></td>
-<td>Web Shell 设置面板显示模型输出语言</td>
-<td>OPEN</td>
-<td>提供元数据可视化，辅助配置</td>
-</tr>
-<tr>
-<td><strong>#15385</strong></td>
-<td>添加 <code>/autofix-pr</code> 反应层（推送、回复、自动重试）</td>
-<td>OPEN</td>
-<td>完善自动化修复工作流，提升团队协作效率</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>五、功能需求趋势</h2>
-<p>基于 Issue 分析，社区关注的功能方向呈现以下趋势：</p>
-<ol>
-<li><p><strong>Managed Agent 架构演进</strong>  </p>
-<ul>
-<li>双路径架构（#12380）与 staged delivery（分阶段上线）成为核心议题，开发者希望看到清晰的发布路线图。</li>
-</ul>
-</li>
-<li><p><strong>IDE 与外部工具集成</strong>  </p>
-<ul>
-<li>VS Code 伴侣 daemon 内存泄漏（#15071）和 <code>/autofix-pr</code> 命令（#15385）表明对生产环境稳定性的强烈需求。</li>
-<li>Web Shell 与 Git 仓库创建（#15361）进一步推动本地化开发体验。</li>
-</ul>
-</li>
-<li><p><strong>性能优化与资源管理</strong>  </p>
-<ul>
-<li>TUI 渲染层迁移（ink → OpenTUI，#8662）和 Runtime Broker 外部临时工（#15261）是性能提升的重点方向。</li>
-<li>macOS 上 V8 OOM 问题（#15344）提醒开发者需持续关注跨平台内存管理。</li>
-</ul>
-</li>
-<li><p><strong>CI/CD 流程改进</strong>  </p>
-<ul>
-<li>独立主干 E2E 验证（#15052）、CI 故障签名规范化（#15405）等改进旨在提升测试可靠性与可维护性。</li>
-</ul>
-</li>
-<li><p><strong>多模态与交互增强</strong>  </p>
-<ul>
-<li>Web Shell 中模型输出语言展示（#15363）和头部消息压缩（#15173）体现了对交互体验的深化需求。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2>六、开发者关注点</h2>
-<table>
-<thead>
-<tr>
-<th>痛点</th>
-<th>描述</th>
-<th>优先级</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Managed Agent 稳定性</strong></td>
-<td>主干 CI 失败（#14713、#15071）及 daemon 内存泄漏导致生产环境不稳定</td>
-<td>高</td>
-</tr>
-<tr>
-<td><strong>macOS 性能问题</strong></td>
-<td>TUI 长时间运行崩溃（V8 OOM，#15344）</td>
-<td>高</td>
-</tr>
-<tr>
-<td><strong>CI 流程复杂性</strong></td>
-<td>独立主干验证、CI 故障追踪不规范</td>
-<td>中</td>
-</tr>
-<tr>
-<td><strong>IDE 集成</strong></td>
-<td>VS Code 伴侣 daemon 内存限制（#15071）</td>
-<td>高</td>
-</tr>
-<tr>
-<td><strong>工具链扩展</strong></td>
-<td>需要更多 CLI 工具（web_fetch、todo_write）和 Web Shell 功能</td>
-<td>中</td>
-</tr>
-<tr>
-<td><strong>多宿主 MCP 管理</strong></td>
-<td>Stage F 故障门控（#14447）影响跨平台 MCP 生命周期</td>
-<td>中</td>
-</tr>
-</tbody></table>
-<p><strong>总结</strong>：开发者目前最关心的是 <strong>Managed Agent 的稳定性与架构演进</strong>、<strong>VS Code 伴侣的内存管理</strong> 以及 <strong>CI/CD 流程的规范化</strong>。这些方向将直接影响 Qwen Code 在生产环境中的可用性与开发体验。</p>
-</details>
-
-<details>
-<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
-
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<hr>
-<p><em>本日报由 <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI Tools Digest 2026-10-24</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-24/ai-cli-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-24/ai-cli-en</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI Tools Community Digest 2026-10-24 Generated: 2026-10-24 02:34 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code DeepSeek TUI Claude Code Skills Cross-Tool Comparison Cross-Tool Comparison Report: AI CLI Tools Ecosystem (2026-10-24) 1. Ecosystem Overview The AI CLI tools landscape shows six actively developed projects with distinct architectural philosophies converging on reliability, extensibility, and cross-platform maturity...</description>
-      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-10-24</h1>
-<blockquote>
-<p>Generated: 2026-10-24 02:34 UTC | Tools covered: 9</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
-<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
-<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
-<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
-<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
-<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
-<li><a href="https://github.com/Hmbown/DeepSeek-TUI">DeepSeek TUI</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>Cross-Tool Comparison</h2>
-<h1>Cross-Tool Comparison Report: AI CLI Tools Ecosystem (2026-10-24)</h1>
-<hr>
-<h2>1. Ecosystem Overview</h2>
-<p>The AI CLI tools landscape shows <strong>six actively developed projects</strong> with distinct architectural philosophies converging on reliability, extensibility, and cross-platform maturity. Anthropics (Claude Code), Google (Gemini CLI), and Qwen (Qwen Code) lead with nightly release cadences and structured issue triage. OpenCode and Pi demonstrate strong community-driven iteration around session persistence and TUI performance. A clear bifurcation is emerging: <strong>cloud-integrated, enterprise-grade tooling</strong> (Claude, Gemini, Qwen) versus <strong>local-first, developer-centric hackable CLIs</strong> (OpenCode, Pi). Two major players (OpenAI Codex, GitHub Copilot CLI) lacked digest data, suggesting either reduced transparency or release-cycle misalignment.</p>
-<hr>
-<h2>2. Activity Comparison</h2>
-<table>
-<thead>
-<tr>
-<th>Tool</th>
-<th>Hot Issues (Tracked)</th>
-<th>Key PRs (24h)</th>
-<th>Release Status</th>
-<th>Release Version</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Claude Code</strong></td>
-<td>10</td>
-<td>0</td>
-<td>✅ Stable</td>
-<td>v2.1.310</td>
-</tr>
-<tr>
-<td><strong>Gemini CLI</strong></td>
-<td>10</td>
-<td>10</td>
-<td>🌙 Nightly</td>
-<td>v0.67.0-nightly</td>
-</tr>
-<tr>
-<td><strong>OpenCode</strong></td>
-<td>10</td>
-<td>10</td>
-<td>❌ None</td>
-<td>—</td>
-</tr>
-<tr>
-<td><strong>Pi</strong></td>
-<td>10</td>
-<td>4</td>
-<td>❌ None</td>
-<td>—</td>
-</tr>
-<tr>
-<td><strong>Qwen Code</strong></td>
-<td>10</td>
-<td>10</td>
-<td>🌙 Nightly</td>
-<td>v0.26.0-nightly</td>
-</tr>
-<tr>
-<td><strong>Kimi Code</strong></td>
-<td>0</td>
-<td>0</td>
-<td>❌ None</td>
-<td>—</td>
-</tr>
-<tr>
-<td><strong>OpenAI Codex</strong></td>
-<td>—</td>
-<td>—</td>
-<td>⚠️ Failed</td>
-<td>—</td>
-</tr>
-<tr>
-<td><strong>GitHub Copilot CLI</strong></td>
-<td>—</td>
-<td>—</td>
-<td>⚠️ Failed</td>
-<td>—</td>
-</tr>
-<tr>
-<td><strong>DeepSeek TUI</strong></td>
-<td>—</td>
-<td>—</td>
-<td>⚠️ Failed</td>
-<td>—</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p><strong>Note</strong>: &quot;Hot Issues&quot; reflects curated high-signal items from each digest; actual GitHub issue counts are higher. PR counts represent notable merged/updated PRs in the last 24h.</p>
-</blockquote>
-<hr>
-<h2>3. Shared Feature Directions</h2>
-<table>
-<thead>
-<tr>
-<th>Requirement</th>
-<th>Tools Affected</th>
-<th>Specific Needs</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Cross-platform reliability</strong></td>
-<td>Claude Code, Gemini CLI, Pi, Qwen Code</td>
-<td>macOS event-loop deadlocks (Claude), Wayland browser failures (Gemini), Windows/Zellij scroll regressions (Pi), macOS V8 OOM (Qwen)</td>
-</tr>
-<tr>
-<td><strong>Session/state persistence</strong></td>
-<td>Claude Code, OpenCode, Pi, Qwen Code</td>
-<td>Layout reset on new sessions (Claude), v1→v2 message loss (OpenCode), custom-only session file gaps (Pi), daemon token persistence (Qwen)</td>
-</tr>
-<tr>
-<td><strong>Extensibility &amp; plugin architecture</strong></td>
-<td>Claude Code, Gemini CLI, OpenCode, Qwen Code</td>
-<td>Mods system / 10x extensibility (Claude), AST-aware tools &amp; skill discovery (Gemini), multimodal attachments (OpenCode), Managed Agent dual-path (Qwen)</td>
-</tr>
-<tr>
-<td><strong>Quota/billing transparency</strong></td>
-<td>OpenCode, Qwen Code</td>
-<td>Free-tier false positives &amp; VPN exploits (OpenCode), per-model usage multipliers &amp; cost visibility (Qwen)</td>
-</tr>
-<tr>
-<td><strong>Agent autonomy &amp; subagent control</strong></td>
-<td>Gemini CLI, OpenCode, Qwen Code</td>
-<td>Subagent recovery bugs (Gemini), parallel subagent limits (OpenCode), Managed Agent staging (Qwen)</td>
-</tr>
-<tr>
-<td><strong>TUI/terminal rendering performance</strong></td>
-<td>Pi, Qwen Code, Gemini CLI</td>
-<td>O(n²) JSON parsing freeze (Pi), Ink→OpenTUI migration (Qwen), terminal resize flicker (Gemini)</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>4. Differentiation Analysis</h2>
-<table>
-<thead>
-<tr>
-<th>Dimension</th>
-<th>Claude Code</th>
-<th>Gemini CLI</th>
-<th>OpenCode</th>
-<th>Pi</th>
-<th>Qwen Code</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Primary Focus</strong></td>
-<td>Enterprise cloud integration, multi-account mgmt, extensibility framework</td>
-<td>Agent stability, AST-aware tooling, safety sandboxing</td>
-<td>Local-first UX, quota fairness, git snapshot scaling</td>
-<td>TUI performance, multimodal UX, model-agnostic routing</td>
-<td>Managed Agent architecture, daemon persistence, web-shell UX</td>
-</tr>
-<tr>
-<td><strong>Target User</strong></td>
-<td>Enterprise teams, power users needing cloud parity</td>
-<td>Developers wanting native bash affinity &amp; safe agents</td>
-<td>Cost-sensitive devs, privacy advocates, self-hosters</td>
-<td>Terminal purists, multimodal workflow builders</td>
-<td>Cloud-native teams, Kubernetes-integrated workflows</td>
-</tr>
-<tr>
-<td><strong>Technical Approach</strong></td>
-<td>Proprietary cloud adapters (Bedrock/Vertex/Foundry), Desktop app wrapper</td>
-<td>Zero-dependency OS sandboxing, ACP protocol, skill system</td>
-<td>Local models, signed macOS bundles, proxy-resilient SSE</td>
-<td>Model-agnostic TUI (Rust), MCP elicitation, Kitty-image protocol</td>
-<td>Daemon-based sessions, MySQL-backed MCP store, K8s tool runtime</td>
-</tr>
-<tr>
-<td><strong>Maturity Signal</strong></td>
-<td>Stable releases, high-vote issues, closed-loop feedback</td>
-<td>Nightly cadence, aggressive bug triage, security-first PRs</td>
-<td>Migration pain (v2), exploit disclosure, community-driven fixes</td>
-<td>Performance regressions at scale, connection reliability gaps</td>
-<td>CI flakiness, OOM crashes, but structured staged delivery</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>5. Community Momentum &amp; Maturity</h2>
-<table>
-<thead>
-<tr>
-<th>Tier</th>
-<th>Tools</th>
-<th>Indicators</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>High Momentum / Enterprise-Grade</strong></td>
-<td><strong>Claude Code</strong>, <strong>Gemini CLI</strong>, <strong>Qwen Code</strong></td>
-<td>Nightly/stable releases, 10+ tracked PRs/day, structured issue triage, cloud-platform integrations, dedicated feature initiatives (Mods, Managed Agent, AST tools)</td>
-</tr>
-<tr>
-<td><strong>High Momentum / Community-Driven</strong></td>
-<td><strong>OpenCode</strong></td>
-<td>10 PRs/day, exploit transparency, stacked feature PRs (goals/todos), but v2 migration risk and quota instability</td>
-</tr>
-<tr>
-<td><strong>Active / Technical Debt Focus</strong></td>
-<td><strong>Pi</strong></td>
-<td>4 PRs/day targeting core TUI bottlenecks (O(n²) parsing, full re-render), but connection reliability and OAuth gaps persist</td>
-</tr>
-<tr>
-<td><strong>Low Visibility / Stalled</strong></td>
-<td><strong>Kimi Code</strong>, <strong>OpenAI Codex</strong>, <strong>GitHub Copilot CLI</strong>, <strong>DeepSeek TUI</strong></td>
-<td>No digest data or zero activity; may indicate private development cycles or reduced open governance</td>
-</tr>
-</tbody></table>
-<p><strong>Key Insight</strong>: Claude Code leads in <strong>community engagement volume</strong> (947 upvotes on multi-account issue). Gemini CLI and Qwen Code lead in <strong>engineering velocity</strong> (10 PRs each, nightly releases). OpenCode leads in <strong>transparency around failure modes</strong> (public exploit disclosure, migration data-loss reports).</p>
-<hr>
-<h2>6. Trend Signals for Technical Decision-Makers</h2>
-<table>
-<thead>
-<tr>
-<th>Trend</th>
-<th>Evidence</th>
-<th>Strategic Implication</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Daemon/background service architecture is standardizing</strong></td>
-<td>Qwen <code>qwen attach</code>, OpenCode background service, Pi TUI, Claude Desktop</td>
-<td>Expect persistent local daemons with session resume as baseline UX; invest in cross-terminal attach/detach protocols</td>
-</tr>
-<tr>
-<td><strong>Model-agnostic routing &amp; multi-provider support</strong></td>
-<td>Pi (Kimi, Anthropic, OpenAI), OpenCode (local + gateway), Qwen (web-shell model selectors)</td>
-<td>Vendor lock-in decreasing; tools becoming <strong>model routers</strong> not model wrappers — evaluate on routing flexibility, not model quality</td>
-</tr>
-<tr>
-<td><strong>Safety sandboxing moving to OS-level (not app-level)</strong></td>
-<td>Gemini &quot;Zero-Dependency OS Sandboxing&quot;, OpenCode signed macOS bundles, Claude gateway compatibility fixes</td>
-<td>Security posture shifting to <strong>signed binaries + kernel sandboxing</strong>; unsigned CLIs will face macOS/Windows deployment blocks</td>
-</tr>
-<tr>
-<td><strong>Quota/billing transparency as competitive differentiator</strong></td>
-<td>OpenCode free-tier exploits &amp; false positives, Qwen cost reporting PRs, Claude multi-account mgmt</td>
-<td>Enterprises will demand <strong>auditable usage telemetry</strong>; tools with opaque quotas lose trust</td>
-</tr>
-<tr>
-<td><strong>AST-aware / semantic tooling replacing grep-based agents</strong></td>
-<td>Gemini AST-aware reads/search, Qwen Managed Agent dual-path, Pi MCP elicitation</td>
-<td>Next-gen agents will <strong>understand code structure natively</strong>; grep/ripgrep wrappers are technical debt</td>
-</tr>
-<tr>
-<td><strong>TUI performance at scale (&gt;800 msgs) is a hard differentiator</strong></td>
-<td>Pi O(n²) freeze, Qwen V8 OOM, Gemini inline history re-render fixes</td>
-<td>Tools solving <strong>incremental rendering + virtualized transcripts</strong> win power-user retention</td>
-</tr>
-<tr>
-<td><strong>Cross-session knowledge (search, goals, todos) becoming core</strong></td>
-<td>OpenCode message search (13 comments), OpenCode/Pi/Qwen goal/todo systems</td>
-<td><strong>Persistent context &gt; single-session context</strong>; evaluate tools on cross-session memory architecture</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Summary for Decision-Makers</h2>
-<ul>
-<li><strong>For enterprise standardization</strong>: <strong>Claude Code</strong> (cloud integrations, multi-account, stable releases) or <strong>Gemini CLI</strong> (safety sandboxing, AST tooling, Google Cloud parity).</li>
-<li><strong>For local-first / cost control</strong>: <strong>OpenCode</strong> (transparent quota, local models, self-hosted) — but factor v2 migration risk.</li>
-<li><strong>For terminal-native power users</strong>: <strong>Pi</strong> (model-agnostic, multimodal, Kitty-image) — if connection reliability improves.</li>
-<li><strong>For Kubernetes/cloud-native workflows</strong>: <strong>Qwen Code</strong> (daemon persistence, K8s runtime, web-shell) — monitor OOM stability.</li>
-<li><strong>Watch list</strong>: OpenAI Codex / Copilot CLI — lack of public digests suggests either major private releases or reduced open governance; request transparency if evaluating.</li>
-</ul>
-<p>The ecosystem is <strong>converging on daemon-based, model-agnostic, session-persistent architectures</strong> with <strong>OS-level sandboxing</strong> and <strong>semantic code awareness</strong> as the next competitive frontier.</p>
-<hr>
-<h2>Per-Tool Reports</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills Highlights</h2>
-<blockquote>
-<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<p>⚠️ Skills summary generation failed.</p>
-<hr>
-<h1>Claude Code Community Digest - October 24, 2026</h1>
-<h2>Today&#39;s Highlights</h2>
-<p>Anthropics released v2.1.310 introducing Monitor tool support for Bedrock, Vertex, and Foundry platforms, along with critical fixes for gateway compatibility issues. Meanwhile, the community remains highly engaged around extensibility (#91870) and multi-account management (#18435), reflecting growing demand for more flexible Claude Code deployment options.</p>
-<h2>Releases</h2>
-<p><strong>v2.1.310</strong> - Key enhancements include Monitor tool and plugin monitors for major cloud platforms (Bedrock, Vertex, Foundry), blocking of long foreground sleeps when telemetry is disabled, and fixes for requests failing behind incompatible gateways that reject <code>effort-2025-</code> parameters. See the full release notes for complete details.</p>
-<h2>Hot Issues</h2>
-<h3>1. <strong>Multi-Account Desktop Management</strong> (#18435)</h3>
-<ul>
-<li><strong>Why it matters</strong>: Users want unified control over multiple Claude accounts within Desktop app with easy profile switching, a highly requested feature for power users</li>
-<li><strong>Community reaction</strong>: 216 comments, 947 upvotes - overwhelming support showing clear market demand</li>
-<li><strong>Impact</strong>: Addresses fragmentation across different Claude projects/identities</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/18435">anthropics/claude-code Issue #18435</a></li>
-</ul>
-<h3>2. <strong>10x Extensibility Framework</strong> (#91870)</h3>
-<ul>
-<li><strong>Why it matters</strong>: Community-driven initiative to make Claude 10x more extensible through Mods system, addressing core architectural limitations</li>
-<li><strong>Community reaction</strong>: 269 comments, 131 upvotes - most active discussion showing intense interest in extensibility</li>
-<li><strong>Impact</strong>: Could fundamentally transform how developers build Claude integrations</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/91870">anthropics/claude-code Issue #91870</a></li>
-</ul>
-<h3>3. <strong>VS Code Auto-Attach Control</strong> (#24726)</h3>
-<ul>
-<li><strong>Why it matters</strong>: Users need granular control over when Claude automatically attaches to files/selections in VS Code</li>
-<li><strong>Community reaction</strong>: 94 comments, 270 upvotes, now <strong>CLOSED</strong> - issue resolved, showing effective community feedback loop</li>
-<li><strong>Impact</strong>: Improves developer workflow by reducing unwanted Claude interventions</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/24726">anthropics/claude-code Issue #24726</a></li>
-</ul>
-<h3>4. <strong>Desktop UI: End-of-Turn Disruption</strong> (#102273)</h3>
-<ul>
-<li><strong>Why it matters</strong>: The &quot;next-step&quot; answer buttons interfere with natural conversation flow in Code tab</li>
-<li><strong>Community reaction</strong>: 20 comments, 48 upvotes - UX-focused issue affecting daily usability</li>
-<li><strong>Impact</strong>: Reduces productivity when discussing complex coding problems</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/102273">anthropics/claude-code Issue #102273</a></li>
-</ul>
-<h3>5. <strong>Cross-Platform State Persistence</strong> (#104748)</h3>
-<ul>
-<li><strong>Why it matters</strong>: Desktop Code tab resets terminal, file browser, and pane layouts after first message in new sessions</li>
-<li><strong>Community reaction</strong>: 1 comment reported - likely broader issue affecting session continuity</li>
-<li><strong>Impact</strong>: Breaks user workflows and forces re-configuration of development environment</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/104748">anthropics/claude-code Issue #104748</a></li>
-</ul>
-<h3>6. <strong>LSP Plugin Compatibility</strong> (#78604)</h3>
-<ul>
-<li><strong>Why it matters</strong>: LSP plugins installed before manifest format change load as non-functional &quot;empty shells&quot;</li>
-<li><strong>Community reaction</strong>: 5 comments, 2 upvotes - technical bug affecting plugin ecosystem</li>
-<li><strong>Impact</strong>: Breaks existing LSP integrations, requires manual repair</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/78604">anthropics/claude-code Issue #78604</a></li>
-</ul>
-<h3>7. <strong>Subagent Hook Payload Issues</strong> (#91910)</h3>
-<ul>
-<li><strong>Why it matters</strong>: Critical bug where subagent compaction fires hooks without proper agent fields, causing data loss</li>
-<li><strong>Community reaction</strong>: 11 comments, 4 upvotes - technical defect affecting reliability</li>
-<li><strong>Impact</strong>: Undermines trust in automation features and session management</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/91910">anthropics/claude-code Issue #91910</a></li>
-</ul>
-<h3>8. <strong>macOS Event Loop Deadlock</strong> (#94252)</h3>
-<ul>
-<li><strong>Why it matters</strong>: Turns permanently idle on macOS, dropping tool results and stalling operations</li>
-<li><strong>Community reaction</strong>: 8 comments, 0 upvotes - high-impact reliability bug</li>
-<li><strong>Impact</strong>: Makes Claude unusable on macOS in affected environments</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/94252">anthropics/claude-code Issue #94252</a></li>
-</ul>
-<h3>9. <strong>iOS Dictation Regression</strong> (#103405)</h3>
-<ul>
-<li><strong>Why it matters</strong>: Dictation stops working when app goes backgrounded in Code tab</li>
-<li><strong>Community reaction</strong>: 2 comments, 1 upvote - mobile-specific usability regression</li>
-<li><strong>Impact</strong>: Breaks voice-based workflows for iOS users</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/103405">anthropics/claude-code Issue #103405</a></li>
-</ul>
-<h3>10. <strong>Windows Text Copy Failure</strong> (#104033)</h3>
-<ul>
-<li><strong>Why it matters</strong>: Ctrl+C doesn&#39;t work for text selection in VS Code extension</li>
-<li><strong>Community reaction</strong>: 3 comments, 2 upvotes - basic usability issue blocking workflow</li>
-<li><strong>Impact</strong>: Prevents copying Claude responses efficiently</li>
-<li><strong>Link</strong>: <a href="https://github.com/anthropics/claude-code/issues/104033">anthropics/claude-code Issue #104033</a></li>
-</ul>
-<h2>Key PR Progress</h2>
-<p><strong>Status: No recent PR activity detected in the last 24 hours.</strong> The repository shows 0 pull requests updated in the past day, suggesting either a focus on issue triage or upcoming release preparation phase.</p>
-<h2>Feature Request Trends</h2>
-<h3>1. <strong>Cross-Account Management</strong></h3>
-<p>Multiple issues (#18435) highlight demand for managing multiple Claude accounts with profile switching, indicating users work across different projects or contexts.</p>
-<h3>2. <strong>Extensibility Framework</strong></h3>
-<p>The Mods initiative (#91870) suggests community wants deeper customization capabilities beyond current plugin system limitations.</p>
-<h3>3. <strong>UI/UX Control</strong></h3>
-<p>Several issues (#24726, #102273, #104748) show demand for better UI control - reducing unwanted interventions, improving conversation flow, and maintaining session state.</p>
-<h3>4. <strong>Cross-Platform Consistency</strong></h3>
-<p>Windows/macOS/iOS issues indicate a focus on platform-specific improvements, suggesting the codebase needs more robust platform abstraction layers.</p>
-<h3>5. <strong>Developer Workflow Optimization</strong></h3>
-<p>Permission classifier issues (#101327, #104210) and automation reliability problems show demand for smarter, more predictable automation that respects user intent.</p>
-<h2>Developer Pain Points</h2>
-<h3><strong>1. Cross-Platform Reliability</strong></h3>
-<ul>
-<li><strong>High Frequency</strong>: macOS event loop deadlocks, Windows text selection/copy issues, iOS background mode problems</li>
-<li><strong>Root Cause</strong>: Platform-specific implementation inconsistencies affecting core workflows</li>
-<li><strong>Impact</strong>: Makes Claude unreliable across different development environments</li>
-</ul>
-<h3><strong>2. Automation Overreach</strong></h3>
-<ul>
-<li><strong>High Frequency</strong>: Permission classifier blocking routine writes, auto-memory updates classified as &quot;poisoning&quot;</li>
-<li><strong>Root Cause</strong>: Overly aggressive automation interfering with developer intent</li>
-<li><strong>Impact</strong>: Forces manual workarounds and reduces trust in automated features</li>
-</ul>
-<h3><strong>3. State Management Issues</strong></h3>
-<ul>
-<li><strong>High Frequency</strong>: Session layout resets, worktree recycling, hook payload mismatches</li>
-<li><strong>Root Cause</strong>: Inconsistent state persistence and cleanup mechanisms</li>
-<li><strong>Impact</strong>: Breaks user workflows and requires constant reconfiguration</li>
-</ul>
-<h3><strong>4. Integration Complexity</strong></h3>
-<ul>
-<li><strong>High Frequency</strong>: LSP plugin manifest issues, MCP compatibility problems, subagent compaction bugs</li>
-<li><strong>Root Cause</strong>: Complex dependency and versioning challenges</li>
-<li><strong>Impact</strong>: Limits plugin ecosystem growth and feature adoption</li>
-</ul>
-<h3><strong>5. Mobile Experience Gaps</strong></h3>
-<ul>
-<li><strong>Emerging Pain Point</strong>: iOS dictation regression suggests mobile support lags behind desktop</li>
-<li><strong>Impact</strong>: Excludes mobile users from key accessibility features</li>
-</ul>
-<p>The community is actively engaged but facing significant technical debt challenges that need addressing for Claude Code to reach broader adoption. Most issues reflect a tension between powerful automation and user control - a classic tradeoff that requires careful balancing.</p>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
-
-<h1>Gemini CLI Community Digest - 2026-10-24</h1>
-<h2>Today&#39;s Highlights</h2>
-<p>The Gemini CLI team is actively addressing agent stability and performance issues, with notable fixes to subagent recovery logic and CLI continuation stream processing. Recent improvements include better tool error handling and ACP mode output truncation to prevent token limit overflows. The latest nightly release (v0.67.0) addresses display width issues for Thai and Lao characters.</p>
-<h2>Releases</h2>
-<p><strong>v0.67.0-nightly.20261024.gcd1b45c2d</strong> introduces key fixes:</p>
-<ul>
-<li>CLI continuation stream processing now properly stops after request cancellation, preventing unwanted auto-nudges</li>
-<li>Corrected Thai and Lao SARA AM character display width issues for better terminal rendering</li>
-<li>Enhanced tool error handling for failed ripgrep searches, ensuring proper error reporting to models</li>
-</ul>
-<h2>Hot Issues</h2>
-<ol>
-<li><strong>#22323</strong> - Subagent recovery incorrectly reports GOAL success after MAX_TURNS - 13 comments highlight a critical bug where codebase_investigator reports success despite hitting turn limits, potentially misleading users about task completion status</li>
-<li><strong>#19873</strong> - Leverage model&#39;s bash affinity via Zero-Dependency OS Sandboxing - 9 comments reflect growing interest in enabling Gemini 3 models to use native bash tools more effectively while maintaining security</li>
-<li><strong>#21409</strong> - Generalist agent hangs forever - 8 comments (8👍) indicate a severe productivity-blocking issue where simple tasks like folder creation freeze indefinitely</li>
-<li><strong>#22745</strong> - Assess AST-aware file reads, search, and mapping - 7 comments explore using abstract syntax tree tools for more precise code analysis and navigation</li>
-<li><strong>#21968</strong> - Gemini does not use skills and sub-agents enough - 7 comments suggest the model isn&#39;t leveraging available custom skills effectively despite clear instructions</li>
-<li><strong>#24246</strong> - 400 error with &gt; 128 tools - 3 comments point to a critical scalability limitation in tool management</li>
-<li><strong>#23571</strong> - Model creates tmp scripts in random spots - 3 comments highlight workspace pollution and cleanup challenges</li>
-<li><strong>#22672</strong> - Agent should stop/discourage destructive behavior - 3 comments (1👍) emphasize safety concerns around git operations and system modifications</li>
-<li><strong>#21983</strong> - Browser subagent fails in wayland - 4 comments (1👍) indicate cross-platform compatibility issues</li>
-<li><strong>#22267</strong> - Browser Agent ignores settings.json overrides - 4 comments reveal configuration management problems</li>
-</ol>
-<h2>Key PR Progress</h2>
-<ol>
-<li><strong>#29779</strong> - Fix: Mark failed ripgrep searches as tool errors - Critical fix ensuring failed searches properly report errors to models instead of being recorded as successes</li>
-<li><strong>#29778</strong> - Fix: Truncate tool output before sending to model in ACP mode - Prevents token limit overflow errors by applying output truncation consistently across modes</li>
-<li><strong>#29904</strong> - Fix: Bound inline history re-render after terminal width changes - Improves performance and reduces flicker during terminal resize events</li>
-<li><strong>#29786</strong> - Feature: Human-like-ui skill - Introduces a skill for creating production-quality interfaces with optimized design principles</li>
-<li><strong>#29783</strong> - Fix: Match include patterns for read-many-files assets - Corrects false positives in binary asset detection during file reads</li>
-<li><strong>#29782</strong> - Fix: Use null check for exit code in shell sandbox denial heuristic - Resolves security issue where null exit codes triggered false positive sandbox denials</li>
-<li><strong>#29779</strong> - Fix: Mark failed ripgrep searches as tool errors - Essential reliability improvement for code search functionality</li>
-<li><strong>#29905</strong> - Fix: Handle terminals that render ambiguous-width characters as wide - Improves display compatibility across different terminal configurations</li>
-<li><strong>#29880</strong> - Feature: Add models command and --list-models flag - Enables programmatic model discovery in both machine-readable JSON and human-readable formats</li>
-<li><strong>#29784</strong> - Fix: Stop auto-enabling PR-authoring mode on every issue comment - Prevents unintended behavior in automated workflows</li>
-</ol>
-<h2>Feature Request Trends</h2>
-<ul>
-<li><strong>Enhanced Agent Autonomy</strong>: Multiple requests (#18287, #18285, #22598) focus on improving subagent discovery, collaboration, and trajectory sharing</li>
-<li><strong>AST-aware Tools</strong>: Growing interest in abstract syntax tree-based file reads, searches, and codebase mapping for more intelligent code analysis</li>
-<li><strong>Improved Safety &amp; Control</strong>: Requests for better destructive behavior detection, configurable agent limits, and settings.json override compliance</li>
-<li><strong>Cross-Platform Compatibility</strong>: Need for better Wayland support, Android Termux compatibility, and handling of various terminal configurations</li>
-<li><strong>Task Management Evolution</strong>: Shift from in-context WriteToDo to persistent file-based task tracking to avoid context rot and improve session continuity</li>
-</ul>
-<h2>Developer Pain Points</h2>
-<ul>
-<li><strong>Agent Stability Issues</strong>: Generalist agent hangs (#21409) and subagent recovery bugs (#22323) severely impact productivity</li>
-<li><strong>Configuration Problems</strong>: Browser agent ignoring settings.json overrides (#22267) and symlink-related agent discovery issues (#20079)</li>
-<li><strong>Scalability Limitations</strong>: Tool count limits causing 400 errors (#24246) and poor performance with large codebases</li>
-<li><strong>Output Management</strong>: Inconsistent tool output truncation in ACP mode and tmp script pollution (#23571)</li>
-<li><strong>Display &amp; Rendering</strong>: Terminal resize performance issues and character width problems across different terminal types</li>
-<li><strong>Testing &amp; Evaluation</strong>: Inconsistent project evals (&quot;bleeding&quot;) making quality tracking difficult (#23166)</li>
-<li><strong>Security Concerns</strong>: False positive sandbox denials due to null exit code handling and path traversal vulnerabilities</li>
-<li><strong>User Experience</strong>: Lack of agent self-awareness about its own mechanics, hotkeys, and CLI flags</li>
-</ul>
-<p>The community is actively working to address these challenges, with recent PRs showing strong focus on reliability, security, and cross-platform improvements while gradually introducing features that enable more sophisticated agent workflows.</p>
-</details>
-
-<details>
-<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
-<details>
-<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
-
-<h1>OpenCode Community Digest — 2026-10-24</h1>
-<h2>Today&#39;s Highlights</h2>
-<p>No new releases shipped today, but the issue tracker shows <strong>active triaging of v2 migration bugs</strong> (session message loss, free-tier quota false positives) and <strong>ongoing work on goal/todo infrastructure</strong> across multiple stacked PRs. Community reports indicate widespread &quot;Free usage limit reached&quot; errors on fresh installs, suggesting a systemic quota-tracking regression.</p>
-<hr>
-<h2>Releases</h2>
-<p><em>None in the last 24 hours.</em></p>
-<hr>
-<h2>Hot Issues (10 Noteworthy)</h2>
-<table>
-<thead>
-<tr>
-<th>Issue</th>
-<th>Why It Matters</th>
-<th>Community Signal</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/34344">#34344</a> <strong>Unlimited usage exploit on free models</strong> (35 comments, closed)</td>
-<td>VPN rotation bypasses IP-based rate limits on free tiers — confirms quota enforcement is client-trusted.</td>
-<td>High engagement; exploit confirmed via automation.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/58284">#58284</a> <strong>Free models report &quot;limit reached&quot; despite zero usage</strong> (7 comments, closed)</td>
-<td>Fresh v2.0 installs immediately blocked; logs show zero prior requests. Points to broken quota initialization.</td>
-<td>Multiple users affected; triaged as pending close.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/58550">#58550</a> <strong>Free usage exceeded on first use</strong> (4 comments)</td>
-<td>User installed 10 min ago, first message blocked. Suggests quota state corrupted at account creation.</td>
-<td>New user onboarding broken.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/58543">#58543</a> <strong>v1→v2 migration drops all messages for API-created sessions</strong> (2 comments, high severity)</td>
-<td>Sessions created via 1.19 <code>/api/session</code> lose message history; rows survive but message table empty.</td>
-<td>Data loss risk for upgraders; reproduced.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/3176">#3176</a> <strong>OpenCode &quot;massively abusing git&quot;</strong> (21 comments, 12 👍)</td>
-<td><code>git add .</code> on 45 GB/54K file repos for session snapshots — destroys performance.</td>
-<td>Long-standing pain point; 12 upvotes.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/41354">#41354</a> <strong>Search across message history</strong> (13 comments, 2 👍)</td>
-<td>Hundreds of sessions, no way to find past decisions/constraints. Core productivity gap.</td>
-<td>Clear demand for cross-session search.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/41358">#41358</a> <strong>Auto-compaction continues without confirmation, loses task goal</strong> (11 comments)</td>
-<td>Windows Desktop: compaction doesn&#39;t pause, agent forgets original task. Breaks long-running workflows.</td>
-<td>UX regression in v2.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/27110">#27110</a> <strong>Limit max parallel subagents</strong> (9 comments, 39 👍)</td>
-<td>Local models OOM with unbounded parallelism; 39 upvotes shows strong demand.</td>
-<td>Top-voted feature request.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/52054">#52054</a> <strong>Event stream loops / &quot;Restarting service&quot; with HTTP proxy + no no_proxy</strong> (7 comments)</td>
-<td>Proxy routes localhost traffic to itself, breaks SSE. Blocks corporate users.</td>
-<td>PR #57030 addresses this.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/issues/58080">#58080</a> <strong>macOS Local Network Privacy blocks background service from LAN</strong> (3 comments)</td>
-<td>macOS 15+ blocks unsigned TCP to LAN; needs signed <code>.app</code> bundle. Platform blocker.</td>
-<td>Requires packaging fix.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Key PR Progress (10 Important)</h2>
-<table>
-<thead>
-<tr>
-<th>PR</th>
-<th>Type</th>
-<th>Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/57030">#57030</a></td>
-<td>Bug fix</td>
-<td>Bypass env proxies for loopback (fixes #52054).</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58576">#58576</a></td>
-<td>Bug fix</td>
-<td>Retry Azure deployment discovery after transient failure (closes #57690).</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58562">#58562</a></td>
-<td>Feature</td>
-<td>Record reported cost &amp; Go allowance for all gateway protocols.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58565">#58565</a> / <a href="https://github.com/anomalyco/opencode/pull/58566">#58566</a></td>
-<td>Feature</td>
-<td>Show Go allowance when session costs $0 (TUI + App).</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/56450">#56450</a></td>
-<td>Feature</td>
-<td>Goal round driver &amp; verification (part of goal/todo series).</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/55744">#55744</a></td>
-<td>Feature</td>
-<td>Expose session goal/todo protocol endpoints.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/56417">#56417</a></td>
-<td>Feature</td>
-<td>Goal indicator &amp; todo dock in app (stacked on above).</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/54496">#54496</a></td>
-<td>Feature</td>
-<td><code>read</code> tool attaches audio/video for multimodal models.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/57729">#57729</a></td>
-<td>Feature</td>
-<td>Hydrate user attachments on demand via experimental timeline API.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/anomalyco/opencode/pull/58575">#58575</a></td>
-<td>Polish</td>
-<td>Unified native scrollbar style across app.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Feature Request Trends</h2>
-<ol>
-<li><strong>Quota &amp; billing transparency</strong> — Per-model usage multipliers (#52026), real cost reporting (#58562), Go allowance visibility.</li>
-<li><strong>Session continuity &amp; search</strong> — Cross-session message search (#41354), migration fidelity (#58543), resume without restart (#39987).</li>
-<li><strong>Parallelism control</strong> — Hard limit on subagents (#27110, 39 👍), task-parallel fan-out tool (#47105).</li>
-<li><strong>Multimodal input expansion</strong> — Audio/video attachment support (#54496), image paste fixes (#58291).</li>
-<li><strong>Proxy / network resilience</strong> — Loopback bypass (#57030), Azure discovery retry (#58576), macOS LAN access (#58080).</li>
-</ol>
-<hr>
-<h2>Developer Pain Points</h2>
-<ul>
-<li><strong>Free-tier quota system is unreliable</strong>: False &quot;limit reached&quot; on zero usage, exploitable via VPN, no visibility into allowance.</li>
-<li><strong>v2 migration risks data loss</strong>: Sessions created via API lose messages; no rollback path.</li>
-<li><strong>Git snapshot strategy doesn&#39;t scale</strong>: <code>git add .</code> on massive repos kills performance; needs scoped snapshots.</li>
-<li><strong>Auto-compaction UX broken</strong>: No pause/confirm, agent loses task context post-compaction.</li>
-<li><strong>Proxy/localhost routing breaks SSE</strong>: Corporate environments blocked; requires manual <code>no_proxy</code> config.</li>
-<li><strong>macOS unsigned binary blocked from LAN</strong>: Background service can&#39;t reach local models without signed bundle.</li>
-</ul>
-<hr>
-<p><em>Generated from anomalyco/opencode GitHub data (issues/PRs updated 2026-10-24).</em></p>
-</details>
-
-<details>
-<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
-
-<h1>Pi Community Digest – 2026-10-24</h1>
-<h2>Today&#39;s Highlights</h2>
-<p>OpenAI Codex remains prone to connection reliability issues that leave the interactive TUI stuck on &quot;Working…&quot; until manually aborted. Multiple performance regressions are impacting session responsiveness—particularly with large conversations (&gt;800 messages). Meanwhile, new model support for Kimi Coding K3.1 Pro has been merged, and several platform-specific fixes are addressing Orca terminal image rendering and Windows/Zellij integration gaps.</p>
-<h2>Releases</h2>
-<p>No new major releases were published in the last 24 hours.</p>
-<h2>Hot Issues</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Issue</th>
-<th>Summary</th>
-<th>Why It Matters</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>#4945</td>
-<td><strong>openai-codex Connection Reliability</strong></td>
-<td>Interactive TUI gets stuck on &quot;Working…&quot; with no streamed text or visible error; only recovery via pressing Escape.</td>
-<td>Critical stability blocker affecting core functionality; affects many users daily.</td>
-</tr>
-<tr>
-<td>#10063</td>
-<td><strong>Anthropic OAuth Invalid Effort Level</strong></td>
-<td>Direct <code>anthropic</code> requests for Opus 5/5.5 and Fable 5 return HTTP 400 <code>Invalid effort level</code>.</td>
-<td>Breaks authentication flow for high-end Claude models; impacts enterprise usage.</td>
-</tr>
-<tr>
-<td>#10074</td>
-<td><strong>Korean Text Corruption in Edit Calls</strong></td>
-<td>Non-ASCII edit arguments (e.g., Korean) get silently corrupted (<code>\uXXXX</code> → control chars), risking data loss.</td>
-<td>Data integrity issue; affects multilingual workflows and file editing.</td>
-</tr>
-<tr>
-<td>#2627</td>
-<td><strong>Tool Call Rendering TypeError</strong></td>
-<td>In fullscreen mode on Windows+Zellij, mouse-wheel scrolling moves prompt history instead of the conversation transcript.</td>
-<td>Core UX regression; prevents natural interaction patterns.</td>
-</tr>
-<tr>
-<td>#9656</td>
-<td><strong>Mouse Wheel Scrolls Prompt History</strong></td>
-<td>On Windows with Zellij, the mouse wheel navigates editor history rather than the transcript.</td>
-<td>Reduces productivity; contradicts expected behavior.</td>
-</tr>
-<tr>
-<td>#9265</td>
-<td><strong>O(n²) Tool-Call Argument Parsing Freeze</strong></td>
-<td>Stream handler re-parses entire accumulated JSON on every delta, freezing the event loop during streaming.</td>
-<td>Performance bottleneck; degrades experience in long-running sessions.</td>
-</tr>
-<tr>
-<td>#9807</td>
-<td><strong>TUI Full Re-Render Lag</strong></td>
-<td>Sessions exceeding 800 messages cause noticeable scroll/typing lag due to full-page redraws.</td>
-<td>Degrades usability for complex multi-turn dialogues.</td>
-</tr>
-<tr>
-<td>#11267</td>
-<td><strong>Session File Not Created for Custom-Only Sessions</strong></td>
-<td>Sessions containing only custom entries fail to create session files, losing context.</td>
-<td>Data persistence gap; users may lose progress unexpectedly.</td>
-</tr>
-<tr>
-<td>#10274</td>
-<td><strong>Missing MCP Elicitation Support</strong></td>
-<td>Pi does not advertise or handle MCP elicitation requests, limiting advanced agent capabilities.</td>
-<td>Feature gap for power users requiring structured reasoning prompts.</td>
-</tr>
-<tr>
-<td>#11335</td>
-<td><strong>MCP HTTP Bypasses Message Size Limit</strong></td>
-<td>MCP HTTP responses ignore <code>maxMessageBytes</code>, allowing oversized payloads that succeed in JSON-RPC but fail in SSE.</td>
-<td>Potential security/performance risks; inconsistent API behavior.</td>
-</tr>
-</tbody></table>
-<h2>Key PR Progress</h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>PR</th>
-<th>Status</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>#11355</td>
-<td><strong>support Kimi Coding K3.1 Pro models</strong></td>
-<td>OPEN</td>
-<td>Derives K3 wire presets from parsed effort metadata, adding low/high/max variants and preserving dynamic tools. Expands supported model lineup.</td>
-</tr>
-<tr>
-<td>#9329</td>
-<td><strong>detect Orca terminals as Kitty-image capable</strong></td>
-<td>OPEN</td>
-<td>Enables inline image rendering inside Orca terminals, improving visual fidelity for code editors.</td>
-</tr>
-<tr>
-<td>#11320</td>
-<td><strong>crop boxed images scrolled above viewport</strong></td>
-<td>OPEN</td>
-<td>Fixes fullscreen display where multi-row Kitty images disappear once their first row scrolls off-screen.</td>
-</tr>
-<tr>
-<td>#11347</td>
-<td><strong>show model names in model selectors</strong></td>
-<td>OPEN</td>
-<td>Displays model names (including renamed overrides) when additional information is present, closing visibility gaps in <code>/model</code> listings</td>
-</tr>
-</tbody></table>
-</details>
-
-<details>
-<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
-
-<h1>Qwen Code Community Digest — 2026-10-24</h1>
-<h2>Today&#39;s Highlights</h2>
-<p>A new nightly release (<code>v0.26.0-nightly.20261023.5a0be33432</code>) adds daemon token persistence and covers spawned binaries in releases. The most active discussions center around Managed Agent architecture, TUI rendering improvements, and persistent connection management for the desktop client.</p>
-<h2>Releases</h2>
-<ul>
-<li><strong><code>v0.26.0-nightly.20261023.5a0be33432</code></strong>: Added daemon token persistence (<a href="https://github.com/QwenLM/qwen-code/pull/15023">#15023</a>) and fixed coverage of all spawned vendored binaries during release builds.</li>
-</ul>
-<h2>Hot Issues</h2>
-<ol>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/12380">#12380</a></strong> – Proposal to define Managed Agent dual-path architecture and staged delivery (Stage F status review). High-priority core session management initiative.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/8662">#8662</a></strong> – Tracking migration of TUI rendering from Ink to OpenTUI. Addresses rendering flicker and structural limitations in current stack.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/14713">#14713</a></strong> – CI failure in Managed Agent gate related to MySQL-based HostedMcpStore fault handling.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/13395">#13395</a></strong> – Tracking progress on Kubernetes tool runtime support and cross-platform delivery checks.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/12714">#12714</a></strong> – CI failure affecting in-process one-shot prompt routing tests.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/15052">#15052</a></strong> – Ensuring independent E2E validation for each main commit when runs are replaced.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/14859">#14859</a></strong> – Monitoring CI runner capacity to preserve per-SHA validation integrity.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/14947">#14947</a></strong> – Feature request to persist saved daemon connections and remembered tokens in desktop/web-shell clients.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/15344">#15344</a></strong> – Critical issue: Qwen Code TUI crashes with V8 OOM during long-running sessions on macOS.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/issues/15071">#15071</a></strong> – VS Code companion daemon hits ~4GB heap cap and dies with OOM under normal usage.</li>
-</ol>
-<h2>Key PR Progress</h2>
-<ol>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/11486">#11486</a></strong> – Adds <code>qwen update --target-version &lt;version&gt;</code> for installing exact versions without npm discovery.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/15405">#15405</a></strong> – Splits failure issue creation by test signature instead of aggregating all failures into one issue.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/15209">#15209</a></strong> – Enables <code>qwen attach</code> to let terminals rejoin existing local daemon sessions.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/14140">#14140</a></strong> – Accepts explicit Local Control addresses outside standard private IP ranges per operator intent.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/15261">#15261</a></strong> – Adds HTTP-backed external scratch worker support for runtime broker.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/15383">#15383</a></strong> – Reduces redundant TUI parity runs and build checks for docs-only or Java service PR changes.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/14890">#14890</a></strong> – Background revalidation of skill snapshots improves responsiveness and throughput.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/15363">#15363</a></strong> – Exposes model output language in Web Shell settings panel alongside UI language.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/15361">#15361</a></strong> – Allows workspace creation from Git repository URLs directly within Web Shell.</li>
-<li><strong><a href="https://github.com/QwenLM/qwen-code/pull/15385">#15385</a></strong> – Implements <code>/autofix-pr</code> command reaction layer including guarded push, replies, and re-runs.</li>
-</ol>
-<h2>Feature Request Trends</h2>
-<p>Top requested features include:</p>
-<ul>
-<li>Persistent daemon connections and token persistence in desktop/web clients (<a href="https://github.com/QwenLM/qwen-code/issues/14947">#14947</a>)</li>
-<li>Enhanced session management capabilities like attaching terminals to running sessions (<a href="https://github.com/QwenLM/qwen-code/pull/15209">#15209</a>)</li>
-<li>Customizable or removable thinking/loading indicators (<a href="https://github.com/QwenLM/qwen-code/issues/2034">#2034</a>, <a href="https://github.com/QwenLM/qwen-code/issues/15353">#15353</a>)</li>
-<li>Workspace tools (<code>web_fetch</code>, <code>todo_write</code>) exposed in Managed Agent contexts (<a href="https://github.com/QwenLM/qwen-code/issues/15076">#15076</a>)</li>
-</ul>
-<h2>Developer Pain Points</h2>
-<p>Recurring issues impacting developers:</p>
-<ul>
-<li>Memory leaks and crashes in TUI/daemon processes, especially on macOS (<a href="https://github.com/QwenLM/qwen-code/issues/15344">#15344</a>, <a href="https://github.com/QwenLM/qwen-code/issues/15071">#15071</a>)</li>
-<li>Flaky CI pipelines due to improper concurrency control and overlapping runs (<a href="https://github.com/QwenLM/qwen-code/issues/15052">#15052</a>, <a href="https://github.com/QwenLM/qwen-code/issues/14859">#14859</a>)</li>
-<li>Fragile integration tests timing out or leaving state inconsistent (<a href="https://github.com/QwenLM/qwen-code/issues/14504">#14504</a>, <a href="https://github.com/QwenLM/qwen-code/issues/15088">#15088</a>)</li>
-<li>Lack of visibility into headless run outcomes when output limits truncate turns (<a href="https://github.com/QwenLM/qwen-code/issues/15328">#15328</a>)</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>DeepSeek TUI</strong> — <a href="https://github.com/Hmbown/DeepSeek-TUI">Hmbown/DeepSeek-TUI</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/bianzhilong2-ctrl/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
